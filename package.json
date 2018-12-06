@@ -6,7 +6,7 @@
     "sync": "ts-node src/index.ts"
   },
   "dependencies": {
-    "label-sync-core": "^1.0.0",
+    "label-sync-core": "^1.0.1",
     "meow": "^5.0.0"
   },
   "devDependencies": {
