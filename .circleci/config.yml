@@ -30,9 +30,12 @@ workflows:
     jobs:
       - install
       - dryrun:
-          type: approval
           requires:
             - install
+      - hold:
+          type: approval
+          requires:
+            - dryrun
       - sync:
           requires:
             - dryrun
