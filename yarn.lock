@@ -276,10 +276,10 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-label-sync-core@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-0.1.0.tgz#7d1cf86571f435ea8986f0653e1772a4f34ed389"
-  integrity sha512-VzneiKnYdIqZJufFmyEV3t2pQ8M/3/Hamrxz5FWZNFHP5R8LjNHYa92zj2dC1wMq3KHfK1KgiP9l5k6J+emTKA==
+label-sync-core@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-1.0.0.tgz#1eddac5201b7856ca70a229319028fdc1e99d395"
+  integrity sha512-XoQkyk4IHEoSIOQbH0awUmgLGZOkhiL6aR2krhZQGPLzZg005RXzHo4oau6jGa1XtV26lFwwBkmBFeNATCJ5fw==
   dependencies:
     "@octokit/rest" "^16.1.0"
     chalk "^2.4.1"
