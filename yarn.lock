@@ -276,10 +276,10 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-label-sync-core@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-1.0.2.tgz#3a7209204963fd20d1c8c493a5f773ce23a0bb8a"
-  integrity sha512-fE/ccTAUNtzsldF/UpIXfiRoNXBBAzrY7fp1DLHASQFD7JyAVC/Ey+2hea86KKzgNUqVVLry6ca5dinwGboJdA==
+label-sync-core@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-1.0.3.tgz#c365ad8aa4355a7478587f1241740eee70e2dd4a"
+  integrity sha512-Wv+7E2mGcVWPk+LOUP9oafgxaLY8/w2cbyDcD0wqECJ/3kQPofdCULhAS/tGZ3nmFMoIvqtXjjeXFpMJQ1myYQ==
   dependencies:
     "@octokit/rest" "^16.1.0"
     chalk "^2.4.1"
@@ -483,6 +483,11 @@ pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
+
+prettier@^1.15.3:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
+  integrity sha512-gAU9AGAPMaKb3NNSUUuhhFAS7SCO4ALTN4nRIn6PJ075Qd28Yn2Ig2ahEJWdJwJmlEBTUfC7mMUSFy8MwsOCfg==
 
 quick-lru@^1.0.0:
   version "1.1.0"

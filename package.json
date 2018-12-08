@@ -6,12 +6,13 @@
     "sync": "ts-node src/index.ts"
   },
   "dependencies": {
-    "label-sync-core": "^1.0.2",
+    "label-sync-core": "^1.0.3",
     "meow": "^5.0.0"
   },
   "devDependencies": {
     "@types/meow": "^5.0.0",
     "@types/node": "^10.12.10",
+    "prettier": "^1.15.3",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.1"
   },
