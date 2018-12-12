@@ -29,5 +29,5 @@ export const graphqlPlayground: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: false,
+  strict: true,
 }

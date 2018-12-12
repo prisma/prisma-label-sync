@@ -9,5 +9,5 @@ export const prismaBinding: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: false,
+  strict: true,
 }

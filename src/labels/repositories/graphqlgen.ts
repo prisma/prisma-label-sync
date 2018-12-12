@@ -20,5 +20,5 @@ export const graphqlgen: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: false,
+  strict: true,
 }
