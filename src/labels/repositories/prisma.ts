@@ -1,43 +1,44 @@
-import { colors } from '../common'
+import { common } from '../common'
+import { reduceAreas } from '../../utils'
+import { RepositoryConfig } from 'label-sync-core/dist/labels'
 
-export const prisma = {
+const areas = [
+  'area/api',
+  'area/brew',
+  'area/cli',
+  'area/client/flow',
+  'area/client/go',
+  'area/client/js',
+  'area/client/ts',
+  'area/client',
+  'area/cloud-api',
+  'area/config',
+  'area/connector/mongo',
+  'area/connector/mysql',
+  'area/connector/postgres',
+  'area/connector',
+  'area/console',
+  'area/database',
+  'area/datamodel',
+  'area/deploy',
+  'area/docs',
+  'area/engine',
+  'area/error-handling',
+  'area/examples',
+  'area/introspection',
+  'area/migrations',
+  'area/next',
+  'area/playground',
+  'area/prisma',
+  'area/schema-generation',
+  'area/server',
+  'area/subscriptions',
+]
+
+export const prisma: RepositoryConfig = {
   labels: {
-    'rfc/0-needs-spec': colors.rfc,
-    'rfc/1-draft': colors.rfc,
-    'rfc/2-accepted': colors.rfc,
-    'rfc/x-rejected': colors.rfc,
-    'bug/2-confirmed': colors.bug,
-    'bug/0-needs-info': {
-      color: colors.bug,
-      description: 'More information is needed for reproduction.',
-    },
-    'bug/1-repro-available': {
-      color: colors.bug,
-      description: 'A reproduction exists and needs to be confirmed.',
-    },
-    'kind/discussion': colors.kind,
-    'kind/duplicate': colors.kind,
-    'kind/feature': colors.kind,
-    'kind/feedback': colors.kind,
-    'kind/question': colors.kind,
-    'status/pr-welcome': colors.status,
-    'status/research-needed': colors.status,
-    'status/candidate': {
-      color: colors.status,
-      description:
-        'This issue will probably be considered soon for the roadmap',
-    },
-    'status/next': {
-      color: colors.status,
-      description: 'Will be addressed with the next major version of Prisma',
-    },
-    'status/on-hold': {
-      color: colors.status,
-      description: 'This issue is on hold.',
-    },
-    'status/stale': {
-      color: colors.status,
-      description: 'Marked as state by the GitHub stalebot',
-    },
+    ...common,
+    ...reduceAreas(areas),
   },
+  strict: false,
 }

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sync": "ts-node src/index.ts"
+    "sync": "ts-node src/index.ts",
+    "build": "tsc -d"
   },
   "dependencies": {
     "label-sync-core": "^1.0.4",

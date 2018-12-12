@@ -1,10 +1,21 @@
-import { common } from "../common";
+import { common } from '../common'
+import { reduceAreas } from '../../utils'
+import { RepositoryConfig } from 'label-sync-core/dist/labels'
 
+const areas = [
+  'area/details-section',
+  'area/engine',
+  'area/limbo-state',
+  'area/query-editor-section',
+  'area/query-sidebar',
+  'area/results-section',
+  'area/ui-ux',
+]
 
-export const prismaAdminFeedback = {
-  "labels": {
+export const prismaAdminFeedback: RepositoryConfig = {
+  labels: {
     ...common,
-    "Feature: Request": "ff23bb"
+    ...reduceAreas(areas),
   },
-  "strict": false
+  strict: true,
 }
