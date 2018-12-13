@@ -33,7 +33,7 @@ export const common = {
   },
   'status/next': {
     color: colors.status,
-    description: 'Will be addressed with the next major version of Prisma',
+    description: 'Will be addressed with the next major version',
   },
   'status/on-hold': {
     color: colors.status,
