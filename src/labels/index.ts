@@ -5,6 +5,7 @@ import { graphqlPlayground } from './repositories/graphql-playground'
 import { graphqlYoga } from './repositories/graphql-yoga'
 import { graphqlgen } from './repositories/graphqlgen'
 import { prismaBinding } from './repositories/prisma-binding'
+import { graphqlBinding } from './repositories/graphql-binding';
 
 const config: Config = {
   'prisma/prisma': prisma,
@@ -13,6 +14,7 @@ const config: Config = {
   'prisma/graphql-yoga': graphqlYoga,
   'prisma/graphqlgen': graphqlgen,
   'prisma/prisma-binding': prismaBinding,
+  'graphql-binding/graphql-binding': graphqlBinding,
 }
 
 export default config
