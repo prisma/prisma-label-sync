@@ -28,6 +28,7 @@ const areas = [
   'area/introspection',
   'area/migrations',
   'area/next',
+  'area/performance',
   'area/playground',
   'area/prisma',
   'area/schema-generation',
