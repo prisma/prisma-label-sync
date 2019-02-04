@@ -32,6 +32,7 @@ const areas = [
   'area/playground',
   'area/prisma',
   'area/schema-generation',
+  'area/sdk',
   'area/server',
   'area/subscriptions',
 ]
