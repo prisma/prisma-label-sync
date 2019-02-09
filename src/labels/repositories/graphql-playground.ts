@@ -1,6 +1,6 @@
 import { common } from '../common'
 import { reduceAreas } from '../../utils'
-import { RepositoryConfig } from 'label-sync-core/dist/labels'
+import { RepositoryConfig } from 'label-sync-core'
 
 const areas = [
   'area/autocompletion',

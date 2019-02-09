@@ -7,15 +7,15 @@
     "build": "tsc -d"
   },
   "dependencies": {
-    "label-sync-core": "^1.0.5",
+    "label-sync-core": "^2.0.0",
     "meow": "^5.0.0"
   },
   "devDependencies": {
     "@types/meow": "^5.0.0",
-    "@types/node": "^10.12.10",
-    "prettier": "^1.15.3",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.2.1"
+    "@types/node": "^10.12.24",
+    "prettier": "^1.16.4",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
   },
   "license": "MIT"
 }
