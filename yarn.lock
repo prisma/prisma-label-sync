@@ -753,10 +753,10 @@ kind-of@^3.0.2:
   dependencies:
     is-buffer "^1.1.5"
 
-label-sync-core@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-2.0.4.tgz#7d01c352069ae928094e353c13e5b48dfee1145a"
-  integrity sha512-rLt5Uu6IlNn7MQx2WWHCeVw1Vwd6rNfn27JgTawGLub+QtjUl0lz7/4JUG0Dbi3jYItHLi2qVTJFQXo9fH0jOA==
+label-sync-core@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-2.0.5.tgz#a04060c8d39de8211bfa875025804fc8bd2301a2"
+  integrity sha512-pv219SxBrgvTn0ebJUtC87anLGmOsfTxTlNVywBEdmt1amx14/XyJv8tSdAcBgiXeZQxPNfJe9IesB9s7BgWOg==
   dependencies:
     chalk "^2.4.1"
     lodash.uniq "^4.5.0"
