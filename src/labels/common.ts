@@ -31,6 +31,7 @@ export const common = {
   'kind/feature': colors.kind,
   'kind/feedback': colors.kind,
   'kind/question': colors.kind,
+  'kind/intended-behavior': colors.kind,
   'status/pr-welcome': colors.status,
   'status/research-needed': colors.status,
   'status/candidate': {
