@@ -3,6 +3,7 @@ import { reduceAreas } from '../../utils'
 import { RepositoryConfig } from 'label-sync-core'
 
 const areas = [
+  'area/admin',
   'area/api',
   'area/brew',
   'area/cli',
