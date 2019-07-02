@@ -13,6 +13,11 @@ const cli = meow(``, {
       type: 'boolean',
       default: false,
     },
+    help: {
+      alias: 'h',
+      type: 'boolean',
+      default: false,
+    },
   },
 })
 
@@ -25,6 +30,22 @@ main(cli)
 async function main(cli: meow.Result): Promise<void> {
   if (!process.env.GITHUB_TOKEN) {
     throw new Error('Missing Github credentials.')
+  }
+
+  if (cli.flags.help) {
+    console.log(`
+      prisma-label-sync synchronizes our labels
+
+      USAGE
+
+        GITHUB_TOKEN="..." prisma-label-sync
+
+      Flags
+
+        --dry-run  Perform a dry run without removing labels [default: false]
+        --help     Display this help message
+    `)
+    return
   }
 
   const client = new Octokit({

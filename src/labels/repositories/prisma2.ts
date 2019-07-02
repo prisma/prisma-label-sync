@@ -1,10 +1,10 @@
-import { common } from '../common/prisma1'
+import { common } from '../common/prisma2'
 import { reduceAreas } from '../../utils'
 import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const graphqlBinding: RepositoryConfig = {
+export const prisma2: RepositoryConfig = {
   labels: {
     ...common,
     ...reduceAreas(areas),

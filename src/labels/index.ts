@@ -6,9 +6,24 @@ import { graphqlYoga } from './repositories/graphql-yoga'
 import { yoga2 } from './repositories/yoga2'
 import { graphqlgen } from './repositories/graphqlgen'
 import { prismaBinding } from './repositories/prisma-binding'
-import { graphqlBinding } from './repositories/graphql-binding';
+import { graphqlBinding } from './repositories/graphql-binding'
+import { prismaStudio } from './repositories/prisma-studio'
+import { prismaPhotonJS } from './repositories/prisma-photonjs'
+import { prismaLift } from './repositories/prisma-lift'
+import { prismaDocs } from './repositories/prisma2-docs'
+import { prismaCLI } from './repositories/prisma2-cli'
+import { prisma2 } from './repositories/prisma2'
 
 const config: Config = {
+  // prisma 2
+  'prisma/studio': prismaStudio,
+  'prisma/photonjs': prismaPhotonJS,
+  'prisma/lift': prismaLift,
+  'prisma/prisma2-docs': prismaDocs,
+  'prisma/prisma2-cli': prismaCLI,
+  'prisma/prisma2': prisma2,
+
+  // prisma 1
   'prisma/prisma': prisma,
   'prisma/prisma-admin-feedback': prismaAdminFeedback,
   'prisma/graphql-playground': graphqlPlayground,

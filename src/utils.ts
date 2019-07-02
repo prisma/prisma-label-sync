@@ -1,4 +1,4 @@
-import { colors } from './labels/common'
+import { colors } from './labels/common/prisma1'
 
 export function reduceAreas(areas: string[]) {
   return areas.reduce((acc, area) => {
