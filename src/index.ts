@@ -1,5 +1,5 @@
-import * as Octokit from '@octokit/rest'
-import * as meow from 'meow'
+import Octokit from '@octokit/rest'
+import meow from 'meow'
 import { handleSync, createCISyncTerminalReport } from 'label-sync-core'
 
 /** Labels import */
@@ -10,6 +10,10 @@ import labels from './labels'
 const cli = meow(``, {
   flags: {
     dryrun: {
+      type: 'boolean',
+      default: false,
+    },
+    skipSiblings: {
       type: 'boolean',
       default: false,
     },
@@ -48,9 +52,25 @@ async function main(cli: meow.Result): Promise<void> {
     return
   }
 
-  const client = new Octokit({
+  const OctokitWithThrottling = Octokit.plugin(
+    require('@octokit/plugin-throttling'),
+  )
+
+  const client = new OctokitWithThrottling({
     headers: {
       accept: 'application/vnd.github.symmetra-preview+json',
+    },
+    throttle: {
+      onRateLimit: () => true,
+      onAbuseLimit: (
+        retryAfter: number,
+        options: { method: string; url: string },
+      ) => {
+        console.warn(
+          `Abuse detected for request ${options.method} ${options.url}`,
+        )
+        return true
+      },
     },
   })
 
@@ -61,6 +81,7 @@ async function main(cli: meow.Result): Promise<void> {
 
   const report = await handleSync(client, labels, {
     dryRun: cli.flags.dryrun,
+    skipSiblingSync: cli.flags.skipSiblings,
   })
 
   const humanReadableReport = createCISyncTerminalReport(report)
