@@ -6,6 +6,7 @@ export const colors = {
   priority: 'F783AC',
   scope: '27CF79',
   team: 'FDF4E8',
+  release: 'a5d8ff',
 }
 
 export const common = {
@@ -99,5 +100,33 @@ export const common = {
   'team/engineering': {
     color: colors.team,
     description: 'This issue is owned by the engineering team',
+  },
+  'release/preview2': {
+    color: colors.release,
+    description: 'Prisma Preview release 2',
+  },
+  'release/preview3': {
+    color: colors.release,
+    description: 'Prisma Preview release 3',
+  },
+  'release/preview4': {
+    color: colors.release,
+    description: 'Prisma Preview release 4',
+  },
+  'release/preview5': {
+    color: colors.release,
+    description: 'Prisma Preview release 5',
+  },
+  'release/preview6': {
+    color: colors.release,
+    description: 'Prisma Preview release 6',
+  },
+  'release/preview7': {
+    color: colors.release,
+    description: 'Prisma Preview release 7',
+  },
+  'release/preview8': {
+    color: colors.release,
+    description: 'Prisma Preview release 8',
   },
 }
