@@ -89,6 +89,10 @@ export const common = {
     color: colors.status,
     description: 'Marked as state by the GitHub stalebot',
   },
+  'status/blocked': {
+    color: colors.status,
+    description: 'Depends on another issue which is blocking this one.',
+  },
   'team/product': {
     color: colors.team,
     description: 'This issue is owned by the product team',
