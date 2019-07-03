@@ -1,5 +1,6 @@
 import Octokit from '@octokit/rest'
 import meow from 'meow'
+import ml from 'multilines'
 import { handleSync, createCISyncTerminalReport } from 'label-sync-core'
 
 /** Labels import */
@@ -7,23 +8,32 @@ import labels from './labels'
 
 /** CLI tool */
 
-const cli = meow(``, {
-  flags: {
-    dryrun: {
-      type: 'boolean',
-      default: false,
-    },
-    skipSiblings: {
-      type: 'boolean',
-      default: false,
-    },
-    help: {
-      alias: 'h',
-      type: 'boolean',
-      default: false,
+const cli = meow(
+  ml`
+  | prisma-label-sync synchronizes our labels
+  |
+  | USAGE
+  |
+  |   GITHUB_TOKEN="..." prisma-label-sync
+  |
+  | Flags
+  |
+  |   --dry-run  Perform a dry run without removing labels [default: false]
+  |   --help     Display this help message
+`,
+  {
+    flags: {
+      dryrun: {
+        type: 'boolean',
+        default: false,
+      },
+      skipSiblings: {
+        type: 'boolean',
+        default: false,
+      },
     },
   },
-})
+)
 
 main(cli)
 
@@ -36,30 +46,13 @@ async function main(cli: meow.Result): Promise<void> {
     throw new Error('Missing Github credentials.')
   }
 
-  if (cli.flags.help) {
-    console.log(`
-      prisma-label-sync synchronizes our labels
-
-      USAGE
-
-        GITHUB_TOKEN="..." prisma-label-sync
-
-      Flags
-
-        --dry-run  Perform a dry run without removing labels [default: false]
-        --help     Display this help message
-    `)
-    return
-  }
-
   const OctokitWithThrottling = Octokit.plugin(
     require('@octokit/plugin-throttling'),
   )
 
   const client = new OctokitWithThrottling({
-    headers: {
-      accept: 'application/vnd.github.symmetra-preview+json',
-    },
+    auth: `token ${process.env.GITHUB_TOKEN}`,
+    previews: ['symmetra-preview'],
     throttle: {
       onRateLimit: () => true,
       onAbuseLimit: (
@@ -72,11 +65,6 @@ async function main(cli: meow.Result): Promise<void> {
         return true
       },
     },
-  })
-
-  client.authenticate({
-    type: 'app',
-    token: process.env.GITHUB_TOKEN,
   })
 
   const report = await handleSync(client, labels, {
