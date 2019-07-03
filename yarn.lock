@@ -317,14 +317,13 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-label-sync-core@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-2.2.0.tgz#f15ae16c93d5cb2858ce7e66705574859b93cb88"
-  integrity sha512-XZEHmKCPm2YMaxPimqWEFsS7lqYB3tcdvUPU/2RNe6QOB2HyTczm3SBlGPWyVpmjCX5yq5BfmsUqWJy5WVMj+A==
+label-sync-core@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/label-sync-core/-/label-sync-core-2.2.1.tgz#f847d02637fd6269fe016ab4dd79ee92aeaa3693"
+  integrity sha512-smVjiU1f+Ir8PJ6pNlXbka6BSzEMT7oFVk5js5yhfezmQ6I8Zg9Fq1An67joYpnmzH5h/DhkOid1XEq9zuYzrg==
   dependencies:
     "@octokit/rest" "^16.28.2"
     chalk "^2.4.1"
-    lodash.uniq "^4.5.0"
     multilines "^1.0.2"
 
 load-json-file@^4.0.0:

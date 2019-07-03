@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@octokit/plugin-throttling": "^2.6.0",
-    "label-sync-core": "^2.2.0",
+    "label-sync-core": "^2.2.1",
     "meow": "^5.0.0"
   },
   "devDependencies": {
