@@ -24,14 +24,14 @@ const config: Config = {
   'prisma/prisma2': prisma2,
 
   // prisma 1
-  // 'prisma/prisma': prisma,
-  // 'prisma/prisma-admin-feedback': prismaAdminFeedback,
-  // 'prisma/graphql-playground': graphqlPlayground,
-  // 'prisma/graphql-yoga': graphqlYoga,
-  // 'prisma/yoga2': yoga2,
-  // 'prisma/graphqlgen': graphqlgen,
-  // 'prisma/prisma-binding': prismaBinding,
-  // 'graphql-binding/graphql-binding': graphqlBinding,
+  'prisma/prisma': prisma,
+  'prisma/prisma-admin-feedback': prismaAdminFeedback,
+  'prisma/graphql-playground': graphqlPlayground,
+  'prisma/graphql-yoga': graphqlYoga,
+  'prisma/yoga2': yoga2,
+  'prisma/graphqlgen': graphqlgen,
+  'prisma/prisma-binding': prismaBinding,
+  'graphql-binding/graphql-binding': graphqlBinding,
 }
 
 export default config
