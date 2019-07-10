@@ -20,8 +20,8 @@ const config: Config = {
   'prisma/studio': prismaStudio,
   'prisma/photonjs': prismaPhotonJS,
   'prisma/lift': prismaLift,
-  'prisma/prisma2-docs': prismaDocs,
-  'prisma/prisma2-cli': prismaCLI,
+//   'prisma/prisma2-docs': prismaDocs,
+//   'prisma/prisma2-cli': prismaCLI,
   'prisma/prisma2': prisma2,
   'prisma/specs': specs,
 
