@@ -67,12 +67,16 @@ async function main(cli: meow.Result): Promise<void> {
     },
   })
 
-  const report = await handleSync(client, labels, {
-    dryRun: cli.flags.dryrun,
-    skipSiblingSync: cli.flags.skipSiblings,
-  })
+  try {
+    const report = await handleSync(client, labels, {
+      dryRun: cli.flags.dryrun,
+      skipSiblingSync: cli.flags.skipSiblings,
+    })
 
-  const humanReadableReport = createCISyncTerminalReport(report)
+    const humanReadableReport = createCISyncTerminalReport(report)
 
-  console.log(humanReadableReport)
+    console.log(humanReadableReport)
+  } catch (err) {
+    throw err
+  }
 }
