@@ -115,6 +115,10 @@ export const common = {
     color: colors.team,
     description: 'This issue is owned by the engineering team',
   },
+  'release/preview1': {
+    color: colors.release,
+    description: 'Prisma Preview release 1',
+  },
   'release/preview2': {
     color: colors.release,
     description: 'Prisma Preview release 2',
