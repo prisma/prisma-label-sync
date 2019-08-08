@@ -1,5 +1,5 @@
 export const colors = {
-  area: 'F03E3E',
+  area: 'FFD700',
   kind: '3B5BDB',
   status: 'F8F9FA',
   bug: 'ee0000',
