@@ -21,6 +21,7 @@ export const specs: RepositoryConfig = {
     'area/lift': { color: colors.area },
     'area/schema': { color: colors.area },
     'area/cli': { color: colors.area },
+    'area/sdk': { color: colors.area },
     'area/studio': { color: colors.area },
     'area/query-engine': { color: colors.area },
     'area/migration-engine': { color: colors.area },
