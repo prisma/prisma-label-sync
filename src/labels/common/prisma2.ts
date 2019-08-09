@@ -169,4 +169,8 @@ export const common = {
     color: colors.area,
     description: 'Prisma CLI related',
   },
+  candidate: {
+    color: colors.area,
+    description: 'candidate for the next release',
+  },
 }
