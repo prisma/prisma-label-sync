@@ -25,7 +25,7 @@ export const specs: RepositoryConfig = {
     'area/studio': { color: colors.area },
     'area/query-engine': { color: colors.area },
     'area/migration-engine': { color: colors.area },
-    'area/spec': { color: colors.area },
+    'area/spec-infra': { color: colors.area },
     'priority/build-before-ga': { color: colors.priority },
     'priority/clarify-before-ga': { color: colors.priority },
     // ...reduceAreas(areas),
