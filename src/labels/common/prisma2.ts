@@ -78,26 +78,6 @@ export const common = {
     color: colors.release,
     description: 'Prisma Preview release 8',
   },
-  'area/query-engine': {
-    color: colors.area,
-    description: 'Query engine related',
-  },
-  'area/migration-engine': {
-    color: colors.area,
-    description: 'Migration engine related',
-  },
-  'area/schema': {
-    color: colors.area,
-    description: 'Prisma Schema related',
-  },
-  'area/studio': {
-    color: colors.area,
-    description: 'Prisma Studio related',
-  },
-  'area/cli': {
-    color: colors.area,
-    description: 'Prisma CLI related',
-  },
   candidate: {
     color: colors.area,
     description: 'candidate for the next release',
