@@ -46,18 +46,6 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
-  'team/product': {
-    color: colors.team,
-    description: 'This issue is owned by the product team',
-  },
-  'team/content': {
-    color: colors.team,
-    description: 'This issue is owned by the content team',
-  },
-  'team/engineering': {
-    color: colors.team,
-    description: 'This issue is owned by the engineering team',
-  },
   'release/preview1': {
     color: colors.release,
     description: 'Prisma Preview release 1',
