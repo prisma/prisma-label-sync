@@ -29,6 +29,10 @@ export const common = {
     color: colors.kind,
     description: 'A reported bug',
   },
+  'kind/regression': {
+    color: colors.kind,
+    description: 'A reported bug in functionality that used to work before',
+  },
   'kind/feature': {
     color: colors.kind,
     description:
