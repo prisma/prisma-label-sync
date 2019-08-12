@@ -46,37 +46,6 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
-  'status/thinking': {
-    color: colors.status,
-    description:
-      "We're thinking about this issue and haven't made any decisions yet",
-  },
-  'status/needs-response': {
-    color: colors.status,
-    description: 'We are waiting for a response before continuing.',
-  },
-  'status/upcoming': {
-    color: colors.status,
-    description: 'This issue will be resolved in an upcoming release',
-  },
-  'status/unplanned': {
-    color: colors.status,
-    description:
-      'No plan to fix this in any specific release. Please discuss with us before working on this issue.',
-  },
-  'status/pr-welcome': {
-    color: colors.status,
-    description:
-      'No plans to work on this but would happily accept a PR for this change.',
-  },
-  'status/stale': {
-    color: colors.status,
-    description: 'Marked as state by the GitHub stalebot',
-  },
-  'status/blocked': {
-    color: colors.status,
-    description: 'Depends on another issue which is blocking this one.',
-  },
   'team/product': {
     color: colors.team,
     description: 'This issue is owned by the product team',
