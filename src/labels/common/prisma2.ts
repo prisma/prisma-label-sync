@@ -46,18 +46,6 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
-  'priority/high': {
-    color: colors.priority,
-    description: 'This issue should be prioritized over other issues.',
-  },
-  'priority/mid': {
-    color: colors.priority,
-    description: 'Still needs to be prioritized',
-  },
-  'priority/low': {
-    color: colors.priority,
-    description: 'Other issues should be prioritized over this issue.',
-  },
   'scope/l': {
     color: colors.scope,
     description: 'This is a large issue that requires thoughtful planning.',
