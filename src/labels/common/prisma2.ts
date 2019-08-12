@@ -46,18 +46,6 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
-  'scope/l': {
-    color: colors.scope,
-    description: 'This is a large issue that requires thoughtful planning.',
-  },
-  'scope/m': {
-    color: colors.scope,
-    description: 'Scope is uncertain and still needs to be thought through',
-  },
-  'scope/s': {
-    color: colors.scope,
-    description: "This is a small issue that doesn't require much thought.",
-  },
   'status/thinking': {
     color: colors.status,
     description:
