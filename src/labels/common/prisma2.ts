@@ -46,38 +46,6 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
-  'release/preview1': {
-    color: colors.release,
-    description: 'Prisma Preview release 1',
-  },
-  'release/preview2': {
-    color: colors.release,
-    description: 'Prisma Preview release 2',
-  },
-  'release/preview3': {
-    color: colors.release,
-    description: 'Prisma Preview release 3',
-  },
-  'release/preview4': {
-    color: colors.release,
-    description: 'Prisma Preview release 4',
-  },
-  'release/preview5': {
-    color: colors.release,
-    description: 'Prisma Preview release 5',
-  },
-  'release/preview6': {
-    color: colors.release,
-    description: 'Prisma Preview release 6',
-  },
-  'release/preview7': {
-    color: colors.release,
-    description: 'Prisma Preview release 7',
-  },
-  'release/preview8': {
-    color: colors.release,
-    description: 'Prisma Preview release 8',
-  },
   candidate: {
     color: colors.area,
     description: 'candidate for the next release',
