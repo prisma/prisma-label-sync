@@ -34,10 +34,6 @@ export const common = {
     description:
       'A new request or an improvement to existing code. Code will need to be added or removed.',
   },
-  'kind/duplicate': {
-    color: colors.kind,
-    description: 'A duplicate issue',
-  },
   'kind/docs': {
     color: colors.kind,
     description: 'A documentation change is required.',
