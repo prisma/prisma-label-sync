@@ -30,6 +30,7 @@ export const specs: RepositoryConfig = {
     'when/build-before-ga': { color: colors.priority },
     'when/clarify-before-ga': { color: colors.priority },
     'when/far-future': { color: colors.priority },
+    candidate: { color: colors.area },
     // ...reduceAreas(areas),
   },
   strict: true,
