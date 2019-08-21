@@ -8,12 +8,6 @@ const areas: string[] = []
 export const specs: RepositoryConfig = {
   labels: {
     // ...common,
-    'scope/xs': { color: colors.scope },
-    'scope/s': { color: colors.scope },
-    'scope/m': { color: colors.scope },
-    'scope/l': { color: colors.scope },
-    'scope/xl': { color: colors.scope },
-    'scope/xxl': { color: colors.scope },
     'status/1-needs-info': { color: colors.status },
     'status/2-wait-for-spec': { color: colors.status },
     'status/3-spec-in-progress': { color: colors.status },
@@ -30,7 +24,7 @@ export const specs: RepositoryConfig = {
     'when/build-before-ga': { color: colors.priority },
     'when/clarify-before-ga': { color: colors.priority },
     'when/far-future': { color: colors.priority },
-    candidate: { color: colors.area },
+    'candidate': { color: colors.area },
     // ...reduceAreas(areas),
   },
   strict: true,
