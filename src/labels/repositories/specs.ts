@@ -22,6 +22,7 @@ export const specs: RepositoryConfig = {
     'area/migration-engine': { color: colors.area },
     'area/spec-infra': { color: colors.area },
     'area/process': { color: colors.area }, 
+    'area/connector': { color: colors.area },
     'when/build-before-ga': { color: colors.priority },
     'when/clarify-before-ga': { color: colors.priority },
     'when/far-future': { color: colors.priority },
