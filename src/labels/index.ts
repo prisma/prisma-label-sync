@@ -14,6 +14,7 @@ import { prismaDocs } from './repositories/prisma2-docs'
 import { prismaCLI } from './repositories/prisma2-cli'
 import { prisma2 } from './repositories/prisma2'
 import { specs } from './repositories/specs'
+import { prisma2Private } from './repositories/prisma2-private'
 
 const config: Config = {
   // prisma 2
@@ -24,6 +25,7 @@ const config: Config = {
 //   'prisma/prisma2-cli': prismaCLI,
   'prisma/prisma2': prisma2,
   'prisma/specs': specs,
+  'prisma/prisma2-private': prisma2Private,
 
   // prisma 1
   'prisma/prisma': prisma,
