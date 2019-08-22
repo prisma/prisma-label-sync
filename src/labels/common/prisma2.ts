@@ -52,7 +52,7 @@ export const common = {
     description: 'Developer asked a question. No code changes required.',
   },
   candidate: {
-    color: colors.area,
+    color: colors.process,
     description: 'candidate for the next release',
   },
 }
