@@ -7,6 +7,7 @@ export const colors = {
   scope: '27CF79',
   team: 'FDF4E8',
   release: 'a5d8ff',
+  process: 'EB9100',
 }
 
 export const common = {
