@@ -8,7 +8,7 @@ export const graphqlYoga: RepositoryConfig = {
   labels: {
     ...common,
     ...reduceAreas(areas),
-    'released': { color: '#ededed' },
+    'released': { color: 'ededed' },
   },
   strict: true,
 }
