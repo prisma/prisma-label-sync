@@ -51,8 +51,12 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
-  candidate: {
+  'process/candidate': {
     color: colors.process,
-    description: 'candidate for the next release',
+    description: 'candidate for the next milestone',
+  },
+  'process/next-milestone': {
+    color: colors.process,
+    description: 'issue earmarked for next milestone',
   },
 }

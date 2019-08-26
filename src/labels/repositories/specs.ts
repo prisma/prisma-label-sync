@@ -26,7 +26,14 @@ export const specs: RepositoryConfig = {
     'when/build-before-ga': { color: colors.priority },
     'when/clarify-before-ga': { color: colors.priority },
     'when/far-future': { color: colors.priority },
-    'candidate': { color: colors.process },
+    'process/candidate': { 
+      color: colors.process,
+      description: 'candidate for the next milestone',
+    },
+    'process/next-milestone': { 
+      color: colors.process,
+      description: 'issue earmarked for next milestone',
+    },
     // ...reduceAreas(areas),
   },
   strict: true,
