@@ -10,8 +10,6 @@ import { graphqlBinding } from './repositories/graphql-binding'
 import { prismaStudio } from './repositories/prisma-studio'
 import { prismaPhotonJS } from './repositories/prisma-photonjs'
 import { prismaLift } from './repositories/prisma-lift'
-import { prismaDocs } from './repositories/prisma2-docs'
-import { prismaCLI } from './repositories/prisma2-cli'
 import { prisma2 } from './repositories/prisma2'
 import { specs } from './repositories/specs'
 import { prisma2Private } from './repositories/prisma2-private'
@@ -23,8 +21,6 @@ const config: Config = {
   'prisma/studio': prismaStudio,
   'prisma/photonjs': prismaPhotonJS,
   'prisma/lift': prismaLift,
-//   'prisma/prisma2-docs': prismaDocs,
-//   'prisma/prisma2-cli': prismaCLI,
   'prisma/prisma2': prisma2,
   'prisma/specs': specs,
   'prisma/prisma2-private': prisma2Private,
