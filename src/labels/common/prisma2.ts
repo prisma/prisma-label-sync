@@ -14,17 +14,14 @@ export const common = {
   'bug/0-needs-info': {
     color: colors.bug,
     description: 'More information is needed for reproduction.',
-    siblings: ['kind/bug'],
   },
   'bug/1-repro-available': {
     color: colors.bug,
     description: 'A reproduction exists and needs to be confirmed.',
-    siblings: ['kind/bug'],
   },
   'bug/2-confirmed': {
     color: colors.bug,
     description: 'We have confirmed that this is a bug',
-    siblings: ['kind/bug'],
   },
   'kind/bug': {
     color: colors.kind,
