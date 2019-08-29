@@ -4,7 +4,7 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const photonJS: RepositoryConfig = {
+export const photonjs: RepositoryConfig = {
   labels: {
     ...common,
     ...reduceAreas(areas),
