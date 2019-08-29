@@ -31,7 +31,7 @@ const config: Config = {
   
   // prisma 2
   'prisma/studio': studio,
-  'prisma/photonjs': photonJS,
+  'prisma/photonjs': photonjs,
   'prisma/lift': lift,
   'prisma/prisma2': prisma2,
   'prisma/specs': specs,
