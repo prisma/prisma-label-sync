@@ -10,7 +10,7 @@ import { prismaBinding } from './repositories/prisma-binding'
 import { graphqlBinding } from './repositories/graphql-binding'
 
 import { studio } from './repositories/studio'
-import { photonJS } from './repositories/photonjs'
+import { photonjs } from './repositories/photonjs'
 import { lift } from './repositories/lift'
 import { prisma2 } from './repositories/prisma2'
 import { specs } from './repositories/specs'
