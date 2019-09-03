@@ -5,6 +5,7 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = [
   'area/photonjs',
+  'area/photongo',
   'area/lift',
   'area/schema',
   'area/cli',
