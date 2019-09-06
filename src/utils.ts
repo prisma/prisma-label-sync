@@ -29,13 +29,13 @@ type ReposToLabels = Index<Label[]>
  */
 export const toLabelSync = (repos: ReposToLabels): RepositoryConfigs => {
   return Object.entries(repos).reduce<RepositoryConfigs>(
-    (repos, [repoName, labels]) => {
+    (repositoryConfigs, [repoName, repoLabels]) => {
       return {
-        ...repos,
+        ...repositoryConfigs,
         [repoName]: {
-          labels: labels.reduce<LabelConfigs>((labels, label) => {
+          labels: repoLabels.reduce<LabelConfigs>((labelConfigs, label) => {
             return {
-              ...labels,
+              ...labelConfigs,
               [label.name]: {
                 // "#" prefix permits vscode extensions to colorize color values
                 color: label.color.replace(/^#(.*)/, '$1'),
