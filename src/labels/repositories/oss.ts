@@ -84,9 +84,9 @@ const common: Label[] = [
   ),
   type('feature', 'Add a new capability or enhance an existing one', '#3BDB8D'),
   type(
-    'discussion',
-    'Open-ended conversation about something (ideation, design, analysis, ...)',
-    '#f0b3fc',
+    'refactor',
+    'Address tech debt, internal incidental complexity',
+    '#fcaeec',
   ),
   type('perf', 'Improve the efficiency of something', '#FFCF2D'),
   impact('high', 'All users will benefit'),
@@ -98,6 +98,10 @@ const common: Label[] = [
   complexity('5', 'truck'),
   complexity('8', 'hovercraft'),
   complexity('13', 'spaceship'),
+  needs(
+    'discussion',
+    'Open-ended conversation about something (ideation, design, analysis, ...)',
+  ),
   needs('clarification', 'Unable to answer question/feature without more info'),
   needs(
     'use-cases',
