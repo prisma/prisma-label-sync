@@ -11,7 +11,7 @@ const theme = {
  * be of the same type as this label.
  */
 const type = (name: string, description: string, color: string): Label => ({
-  name: `community/${name}`,
+  name: `type/${name}`,
   color,
   description,
 })
