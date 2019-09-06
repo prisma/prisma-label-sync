@@ -10,7 +10,7 @@ const theme = {
  * between them faster. The commit that closes this issue should generally
  * be of the same type as this label.
  */
-const type = (name: string, color: string, description?: string): Label => ({
+const type = (name: string, description: string, color: string): Label => ({
   name: `community/${name}`,
   color,
   description,
@@ -76,14 +76,22 @@ const note = (name: string, description?: string): Label => ({
 })
 
 const common: Label[] = [
-  type('bug', '#D73A4A'),
-  type('chore', theme.neutral),
-  type('feature', '#3BDB8D'),
-  type('discussion', '#f0b3fc'),
-  type('perf', '#FFCF2D'),
-  impact('1', 'All users will benefit'),
-  impact('2', 'Many users will benefit'),
-  impact('3', 'A few users will benefit'),
+  type('bug', 'Something is not working the way it should', '#D73A4A'),
+  type(
+    'chore',
+    'Something that does not directly impact the user/runtime',
+    '#EEEEEE',
+  ),
+  type('feature', 'Add a new capability or enhance an existing one', '#3BDB8D'),
+  type(
+    'discussion',
+    'Open-ended conversation about something (ideation, design, analysis, ...)',
+    '#f0b3fc',
+  ),
+  type('perf', 'Improve the efficiency of something', '#FFCF2D'),
+  impact('high', 'All users will benefit'),
+  impact('medium', 'Many users will benefit'),
+  impact('low', 'A few users will benefit'),
   complexity('1', 'skateboard'),
   complexity('2', 'bicycle'),
   complexity('3', 'motorcycle'),
