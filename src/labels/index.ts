@@ -18,6 +18,7 @@ import { prisma2Private } from './repositories/prisma2-private'
 import { prismaSdkJs } from './repositories/prisma-sdk-js'
 import { prismaEngine } from './repositories/prisma-engine'
 import { vscodePrisma } from './repositories/vscode-prisma'
+import oss from './repositories/oss'
 
 const config: Config = {
   // prisma 1
@@ -29,7 +30,7 @@ const config: Config = {
   'prisma/graphqlgen': graphqlgen,
   'prisma/prisma-binding': prismaBinding,
   'graphql-binding/graphql-binding': graphqlBinding,
-  
+
   // prisma 2
   'prisma/studio': studio,
   'prisma/photonjs': photonjs,
@@ -41,6 +42,8 @@ const config: Config = {
   'prisma/prisma-engine': prismaEngine,
   'prisma/vscode-prisma': vscodePrisma,
 
+  // other
+  ...oss,
 }
 
 export default config
