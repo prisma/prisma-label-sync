@@ -19,7 +19,9 @@ const areas: string[] = [
   'area/process', 
   'area/connector',
   'area/missing',
-  'area/photon'
+  'area/photon',
+  'area/capabilities',
+  'area/vscode-prisma'
 ]
 
 export const specs: RepositoryConfig = {
