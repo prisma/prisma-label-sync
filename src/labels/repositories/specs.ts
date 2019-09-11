@@ -18,6 +18,8 @@ const areas: string[] = [
   'area/spec-meta',
   'area/process', 
   'area/connector',
+  'area/missing',
+  'area/photon'
 ]
 
 export const specs: RepositoryConfig = {
