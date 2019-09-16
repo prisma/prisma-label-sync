@@ -21,20 +21,25 @@ export const common = {
   },
   'bug/2-confirmed': {
     color: colors.bug,
-    description: 'We have confirmed that this is a bug',
+    description: 'We have confirmed that this is a bug.',
   },
   'kind/bug': {
     color: colors.kind,
-    description: 'A reported bug',
+    description: 'A reported bug.',
   },
   'kind/regression': {
     color: colors.kind,
-    description: 'A reported bug in functionality that used to work before',
+    description: 'A reported bug in functionality that used to work before.',
   },
   'kind/feature': {
     color: colors.kind,
     description:
-      'A new request or an improvement to existing code. Code will need to be added or removed.',
+      'A request for a new feature.',
+  },
+  'kind/improvement': {
+    color: colors.kind,
+    description:
+      'An improvement to existing feature and code.',
   },
   'kind/docs': {
     color: colors.kind,
@@ -42,7 +47,7 @@ export const common = {
   },
   'kind/discussion': {
     color: colors.kind,
-    description: 'Discussion is required on the suggested code change.',
+    description: 'Discussion is required.',
   },
   'kind/question': {
     color: colors.kind,
@@ -50,10 +55,10 @@ export const common = {
   },
   'process/candidate': {
     color: colors.process,
-    description: 'candidate for the next milestone',
+    description: 'Candidate for the next Milestone.',
   },
   'process/next-milestone': {
     color: colors.process,
-    description: 'issue earmarked for next milestone',
+    description: 'Issue earmarked for next Milestone.',
   },
 }
