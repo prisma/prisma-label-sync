@@ -55,7 +55,7 @@ export const common = {
   },
   'process/candidate': {
     color: colors.process,
-    description: 'Candidate for the next Milestone.',
+    description: 'Candidate for next Milestone.',
   },
   'process/next-milestone': {
     color: colors.process,
