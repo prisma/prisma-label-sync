@@ -3,25 +3,29 @@ import { colors } from '../common/prisma2'
 import { reduceAreas } from '../../utils'
 import { RepositoryConfig } from 'label-sync-core'
 
-const areas: string[] = [
+const areas: string[] = [ 
+  'area/schema',
+  'area/cli',
+  'area/studio',
+  'area/photon',
   'area/photonjs',
   'area/photongo',
   'area/lift',
-  'area/schema',
-  'area/cli',
   'area/introspection',
   'area/sdk',
-  'area/studio',
   'area/query-engine',
   'area/migration-engine',
+  'area/introspection-engine', 
+  'area/connector',
+  'area/vscode-prisma',
+  'area/generator',
+  'area/capabilities',
+  
   'area/spec-infra',
   'area/spec-meta',
-  'area/process', 
-  'area/connector',
-  'area/missing',
-  'area/photon',
-  'area/capabilities',
-  'area/vscode-prisma'
+  'area/process',
+  
+  'area/missing'
 ]
 
 export const specs: RepositoryConfig = {
