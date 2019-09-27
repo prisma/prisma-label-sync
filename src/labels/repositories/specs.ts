@@ -59,9 +59,9 @@ export const specs: RepositoryConfig = {
     },    
     
     // spec
-    'spec/add': { 
+    'spec/new': { 
       color: 'd4c5f9',
-      description: 'A new spec should be added',
+      description: 'A new spec should be created',
     },
     'spec/change': { 
       color: 'd4c5f9',
