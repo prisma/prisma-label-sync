@@ -60,7 +60,11 @@ export const specs: RepositoryConfig = {
     'kind/discussion': {
       color: colors.kind,
       description: 'Discussion about if and how something should be written down in a spec',
-    },    
+    },
+    'kind/meta': {
+      color: colors.kind,
+      description: 'Meta things',
+    },
     
     // spec
     'spec/new': { 
