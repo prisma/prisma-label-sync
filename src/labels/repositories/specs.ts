@@ -65,6 +65,10 @@ export const specs: RepositoryConfig = {
       color: colors.kind,
       description: 'Meta things',
     },
+    'kind/other': {
+      color: colors.kind,
+      description: '?',
+    },
     
     // spec
     'spec/new': { 
