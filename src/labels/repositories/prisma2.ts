@@ -9,5 +9,5 @@ export const prisma2: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: true,
+  strict: false, // do not remove existing labels that are not listed above
 }
