@@ -53,6 +53,10 @@ export const specs: RepositoryConfig = {
     },
     
     // kind
+    'kind/research': {
+      color: colors.kind,
+      description: 'Research',
+    },
     'kind/spec': {
       color: colors.kind,
       description: 'Something about an actual spec (file)',
