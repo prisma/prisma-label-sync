@@ -16,6 +16,7 @@ const areas: string[] = [
   'area/query-engine',
   'area/migration-engine',
   'area/introspection-engine', 
+  'area/binaries',
   'area/connector',
   'area/vscode-prisma',
   'area/generator',
