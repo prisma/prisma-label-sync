@@ -19,6 +19,7 @@ import { prismaSdkJs } from './repositories/prisma-sdk-js'
 import { prismaEngine } from './repositories/prisma-engine'
 import { vscodePrisma } from './repositories/vscode-prisma'
 import { prismaExamples } from './repositories/prisma-examples'
+import { photongo } from './repositories/photongo'
 
 
 const config: Config = {
@@ -31,7 +32,7 @@ const config: Config = {
   'prisma/graphqlgen': graphqlgen,
   'prisma/prisma-binding': prismaBinding,
   'graphql-binding/graphql-binding': graphqlBinding,
-  
+
   // prisma 2
   'prisma/studio': studio,
   'prisma/photonjs': photonjs,
@@ -43,6 +44,7 @@ const config: Config = {
   'prisma/prisma-engine': prismaEngine,
   'prisma/vscode-prisma': vscodePrisma,
   'prisma/prisma-examples': prismaExamples,
+  'prisma/photongo': photongo,
 
 }
 
