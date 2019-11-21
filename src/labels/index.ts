@@ -2,13 +2,6 @@ import { Config } from 'label-sync-core'
 
 import { prisma } from './repositories/prisma'
 import { prismaAdminFeedback } from './repositories/prisma-admin-feedback'
-import { graphqlPlayground } from './repositories/graphql-playground'
-import { graphqlYoga } from './repositories/graphql-yoga'
-import { yoga2 } from './repositories/yoga2'
-import { graphqlgen } from './repositories/graphqlgen'
-import { prismaBinding } from './repositories/prisma-binding'
-import { graphqlBinding } from './repositories/graphql-binding'
-
 import { studio } from './repositories/studio'
 import { photonjs } from './repositories/photonjs'
 import { lift } from './repositories/lift'
@@ -22,17 +15,10 @@ import { prismaExamples } from './repositories/prisma-examples'
 import { photongo } from './repositories/photongo'
 import { prisma2DevelopmentEnvironment } from './repositories/prisma2-development-environment'
 
-
 const config: Config = {
   // prisma 1
   'prisma/prisma': prisma,
   'prisma/prisma-admin-feedback': prismaAdminFeedback,
-  'prisma/graphql-playground': graphqlPlayground,
-  'prisma/graphql-yoga': graphqlYoga,
-  'prisma/yoga2': yoga2,
-  'prisma/graphqlgen': graphqlgen,
-  'prisma/prisma-binding': prismaBinding,
-  'graphql-binding/graphql-binding': graphqlBinding,
 
   // prisma 2
   'prisma/studio': studio,
