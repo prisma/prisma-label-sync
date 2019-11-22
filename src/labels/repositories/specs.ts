@@ -21,6 +21,7 @@ const areas: string[] = [
   'area/vscode-prisma',
   'area/generator',
   'area/capabilities',
+  'area/errors',
   
   'area/spec-infra',
   'area/spec-meta',
