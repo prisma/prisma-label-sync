@@ -61,4 +61,9 @@ export const common = {
     color: colors.process,
     description: 'Issue earmarked for next Milestone.',
   },
+  
+  'process/product': {
+    color: colors.process,
+    description: 'Temporary label to export products issues from the Engineering process',
+  },
 }
