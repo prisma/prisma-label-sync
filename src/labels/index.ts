@@ -14,6 +14,8 @@ import { vscodePrisma } from './repositories/vscode-prisma'
 import { prismaExamples } from './repositories/prisma-examples'
 import { photongo } from './repositories/photongo'
 import { prisma2DevelopmentEnvironment } from './repositories/prisma2-development-environment'
+import { quaint } from './repositories/quaint'
+
 
 const config: Config = {
   // prisma 1
@@ -33,7 +35,7 @@ const config: Config = {
   'prisma/prisma-examples': prismaExamples,
   'prisma/photongo': photongo,
   'prisma/prisma2-development-environment': prisma2DevelopmentEnvironment,
-
+  'prisma/quaint': quaint,
 }
 
 export default config
