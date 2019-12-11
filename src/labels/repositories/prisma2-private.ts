@@ -9,5 +9,5 @@ export const prisma2Private: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: true,
+  strict: false,
 }
