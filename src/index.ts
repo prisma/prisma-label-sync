@@ -1,78 +1,44 @@
-import Octokit from '@octokit/rest'
-import meow from 'meow'
-import ml from 'multilines'
-import { handleSync, createCISyncTerminalReport } from 'label-sync-core'
+import { configuration, make } from 'label-sync'
 
-/** Labels import */
-import labels from './labels'
+import { prisma } from './labels/repositories/prisma'
+import { prismaAdminFeedback } from './labels/repositories/prisma-admin-feedback'
+import { studio } from './labels/repositories/studio'
+import { photonjs } from './labels/repositories/photonjs'
+import { lift } from './labels/repositories/lift'
+import { prisma2 } from './labels/repositories/prisma2'
+import { specs } from './labels/repositories/specs'
+import { prisma2Private } from './labels/repositories/prisma2-private'
+import { prismaSdkJs } from './labels/repositories/prisma-sdk-js'
+import { prismaEngine } from './labels/repositories/prisma-engine'
+import { vscodePrisma } from './labels/repositories/vscode-prisma'
+import { prismaExamples } from './labels/repositories/prisma-examples'
+import { photongo } from './labels/repositories/photongo'
+import { prisma2DevelopmentEnvironment } from './labels/repositories/prisma2-development-environment'
+import { quaint } from './labels/repositories/quaint'
 
-/** CLI tool */
+const config = configuration({
+  repositories: {
+    // prisma 1
+    prisma: prisma,
+    'prisma-admin-feedback': prismaAdminFeedback,
 
-const cli = meow(
-  ml`
-  | prisma-label-sync synchronizes our labels
-  |
-  | USAGE
-  |
-  |   GITHUB_TOKEN="..." prisma-label-sync
-  |
-  | Flags
-  |
-  |   --dry-run  Perform a dry run without removing labels [default: false]
-  |   --help     Display this help message
-`,
-  {
-    flags: {
-      dryrun: {
-        type: 'boolean',
-        default: false,
-      },
-      skipSiblings: {
-        type: 'boolean',
-        default: false,
-      },
-    },
+    // prisma 2
+    studio: studio,
+    photonjs: photonjs,
+    lift: lift,
+    prisma2: prisma2,
+    specs: specs,
+    'prisma2-private': prisma2Private,
+    'prisma-sdk-js': prismaSdkJs,
+    'prisma-engine': prismaEngine,
+    'vscode-prisma': vscodePrisma,
+    'prisma-examples': prismaExamples,
+    photongo: photongo,
+    'prisma2-development-environment': prisma2DevelopmentEnvironment,
+    quaint: quaint,
   },
-)
+})
 
-main(cli)
-
-/**
- * Main
- */
-
-async function main(cli: meow.Result): Promise<void> {
-  if (!process.env.GITHUB_TOKEN) {
-    throw new Error('Missing Github credentials.')
-  }
-
-  const OctokitWithThrottling = Octokit.plugin(
-    require('@octokit/plugin-throttling'),
-  )
-
-  const client = new OctokitWithThrottling({
-    auth: `token ${process.env.GITHUB_TOKEN}`,
-    previews: ['symmetra-preview'],
-    throttle: {
-      onRateLimit: () => true,
-      onAbuseLimit: (
-        retryAfter: number,
-        options: { method: string; url: string },
-      ) => {
-        console.warn(
-          `Abuse detected for request ${options.method} ${options.url}`,
-        )
-        return true
-      },
-    },
-  })
-
-  const report = await handleSync(client, labels, {
-    dryRun: cli.flags.dryrun,
-    skipSiblingSync: cli.flags.skipSiblings,
-  })
-
-  const humanReadableReport = createCISyncTerminalReport(report)
-
-  console.log(humanReadableReport)
-}
+make({
+  configs: [config],
+})

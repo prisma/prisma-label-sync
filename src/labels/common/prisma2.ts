@@ -1,3 +1,5 @@
+import { label } from 'label-sync'
+
 export const colors = {
   area: 'FFD700',
   kind: '3B5BDB',
@@ -11,59 +13,60 @@ export const colors = {
 }
 
 export const common = {
-  'bug/0-needs-info': {
+  /* Bugs */
+  'bug/0-needs-info': label({
     color: colors.bug,
     description: 'More information is needed for reproduction.',
-  },
-  'bug/1-repro-available': {
+  }),
+  'bug/1-repro-available': label({
     color: colors.bug,
     description: 'A reproduction exists and needs to be confirmed.',
-  },
-  'bug/2-confirmed': {
+  }),
+  'bug/2-confirmed': label({
     color: colors.bug,
     description: 'We have confirmed that this is a bug.',
-  },
-  'kind/bug': {
+  }),
+  /* Kind */
+  'kind/bug': label({
     color: colors.kind,
     description: 'A reported bug.',
-  },
-  'kind/regression': {
+  }),
+  'kind/regression': label({
     color: colors.kind,
     description: 'A reported bug in functionality that used to work before.',
-  },
-  'kind/feature': {
+  }),
+  'kind/feature': label({
     color: colors.kind,
-    description:
-      'A request for a new feature.',
-  },
-  'kind/improvement': {
+    description: 'A request for a new feature.',
+  }),
+  'kind/improvement': label({
     color: colors.kind,
-    description:
-      'An improvement to existing feature and code.',
-  },
-  'kind/docs': {
+    description: 'An improvement to existing feature and code.',
+  }),
+  'kind/docs': label({
     color: colors.kind,
     description: 'A documentation change is required.',
-  },
-  'kind/discussion': {
+  }),
+  'kind/discussion': label({
     color: colors.kind,
     description: 'Discussion is required.',
-  },
-  'kind/question': {
+  }),
+  'kind/question': label({
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
-  },
-  'process/candidate': {
+  }),
+  /* Process triaging. */
+  'process/candidate': label({
     color: colors.process,
     description: 'Candidate for next Milestone.',
-  },
-  'process/next-milestone': {
+  }),
+  'process/next-milestone': label({
     color: colors.process,
     description: 'Issue earmarked for next Milestone.',
-  },
-  
-  'process/product': {
+  }),
+  'process/product': label({
     color: colors.process,
-    description: 'Temporary label to export products issues from the Engineering process',
-  },
+    description:
+      'Temporary label to export products issues from the Engineering process',
+  }),
 }

@@ -1,20 +1,13 @@
 {
-  "name": "with-typescript",
+  "name": "prisma-labelsync",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "sync": "ts-node src/index.ts",
-    "build": "tsc -d"
-  },
   "dependencies": {
-    "@octokit/plugin-throttling": "^2.6.0",
-    "label-sync-core": "^2.3.5",
-    "meow": "^5.0.0",
-    "multilines": "^1.0.2"
+    "label-sync": "^3.0.0"
   },
   "devDependencies": {
-    "@types/meow": "5.0.0",
     "@types/node": "12.12.22",
+    "husky": "^3.1.0",
     "prettier": "1.19.1",
     "ts-node": "8.5.4",
     "typescript": "3.7.4"

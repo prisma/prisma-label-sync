@@ -1,13 +1,14 @@
+import { repository } from 'label-sync'
+
 import { common } from '../common/prisma2'
 import { reduceAreas } from '../../utils'
-import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const prisma2Private: RepositoryConfig = {
+export const prisma2Private = repository({
   labels: {
     ...common,
     ...reduceAreas(areas),
   },
   strict: false,
-}
+})

@@ -1,6 +1,7 @@
+import { repository } from 'label-sync'
+
 import { common } from '../common/prisma1'
 import { reduceAreas } from '../../utils'
-import { RepositoryConfig } from 'label-sync-core'
 
 const areas = [
   'area/admin',
@@ -38,10 +39,10 @@ const areas = [
   'area/subscriptions',
 ]
 
-export const prisma: RepositoryConfig = {
+export const prisma = repository({
   labels: {
     ...common,
     ...reduceAreas(areas),
   },
   strict: false,
-}
+})
