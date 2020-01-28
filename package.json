@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/meow": "5.0.0",
-    "@types/node": "12.12.25",
+    "@types/node": "12.12.26",
     "prettier": "1.19.1",
     "ts-node": "8.6.2",
     "typescript": "3.7.5"
