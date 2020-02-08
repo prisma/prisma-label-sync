@@ -9,5 +9,5 @@ export const prismaExamples: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: true,
+  strict: false,
 }
