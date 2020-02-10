@@ -4,7 +4,7 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const lift: RepositoryConfig = {
+export const migrate: RepositoryConfig = {
   labels: {
     ...common,
     ...reduceAreas(areas),
