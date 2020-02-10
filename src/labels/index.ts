@@ -15,6 +15,7 @@ import { prismaExamples } from './repositories/prisma-examples'
 import { prismaClientGo } from './repositories/prisma-client-go'
 import { prisma2DevelopmentEnvironment } from './repositories/prisma2-development-environment'
 import { quaint } from './repositories/quaint'
+import { prismaTestUtils } from './repositories/prisma-test-utils'
 
 
 const config: Config = {
@@ -36,6 +37,7 @@ const config: Config = {
   'prisma/prisma-client-go': prismaClientGo,
   'prisma/prisma2-development-environment': prisma2DevelopmentEnvironment,
   'prisma/quaint': quaint,
+  'prisma/prisma-test-utils': prismaTestUtils,
 }
 
 export default config
