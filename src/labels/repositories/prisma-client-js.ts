@@ -4,7 +4,7 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const photonjs: RepositoryConfig = {
+export const prismaClientJs: RepositoryConfig = {
   labels: {
     ...common,
     ...reduceAreas(areas),

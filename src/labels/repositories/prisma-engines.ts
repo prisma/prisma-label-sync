@@ -4,7 +4,7 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const prismaEngine: RepositoryConfig = {
+export const prismaEngines: RepositoryConfig = {
   labels: {
     ...common,
     
