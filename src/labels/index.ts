@@ -16,7 +16,7 @@ import { prismaClientGo } from './repositories/prisma-client-go'
 import { prisma2DevelopmentEnvironment } from './repositories/prisma2-development-environment'
 import { quaint } from './repositories/quaint'
 import { prismaTestUtils } from './repositories/prisma-test-utils'
-import { prisma2E2eTests } from '/repositories/prisma2-e2e-tests'
+import { prisma2E2eTests } from './repositories/prisma2-e2e-tests'
 
 const config: Config = {
   // prisma 1
