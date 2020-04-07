@@ -2,10 +2,11 @@ import { Config } from 'label-sync-core'
 
 import { prisma } from './repositories/prisma'
 import { prismaAdminFeedback } from './repositories/prisma-admin-feedback'
-import { studio } from './repositories/studio'
-import { prismaClientJs } from './repositories/prisma-client-js'
-import { migrate } from './repositories/migrate'
+
 import { prisma2 } from './repositories/prisma2'
+import { studio } from './repositories/studio'
+import { migrate } from './repositories/migrate'
+import { prismaClientJs } from './repositories/prisma-client-js'
 import { specs } from './repositories/specs'
 import { prisma2Private } from './repositories/prisma2-private'
 import { prismaSdkJs } from './repositories/prisma-sdk-js'
@@ -24,10 +25,10 @@ const config: Config = {
   'prisma/prisma-admin-feedback': prismaAdminFeedback,
 
   // prisma 2
-  'prisma/studio': studio,
+  'prisma/prisma2': prisma2,
   'prisma/prisma-client-js': prismaClientJs,
   'prisma/migrate': migrate,
-  'prisma/prisma2': prisma2,
+  'prisma/studio': studio,
   'prisma/specs': specs,
   'prisma/prisma2-private': prisma2Private,
   'prisma/prisma-sdk-js': prismaSdkJs,
