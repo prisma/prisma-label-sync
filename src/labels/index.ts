@@ -1,9 +1,11 @@
 import { Config } from 'label-sync-core'
 
-import { prisma } from './repositories/prisma'
+// prisma 1
+import { prisma1 } from './repositories/prisma1'
 import { prismaAdminFeedback } from './repositories/prisma-admin-feedback'
 
-import { prisma2 } from './repositories/prisma2'
+// prisma 2
+import { prisma } from './repositories/prisma1'
 import { studio } from './repositories/studio'
 import { migrate } from './repositories/migrate'
 import { prismaClientJs } from './repositories/prisma-client-js'
@@ -11,7 +13,7 @@ import { specs } from './repositories/specs'
 import { prisma2Private } from './repositories/prisma2-private'
 import { prismaSdkJs } from './repositories/prisma-sdk-js'
 import { prismaEngines } from './repositories/prisma-engines'
-import { vscodePrisma } from './repositories/vscode-prisma'
+import { vscode } from './repositories/vscode'
 import { prismaExamples } from './repositories/prisma-examples'
 import { prismaClientGo } from './repositories/prisma-client-go'
 import { prisma2DevelopmentEnvironment } from './repositories/prisma2-development-environment'
@@ -21,11 +23,11 @@ import { prisma2E2eTests } from './repositories/prisma2-e2e-tests'
 
 const config: Config = {
   // prisma 1
-  'prisma/prisma': prisma,
+  'prisma/prisma1': prisma1,
   'prisma/prisma-admin-feedback': prismaAdminFeedback,
 
   // prisma 2
-  'prisma/prisma2': prisma2,
+  'prisma/prisma': prisma,
   'prisma/prisma-client-js': prismaClientJs,
   'prisma/migrate': migrate,
   'prisma/studio': studio,
@@ -33,7 +35,7 @@ const config: Config = {
   'prisma/prisma2-private': prisma2Private,
   'prisma/prisma-sdk-js': prismaSdkJs,
   'prisma/prisma-engines': prismaEngines,
-  'prisma/vscode-prisma': vscodePrisma,
+  'prisma/vscode': vscode,
   'prisma/prisma-examples': prismaExamples,
   'prisma/prisma-client-go': prismaClientGo,
   'prisma/prisma2-development-environment': prisma2DevelopmentEnvironment,
