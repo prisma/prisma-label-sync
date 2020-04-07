@@ -1,4 +1,4 @@
-import { common } from '../common/prisma2'
+import { common } from '../common/prisma1'
 import { reduceAreas } from '../../utils'
 import { RepositoryConfig } from 'label-sync-core'
 
