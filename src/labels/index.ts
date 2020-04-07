@@ -6,7 +6,7 @@ import { prismaAdminFeedback } from './repositories/prisma-admin-feedback'
 import { prisma1Examples } from './repositories/prisma1-examples'
 
 // prisma 2
-import { prisma } from './repositories/prisma1'
+import { prisma } from './repositories/prisma'
 import { studio } from './repositories/studio'
 import { migrate } from './repositories/migrate'
 import { prismaClientJs } from './repositories/prisma-client-js'
