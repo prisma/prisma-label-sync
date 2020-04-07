@@ -9,5 +9,5 @@ export const vscode: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: true,
+  strict: false,
 }
