@@ -3,6 +3,7 @@ import { Config } from 'label-sync-core'
 // prisma 1
 import { prisma1 } from './repositories/prisma1'
 import { prismaAdminFeedback } from './repositories/prisma-admin-feedback'
+import { prisma1Examples } from './repositories/prisma1-examples'
 
 // prisma 2
 import { prisma } from './repositories/prisma1'
@@ -20,11 +21,13 @@ import { prisma2DevelopmentEnvironment } from './repositories/prisma2-developmen
 import { quaint } from './repositories/quaint'
 import { prismaTestUtils } from './repositories/prisma-test-utils'
 import { prisma2E2eTests } from './repositories/prisma2-e2e-tests'
+import { prisma2Docs } from './repositories/prisma2-docs' 
 
 const config: Config = {
   // prisma 1
   'prisma/prisma1': prisma1,
   'prisma/prisma-admin-feedback': prismaAdminFeedback,
+  'prisma/prisma1-examples': prisma1Examples,
 
   // prisma 2
   'prisma/prisma': prisma,
@@ -42,6 +45,7 @@ const config: Config = {
   'prisma/quaint': quaint,
   'prisma/prisma-test-utils': prismaTestUtils,
   'prisma/prisma2-e2e-tests': prisma2E2eTests,
+  'prisma/prisma2-docs': prisma2Docs,
 }
 
 export default config
