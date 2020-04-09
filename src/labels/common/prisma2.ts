@@ -73,7 +73,7 @@ export const common = {
   },
   'team/typescript': {
     color: colors.team,
-    description: 'Issue for team Typescript'
+    description: 'Issue for team TypeScript'
   },
   'team/webdev': {
     color: colors.team,
