@@ -3,11 +3,12 @@ export const colors = {
   kind: '3B5BDB',
   status: 'F8F9FA',
   bug: 'ee0000',
+  team: 'FDF4E8',
+  process: 'EB9100',
+  // unused
   priority: 'F783AC',
   scope: '27CF79',
-  team: 'FDF4E8',
   release: 'a5d8ff',
-  process: 'EB9100',
 }
 
 export const common = {
@@ -23,6 +24,7 @@ export const common = {
     color: colors.bug,
     description: 'We have confirmed that this is a bug.',
   },
+
   'kind/bug': {
     color: colors.kind,
     description: 'A reported bug.',
@@ -33,13 +35,11 @@ export const common = {
   },
   'kind/feature': {
     color: colors.kind,
-    description:
-      'A request for a new feature.',
+    description: 'A request for a new feature.',
   },
   'kind/improvement': {
     color: colors.kind,
-    description:
-      'An improvement to existing feature and code.',
+    description: 'An improvement to existing feature and code.',
   },
   'kind/docs': {
     color: colors.kind,
@@ -53,6 +53,7 @@ export const common = {
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   },
+
   'process/candidate': {
     color: colors.process,
     description: 'Candidate for next Milestone.',
@@ -62,8 +63,32 @@ export const common = {
     description: 'Issue earmarked for next Milestone.',
   },
   
-  'process/product': {
-    color: colors.process,
-    description: 'Temporary label to export products issues from the Engineering process',
+  'team/product': {
+    color: colors.team,
+    description: 'Issue for team Product'
+  },
+  'team/backend': {
+    color: colors.team,
+    description: 'Issue for team Backend'
+  },
+  'team/typescript': {
+    color: colors.team,
+    description: 'Issue for team Typescript'
+  },
+  'team/webdev': {
+    color: colors.team,
+    description: 'Issue for team Webdev'
+  },
+  'team/support': {
+    color: colors.team,
+    description: 'Issue for team Support'
+  },
+  'team/devrel': {
+    color: colors.team,
+    description: 'Issue for team Devrel'
+  },
+  'team/design': {
+    color: colors.team,
+    description: 'Issue for team Design'
   },
 }
