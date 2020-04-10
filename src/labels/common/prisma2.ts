@@ -65,30 +65,34 @@ export const common = {
   
   'team/product': {
     color: colors.team,
-    description: 'Issue for team Product'
+    description: 'Issue for team Product.'
   },
-  'team/backend': {
+  'team/engines': {
     color: colors.team,
-    description: 'Issue for team Backend'
+    description: 'Issue for team Engines.'
   },
   'team/typescript': {
     color: colors.team,
-    description: 'Issue for team TypeScript'
+    description: 'Issue for team TypeScript.'
   },
   'team/webdev': {
     color: colors.team,
-    description: 'Issue for team Webdev'
+    description: 'Issue for team Webdev.'
   },
   'team/support': {
     color: colors.team,
-    description: 'Issue for team Support'
+    description: 'Issue for team Support.'
   },
   'team/devrel': {
     color: colors.team,
-    description: 'Issue for team Devrel'
+    description: 'Issue for team Devrel.'
   },
   'team/design': {
     color: colors.team,
-    description: 'Issue for team Design'
+    description: 'Issue for team Design.'
+  },
+  'team/other': {
+    color: colors.team,
+    description: 'Issue for another team that does not fit our nice boxes.'
   },
 }
