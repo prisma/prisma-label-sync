@@ -7,7 +7,7 @@
     "build": "tsc -d"
   },
   "dependencies": {
-    "@octokit/plugin-throttling": "^2.6.0",
+    "@octokit/plugin-throttling": "^3.0.0",
     "label-sync-core": "^2.3.5",
     "meow": "^5.0.0",
     "multilines": "^1.0.2"
