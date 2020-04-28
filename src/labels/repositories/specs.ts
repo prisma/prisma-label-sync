@@ -53,10 +53,6 @@ export const specs: RepositoryConfig = {
       color: colors.process,
       description: 'issue earmarked for next milestone',
     },
-    'process/product': {
-      color: colors.process,
-      description: 'Temporary label to export products issues from the Engineering process',
-    },
     
     // kind
     'kind/research': {
