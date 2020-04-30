@@ -21,7 +21,6 @@ import { prisma2DevelopmentEnvironment } from './repositories/prisma2-developmen
 import { quaint } from './repositories/quaint'
 import { prismaTestUtils } from './repositories/prisma-test-utils'
 import { prisma2E2eTests } from './repositories/prisma2-e2e-tests'
-import { prisma2Docs } from './repositories/prisma2-docs'
 import { errorReportingGui } from './repositories/error-reporting-gui'
 
 const config: Config = {
@@ -46,7 +45,6 @@ const config: Config = {
   'prisma/quaint': quaint,
   'prisma/prisma-test-utils': prismaTestUtils,
   'prisma/prisma2-e2e-tests': prisma2E2eTests,
-  'prisma/prisma2-docs': prisma2Docs,
   'prisma/error-reporting-gui': errorReportingGui,
 }
 
