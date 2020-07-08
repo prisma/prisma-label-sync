@@ -3,13 +3,11 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-const commonModified = JSON.parse(JSON.stringify(common))
-delete commonModified['process/candidate']
-delete commonModified['process/next-milestone']
+const common = JSON.parse(JSON.stringify(common))
 
 export const studio: RepositoryConfig = {
   labels: {
-    ...commonModified,    
+    ...common,    
   },
   strict: false,
 }
