@@ -78,10 +78,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
 
-"@types/node@12.12.49":
-  version "12.12.49"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.49.tgz#f3dec66fce54758350d309b84f989003702f1190"
-  integrity sha512-bkB9k2k7Vu35WM1N06j93QgdXuALx9Dv3j7p/XHPAFTTc7tK8LLp43WltPg/LsciKDssbsr/shYsg036QJxNug==
+"@types/node@12.12.50":
+  version "12.12.50"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
+  integrity sha512-5ImO01Fb8YsEOYpV+aeyGYztcYcjGsBvN4D7G5r1ef2cuQOpymjWNQi5V0rKHE6PC2ru3HkoUr/Br2/8GUA84w==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
