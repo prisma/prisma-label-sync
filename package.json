@@ -9,7 +9,7 @@
   "dependencies": {
     "@octokit/plugin-throttling": "^2.6.0",
     "label-sync-core": "^2.3.5",
-    "meow": "^5.0.0",
+    "meow": "^7.0.0",
     "multilines": "^1.0.2"
   },
   "devDependencies": {
