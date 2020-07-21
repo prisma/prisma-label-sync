@@ -17,7 +17,6 @@ import { prismaEngines } from './repositories/prisma-engines'
 import { vscode } from './repositories/vscode'
 import { prismaExamples } from './repositories/prisma-examples'
 import { prismaClientGo } from './repositories/prisma-client-go'
-import { prisma2DevelopmentEnvironment } from './repositories/prisma2-development-environment'
 import { quaint } from './repositories/quaint'
 import { prismaTestUtils } from './repositories/prisma-test-utils'
 import { prisma2E2eTests } from './repositories/prisma2-e2e-tests'
@@ -43,7 +42,6 @@ const config: Config = {
   'prisma/vscode': vscode,
   'prisma/prisma-examples': prismaExamples,
   'prisma/prisma-client-go': prismaClientGo,
-  'prisma/prisma2-development-environment': prisma2DevelopmentEnvironment,
   'prisma/quaint': quaint,
   'prisma/prisma-test-utils': prismaTestUtils,
   'prisma/prisma2-e2e-tests': prisma2E2eTests,
