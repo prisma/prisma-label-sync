@@ -95,4 +95,8 @@ export const common = {
     color: colors.team,
     description: 'Issue for another team that does not fit our nice boxes.'
   },
+  'status/needs-action': {
+    color: colors.status,
+    description: 'Issue has no activity for a long time. Need some action.'
+  }
 }
