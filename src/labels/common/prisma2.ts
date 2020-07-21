@@ -97,6 +97,6 @@ export const common = {
   },
   'status/needs-action': {
     color: colors.status,
-    description: 'Issue has no activity for a long time. Need some action.'
+    description: 'Issue has no activity for a long time, needs some action.'
   }
 }
