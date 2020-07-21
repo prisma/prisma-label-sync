@@ -9,5 +9,5 @@ export const prisma2E2eTests: RepositoryConfig = {
     ...common,
     ...reduceAreas(areas),
   },
-  strict: true,
+  strict: false,
 }
