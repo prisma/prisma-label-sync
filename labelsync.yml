@@ -1,0 +1,2375 @@
+repos:
+  prisma/prisma1:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      area/subscriptions:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/server:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/sdk:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/schema-generation:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/prisma:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/playground:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/performance:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/next:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/migrations:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/introspection:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/examples:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/error-handling:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/engine:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/docs:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/deploy:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/datamodel:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/database:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/console:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/connector:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/connector/postgres:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/connector/mysql:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/connector/mongo:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/config:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/cloud-api:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/client:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/client/ts:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/client/js:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/client/go:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/client/flow:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/cli:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/brew:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/api:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/admin:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      status/stale:
+        color: '#a9c1e8'
+        description: Marked as state by the GitHub stalebot
+        alias: []
+        siblings: []
+      status/on-hold:
+        color: '#a9c1e8'
+        description: This issue is on hold.
+        alias: []
+        siblings: []
+      status/next:
+        color: '#a9c1e8'
+        description: Will be addressed with the next major version
+        alias: []
+        siblings: []
+      status/candidate:
+        color: '#a9c1e8'
+        description: This issue will probably be considered soon for the roadmap
+        alias: []
+        siblings: []
+      status/research-needed:
+        color: '#a9c1e8'
+        alias: []
+        siblings: []
+      status/pr-welcome:
+        color: '#a9c1e8'
+        alias: []
+        siblings: []
+      kind/intended-behavior:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/feedback:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/duplicate:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#d93f0b'
+        alias: []
+        siblings:
+          - kind/bug
+      bug/1-repro-available:
+        color: '#d93f0b'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings:
+          - kind/bug
+      bug/0-needs-info:
+        color: '#d93f0b'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings:
+          - kind/bug
+      rfc/x-rejected:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/2-accepted:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/1-draft:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/0-needs-spec:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+  prisma/prisma-admin-feedback:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      area/ui-ux:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/results-section:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/query-sidebar:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/query-editor-section:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/limbo-state:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/engine:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/details-section:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      status/stale:
+        color: '#a9c1e8'
+        description: Marked as state by the GitHub stalebot
+        alias: []
+        siblings: []
+      status/on-hold:
+        color: '#a9c1e8'
+        description: This issue is on hold.
+        alias: []
+        siblings: []
+      status/next:
+        color: '#a9c1e8'
+        description: Will be addressed with the next major version
+        alias: []
+        siblings: []
+      status/candidate:
+        color: '#a9c1e8'
+        description: This issue will probably be considered soon for the roadmap
+        alias: []
+        siblings: []
+      status/research-needed:
+        color: '#a9c1e8'
+        alias: []
+        siblings: []
+      status/pr-welcome:
+        color: '#a9c1e8'
+        alias: []
+        siblings: []
+      kind/intended-behavior:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/feedback:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/duplicate:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#d93f0b'
+        alias: []
+        siblings:
+          - kind/bug
+      bug/1-repro-available:
+        color: '#d93f0b'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings:
+          - kind/bug
+      bug/0-needs-info:
+        color: '#d93f0b'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings:
+          - kind/bug
+      rfc/x-rejected:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/2-accepted:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/1-draft:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/0-needs-spec:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+  prisma/prisma1-examples:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      status/stale:
+        color: '#a9c1e8'
+        description: Marked as state by the GitHub stalebot
+        alias: []
+        siblings: []
+      status/on-hold:
+        color: '#a9c1e8'
+        description: This issue is on hold.
+        alias: []
+        siblings: []
+      status/next:
+        color: '#a9c1e8'
+        description: Will be addressed with the next major version
+        alias: []
+        siblings: []
+      status/candidate:
+        color: '#a9c1e8'
+        description: This issue will probably be considered soon for the roadmap
+        alias: []
+        siblings: []
+      status/research-needed:
+        color: '#a9c1e8'
+        alias: []
+        siblings: []
+      status/pr-welcome:
+        color: '#a9c1e8'
+        alias: []
+        siblings: []
+      kind/intended-behavior:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/feedback:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/duplicate:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#c5def5'
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#d93f0b'
+        alias: []
+        siblings:
+          - kind/bug
+      bug/1-repro-available:
+        color: '#d93f0b'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings:
+          - kind/bug
+      bug/0-needs-info:
+        color: '#d93f0b'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings:
+          - kind/bug
+      rfc/x-rejected:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/2-accepted:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/1-draft:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+      rfc/0-needs-spec:
+        color: '#b621ff'
+        alias: []
+        siblings: []
+  prisma/prisma:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma-client-js:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/migrate:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/studio:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/specs:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      area/missing:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/process:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/spec-meta:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/spec-infra:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/errors:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/capabilities:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/generator:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/vscode-prisma:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/connector:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/binaries:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/introspection-engine:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/migration-engine:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/query-engine:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/sdk:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/introspection:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/migrate:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/prisma-client-go:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/prisma-client-js:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/prisma-client:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/studio:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/cli:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      area/schema:
+        color: '#fbca04'
+        alias: []
+        siblings: []
+      engineering/blocked:
+        color: '#b60205'
+        description: This open issue is blocking work in Engineering
+        alias: []
+        siblings: []
+      spec/clarify:
+        color: '#d4c5f9'
+        description: An existing spec should be clarified
+        alias: []
+        siblings: []
+      spec/change:
+        color: '#d4c5f9'
+        description: An existing spec should be changed or adapted
+        alias: []
+        siblings: []
+      spec/new:
+        color: '#d4c5f9'
+        description: A new spec should be created
+        alias: []
+        siblings: []
+      kind/other:
+        color: '#3B5BDB'
+        description: '?'
+        alias: []
+        siblings: []
+      kind/meta:
+        color: '#3B5BDB'
+        description: Meta things
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion about if and how something should be written down in a spec
+        alias: []
+        siblings: []
+      kind/spec:
+        color: '#3B5BDB'
+        description: Something about an actual spec (file)
+        alias: []
+        siblings: []
+      kind/research:
+        color: '#3B5BDB'
+        description: Research
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: issue earmarked for next milestone
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: candidate for the next milestone
+        alias: []
+        siblings: []
+      when/far-future:
+        color: '#F783AC'
+        alias: []
+        siblings: []
+      when/clarify-before-ga:
+        color: '#F783AC'
+        alias: []
+        siblings: []
+      when/build-before-ga:
+        color: '#F783AC'
+        alias: []
+        siblings: []
+      status/3-spec-in-progress:
+        color: '#F8F9FA'
+        alias: []
+        siblings: []
+      status/2-wait-for-spec:
+        color: '#F8F9FA'
+        alias: []
+        siblings: []
+      status/1-needs-info:
+        color: '#F8F9FA'
+        alias: []
+        siblings: []
+  prisma/prisma2-private:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma-sdk-js:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma-engines:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      'component: data model parser':
+        color: '#0000FF'
+        description: Data Model Parser
+        alias: []
+        siblings: []
+      'component: introspection engine':
+        color: '#008000'
+        description: Introspection Engine
+        alias: []
+        siblings: []
+      'component: query engine':
+        color: '#ff0000'
+        description: Query Engine
+        alias: []
+        siblings: []
+      'component: migration engine':
+        color: '#ffff00'
+        description: Migration Engine
+        alias: []
+        siblings: []
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/vscode:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma-examples:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma-client-go:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/quaint:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma-test-utils:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/prisma2-e2e-tests:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/error-reporting-gui:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/introspection-engine-output:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
+  prisma/re-introspection-ci:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []
