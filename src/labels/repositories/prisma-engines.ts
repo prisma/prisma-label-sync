@@ -28,5 +28,5 @@ export const prismaEngines: RepositoryConfig = {
     
     ...reduceAreas(areas),
   },
-  strict: true,
+  strict: false,
 }
