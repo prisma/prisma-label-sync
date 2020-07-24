@@ -100,23 +100,23 @@ export const common = {
     color: colors.status,
     description: 'Issue has no activity for a long time, needs some action.'
   },
-  'component: migration engine': {
+  'engines/migration engine': {
     color: colors.component,
     description: 'Issue in the migration engine',
   },
-  'component: query engine': {
+  'engines/query engine': {
     color: colors.component,
     description: 'Issue in the query engine',
   },
-  'component: introspection engine': {
+  'engines/introspection engine': {
     color: colors.component,
     description: 'Issue in the introspection engine',
   },
-  'component: data model parser': {
+  'engines/data model parser': {
     color: colors.component,
     description: 'Issue in the parser for the Prisma schema',
   },
-  'component: other': {
+  'engines/other': {
     color: colors.component,
     description: 'Issue in the engines repo that does not fit one of the other labels.',
   },
