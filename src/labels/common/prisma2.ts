@@ -5,6 +5,7 @@ export const colors = {
   bug: 'ee0000',
   team: 'FDF4E8',
   process: 'EB9100',
+  engines: 'fcc7e7',
   // unused
   priority: 'F783AC',
   scope: '27CF79',
@@ -62,7 +63,7 @@ export const common = {
     color: colors.process,
     description: 'Issue earmarked for next Milestone.',
   },
-  
+
   'team/product': {
     color: colors.team,
     description: 'Issue for team Product.'
@@ -98,5 +99,25 @@ export const common = {
   'status/needs-action': {
     color: colors.status,
     description: 'Issue has no activity for a long time, needs some action.'
-  }
+  },
+  'engines/migration engine': {
+    color: colors.engines,
+    description: 'Issue in the migration engine',
+  },
+  'engines/query engine': {
+    color: colors.engines,
+    description: 'Issue in the query engine',
+  },
+  'engines/introspection engine': {
+    color: colors.engines,
+    description: 'Issue in the introspection engine',
+  },
+  'engines/data model parser': {
+    color: colors.engines,
+    description: 'Issue in the parser for the Prisma schema',
+  },
+  'engines/other': {
+    color: colors.engines,
+    description: 'Issue in the engines repo that does not fit one of the other labels.',
+  },
 }
