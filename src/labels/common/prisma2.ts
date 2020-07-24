@@ -5,7 +5,7 @@ export const colors = {
   bug: 'ee0000',
   team: 'FDF4E8',
   process: 'EB9100',
-  component: 'fcc7e7',
+  engines: 'fcc7e7',
   // unused
   priority: 'F783AC',
   scope: '27CF79',
