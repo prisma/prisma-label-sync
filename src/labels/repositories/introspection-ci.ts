@@ -4,7 +4,7 @@ import { RepositoryConfig } from 'label-sync-core'
 
 const areas: string[] = []
 
-export const introspectionEngineOutput: RepositoryConfig = {
+export const introspectionCi: RepositoryConfig = {
   labels: {
     ...common,
     ...reduceAreas(areas),
