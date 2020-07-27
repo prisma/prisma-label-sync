@@ -21,7 +21,7 @@ import { quaint } from './repositories/quaint'
 import { prismaTestUtils } from './repositories/prisma-test-utils'
 import { prisma2E2eTests } from './repositories/prisma2-e2e-tests'
 import { errorReportingGui } from './repositories/error-reporting-gui'
-import { introspectionEngineOutput } from './repositories/introspection-engine-output'
+import { introspectionCi } from './repositories/introspection-ci'
 import { reIntrospectionCi } from './repositories/re-introspection-ci'
 
 const config: Config = {
@@ -46,7 +46,7 @@ const config: Config = {
   'prisma/prisma-test-utils': prismaTestUtils,
   'prisma/prisma2-e2e-tests': prisma2E2eTests,
   'prisma/error-reporting-gui': errorReportingGui,
-  'prisma/introspection-engine-output': introspectionEngineOutput,
+  'prisma/introspection-ci': introspectionCi,
   'prisma/re-introspection-ci': reIntrospectionCi,
 }
 
