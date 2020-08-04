@@ -1,9 +1,8 @@
-// import { common } from '../common/prisma2'
+import { repo, label } from 'label-sync'
+import { area } from '../labels'
 import { colors } from '../common/prisma2'
-import { reduceAreas } from '../../utils'
-import { RepositoryConfig } from 'label-sync-core'
 
-const areas: string[] = [ 
+const areas = [
   'area/schema',
   'area/cli',
   'area/studio',
@@ -15,88 +14,98 @@ const areas: string[] = [
   'area/sdk',
   'area/query-engine',
   'area/migration-engine',
-  'area/introspection-engine', 
+  'area/introspection-engine',
   'area/binaries',
   'area/connector',
   'area/vscode-prisma',
   'area/generator',
   'area/capabilities',
   'area/errors',
-  
+
   'area/spec-infra',
   'area/spec-meta',
   'area/process',
-  
-  'area/missing'
-]
 
-export const specs: RepositoryConfig = {
-  labels: {
+  'area/missing',
+].map(area)
+
+export const specs = repo({
+  config: {
+    removeUnconfiguredLabels: true,
+  },
+  labels: [
     // ...common, // no common labels for specs
-    
+
     // status
-    'status/1-needs-info': { color: colors.status },
-    'status/2-wait-for-spec': { color: colors.status },
-    'status/3-spec-in-progress': { color: colors.status },
-    
+    label('status/1-needs-info', colors.status),
+    label('status/2-wait-for-spec', colors.status),
+    label('status/3-spec-in-progress', colors.status),
+
     // when
-    'when/build-before-ga': { color: colors.priority },
-    'when/clarify-before-ga': { color: colors.priority },
-    'when/far-future': { color: colors.priority },
-    
+    label('when/build-before-ga', colors.priority),
+    label('when/clarify-before-ga', colors.priority),
+    label('when/far-future', colors.priority),
+
     // process
-    'process/candidate': { 
+    label({
+      name: 'process/candidate',
       color: colors.process,
       description: 'candidate for the next milestone',
-    },
-    'process/next-milestone': { 
+    }),
+    label({
+      name: 'process/next-milestone',
       color: colors.process,
       description: 'issue earmarked for next milestone',
-    },
-    
+    }),
+
     // kind
-    'kind/research': {
+    label({
+      name: 'kind/research',
       color: colors.kind,
       description: 'Research',
-    },
-    'kind/spec': {
+    }),
+    label({
+      name: 'kind/spec',
       color: colors.kind,
       description: 'Something about an actual spec (file)',
-    },
-    'kind/discussion': {
+    }),
+    label({
+      name: 'kind/discussion',
       color: colors.kind,
-      description: 'Discussion about if and how something should be written down in a spec',
-    },
-    'kind/meta': {
+      description:
+        'Discussion about if and how something should be written down in a spec',
+    }),
+    label({
+      name: 'kind/meta',
       color: colors.kind,
       description: 'Meta things',
-    },
-    'kind/other': {
-      color: colors.kind,
-      description: '?',
-    },
-    
+    }),
+    label({ name: 'kind/other', color: colors.kind, description: '?' }),
+
     // spec
-    'spec/new': { 
+    label({
+      name: 'spec/new',
       color: 'd4c5f9',
       description: 'A new spec should be created',
-    },
-    'spec/change': { 
+    }),
+    label({
+      name: 'spec/change',
       color: 'd4c5f9',
       description: 'An existing spec should be changed or adapted',
-    },
-    'spec/clarify': { 
+    }),
+    label({
+      name: 'spec/clarify',
       color: 'd4c5f9',
       description: 'An existing spec should be clarified',
-    },
-    
+    }),
+
     // special
-    'engineering/blocked': { 
+    label({
+      name: 'engineering/blocked',
       color: 'b60205',
       description: 'This open issue is blocking work in Engineering',
-    },
-    
-    ...reduceAreas(areas),
-  },
-  strict: true,
-}
+    }),
+
+    ...areas,
+  ],
+})

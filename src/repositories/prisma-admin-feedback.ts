@@ -1,6 +1,7 @@
+import { repo } from 'label-sync'
+
 import { common } from '../common/prisma1'
-import { reduceAreas } from '../../utils'
-import { RepositoryConfig } from 'label-sync-core'
+import { area } from '../labels'
 
 const areas = [
   'area/details-section',
@@ -10,12 +11,11 @@ const areas = [
   'area/query-sidebar',
   'area/results-section',
   'area/ui-ux',
-]
+].map(area)
 
-export const prismaAdminFeedback: RepositoryConfig = {
-  labels: {
-    ...common,
-    ...reduceAreas(areas),
+export const prismaAdminFeedback = repo({
+  config: {
+    removeUnconfiguredLabels: true,
   },
-  strict: true,
-}
+  labels: [...common, ...areas],
+})

@@ -1,4 +1,4 @@
-import { Config } from 'label-sync-core'
+import { labelsync } from 'label-sync'
 
 // prisma 1
 import { prisma1 } from './repositories/prisma1'
@@ -24,30 +24,30 @@ import { errorReportingGui } from './repositories/error-reporting-gui'
 import { introspectionCi } from './repositories/introspection-ci'
 import { reIntrospectionCi } from './repositories/re-introspection-ci'
 
-const config: Config = {
-  // prisma 1
-  'prisma/prisma1': prisma1,
-  'prisma/prisma-admin-feedback': prismaAdminFeedback,
-  'prisma/prisma1-examples': prisma1Examples,
+labelsync({
+  repos: {
+    // prisma 1
+    'prisma/prisma1': prisma1,
+    'prisma/prisma-admin-feedback': prismaAdminFeedback,
+    'prisma/prisma1-examples': prisma1Examples,
 
-  // prisma 2
-  'prisma/prisma': prisma,
-  'prisma/prisma-client-js': prismaClientJs,
-  'prisma/migrate': migrate,
-  'prisma/studio': studio,
-  'prisma/specs': specs,
-  'prisma/prisma2-private': prisma2Private,
-  'prisma/prisma-sdk-js': prismaSdkJs,
-  'prisma/prisma-engines': prismaEngines,
-  'prisma/vscode': vscode,
-  'prisma/prisma-examples': prismaExamples,
-  'prisma/prisma-client-go': prismaClientGo,
-  'prisma/quaint': quaint,
-  'prisma/prisma-test-utils': prismaTestUtils,
-  'prisma/prisma2-e2e-tests': prisma2E2eTests,
-  'prisma/error-reporting-gui': errorReportingGui,
-  'prisma/introspection-ci': introspectionCi,
-  'prisma/re-introspection-ci': reIntrospectionCi,
-}
-
-export default config
+    // prisma 2
+    'prisma/prisma': prisma,
+    'prisma/prisma-client-js': prismaClientJs,
+    'prisma/migrate': migrate,
+    'prisma/studio': studio,
+    'prisma/specs': specs,
+    'prisma/prisma2-private': prisma2Private,
+    'prisma/prisma-sdk-js': prismaSdkJs,
+    'prisma/prisma-engines': prismaEngines,
+    'prisma/vscode': vscode,
+    'prisma/prisma-examples': prismaExamples,
+    'prisma/prisma-client-go': prismaClientGo,
+    'prisma/quaint': quaint,
+    'prisma/prisma-test-utils': prismaTestUtils,
+    'prisma/prisma2-e2e-tests': prisma2E2eTests,
+    'prisma/error-reporting-gui': errorReportingGui,
+    'prisma/introspection-ci': introspectionCi,
+    'prisma/re-introspection-ci': reIntrospectionCi,
+  },
+})
