@@ -2,7 +2,7 @@ import { repo } from 'label-sync'
 
 import { common } from '../common/prisma2'
 
-export const introspectionEngineOutput = repo({
+export const introspectionCi = repo({
   config: {
     removeUnconfiguredLabels: false,
   },
