@@ -1,8 +1,8 @@
-# prisma-label-sync 🏷
-
-[![CircleCI](https://circleci.com/gh/prisma/prisma-labelsync.svg?style=svg&circle-token=3b70615f471c85634459a25f887ec378ae1cb79c)](https://circleci.com/gh/prisma/prisma-labelsync)
+# prisma-labelsync 🏷
 
 This repository serves as a central place to apply labels to Github repositories of the `prisma` organization.
+
+TODO Update below!
 
 It uses [`maticzav/label-sync`](https://github.com/maticzav/label-sync) by @maticzav to sync the [configuration held in this repository](https://github.com/prisma/prisma-label-sync/tree/master/src/labels/repositories) to all the [repositories defined](https://github.com/prisma/prisma-label-sync/blob/master/src/labels/index.ts). It is executed via Circle CI integration and workflow when changes to this repository are merged or commited.
 
