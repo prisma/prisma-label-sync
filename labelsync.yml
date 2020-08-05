@@ -1,5 +1,5 @@
 repos:
-  prisma/prisma1:
+  prisma1:
     config:
       removeUnconfiguredLabels: false
     labels:
@@ -224,7 +224,7 @@ repos:
         color: '#b621ff'
         alias: []
         siblings: []
-  prisma/prisma-admin-feedback:
+  prisma-admin-feedback:
     config:
       removeUnconfiguredLabels: true
     labels:
@@ -345,7 +345,7 @@ repos:
         color: '#b621ff'
         alias: []
         siblings: []
-  prisma/prisma1-examples:
+  prisma1-examples:
     config:
       removeUnconfiguredLabels: true
     labels:
@@ -438,10 +438,35 @@ repos:
         color: '#b621ff'
         alias: []
         siblings: []
-  prisma/prisma:
+  prisma:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -547,10 +572,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma-client-js:
+  prisma-client-js:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -656,10 +706,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/migrate:
+  migrate:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -765,10 +840,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/studio:
+  studio:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -874,7 +974,7 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/specs:
+  specs:
     config:
       removeUnconfiguredLabels: true
     labels:
@@ -1045,10 +1145,35 @@ repos:
         color: '#F8F9FA'
         alias: []
         siblings: []
-  prisma/prisma2-private:
+  prisma2-private:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1154,10 +1279,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma-sdk-js:
+  prisma-sdk-js:
     config:
       removeUnconfiguredLabels: true
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1263,28 +1413,33 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma-engines:
+  prisma-engines:
     config:
       removeUnconfiguredLabels: false
     labels:
-      'component: data model parser':
-        color: '#0000FF'
-        description: Data Model Parser
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
         alias: []
         siblings: []
-      'component: introspection engine':
-        color: '#008000'
-        description: Introspection Engine
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
         alias: []
         siblings: []
-      'component: query engine':
-        color: '#ff0000'
-        description: Query Engine
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
         alias: []
         siblings: []
-      'component: migration engine':
-        color: '#ffff00'
-        description: Migration Engine
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
         alias: []
         siblings: []
       status/needs-action:
@@ -1392,10 +1547,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/vscode:
+  vscode:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1501,10 +1681,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma-examples:
+  prisma-examples:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1610,10 +1815,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma-client-go:
+  prisma-client-go:
     config:
       removeUnconfiguredLabels: true
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1719,10 +1949,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/quaint:
+  quaint:
     config:
       removeUnconfiguredLabels: true
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1828,10 +2083,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma-test-utils:
+  prisma-test-utils:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -1937,10 +2217,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/prisma2-e2e-tests:
+  prisma2-e2e-tests:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -2046,10 +2351,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/error-reporting-gui:
+  error-reporting-gui:
     config:
       removeUnconfiguredLabels: false
     labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
@@ -2155,119 +2485,35 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
-  prisma/introspection-engine-output:
+  re-introspection-ci:
     config:
       removeUnconfiguredLabels: false
     labels:
-      status/needs-action:
-        color: '#F8F9FA'
-        description: 'Issue has no activity for a long time, needs some action.'
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
         alias: []
         siblings: []
-      team/other:
-        color: '#FDF4E8'
-        description: Issue for another team that does not fit our nice boxes.
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
         alias: []
         siblings: []
-      team/design:
-        color: '#FDF4E8'
-        description: Issue for team Design.
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
         alias: []
         siblings: []
-      team/devrel:
-        color: '#FDF4E8'
-        description: Issue for team Devrel.
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
         alias: []
         siblings: []
-      team/support:
-        color: '#FDF4E8'
-        description: Issue for team Support.
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
         alias: []
         siblings: []
-      team/webdev:
-        color: '#FDF4E8'
-        description: Issue for team Webdev.
-        alias: []
-        siblings: []
-      team/typescript:
-        color: '#FDF4E8'
-        description: Issue for team TypeScript.
-        alias: []
-        siblings: []
-      team/engines:
-        color: '#FDF4E8'
-        description: Issue for team Engines.
-        alias: []
-        siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
-        siblings: []
-      process/candidate:
-        color: '#EB9100'
-        description: Candidate for next Milestone.
-        alias: []
-        siblings: []
-      kind/question:
-        color: '#3B5BDB'
-        description: Developer asked a question. No code changes required.
-        alias: []
-        siblings: []
-      kind/discussion:
-        color: '#3B5BDB'
-        description: Discussion is required.
-        alias: []
-        siblings: []
-      kind/docs:
-        color: '#3B5BDB'
-        description: A documentation change is required.
-        alias: []
-        siblings: []
-      kind/improvement:
-        color: '#3B5BDB'
-        description: An improvement to existing feature and code.
-        alias: []
-        siblings: []
-      kind/feature:
-        color: '#3B5BDB'
-        description: A request for a new feature.
-        alias: []
-        siblings: []
-      kind/regression:
-        color: '#3B5BDB'
-        description: A reported bug in functionality that used to work before.
-        alias: []
-        siblings: []
-      kind/bug:
-        color: '#3B5BDB'
-        description: A reported bug.
-        alias: []
-        siblings: []
-      bug/2-confirmed:
-        color: '#ee0000'
-        description: We have confirmed that this is a bug.
-        alias: []
-        siblings: []
-      bug/1-repro-available:
-        color: '#ee0000'
-        description: A reproduction exists and needs to be confirmed.
-        alias: []
-        siblings: []
-      bug/0-needs-info:
-        color: '#ee0000'
-        description: More information is needed for reproduction.
-        alias: []
-        siblings: []
-  prisma/re-introspection-ci:
-    config:
-      removeUnconfiguredLabels: false
-    labels:
       status/needs-action:
         color: '#F8F9FA'
         description: 'Issue has no activity for a long time, needs some action.'
