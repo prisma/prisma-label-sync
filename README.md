@@ -2,8 +2,6 @@
 
 This repository serves as a central place to apply labels to Github repositories of the `prisma` organization.
 
-TODO Update below!
-
 It uses [`maticzav/label-sync`](https://github.com/maticzav/label-sync) by @maticzav to sync the [configuration held in this repository](https://github.com/prisma/prisma-labelsync/tree/master/src/repositories) to all the [repositories defined](https://github.com/prisma/prisma-label-sync/blob/master/src/main.ts).
 
 ## Common Tasks
