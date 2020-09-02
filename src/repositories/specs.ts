@@ -106,6 +106,12 @@ export const specs = repo({
       description: 'This open issue is blocking work in Engineering',
     }),
 
+    label({
+      name: 'keep',
+      color: '0e8a16',
+      description: '',
+    }),
+    
     ...areas,
   ],
 })
