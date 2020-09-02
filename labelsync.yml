@@ -1066,6 +1066,11 @@ repos:
         color: '#fbca04'
         alias: []
         siblings: []
+      keep:
+        color: '#0e8a16'
+        description: ''
+        alias: []
+        siblings: []
       engineering/blocked:
         color: '#b60205'
         description: This open issue is blocking work in Engineering
