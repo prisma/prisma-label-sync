@@ -1,16 +1,13 @@
 {
-  "name": "with-typescript",
-  "version": "1.0.0",
+  "name": "prisma-labelsync",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "sync": "ts-node src/index.ts",
-    "build": "tsc -d"
+    "make": "ts-node src/main.ts"
   },
   "dependencies": {
-    "@octokit/plugin-throttling": "^2.6.0",
-    "label-sync-core": "^2.3.5",
-    "meow": "^5.0.0",
-    "multilines": "^1.0.2"
+    "husky": "4.2.5",
+    "label-sync": "3.5.0"
   },
   "devDependencies": {
     "@types/meow": "5.0.0",
@@ -18,6 +15,11 @@
     "prettier": "1.19.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn -s make && git add labelsync.yml"
+    }
   },
   "license": "MIT"
 }
