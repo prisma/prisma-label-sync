@@ -2758,3 +2758,137 @@ repos:
         description: More information is needed for reproduction.
         alias: []
         siblings: []
+  tiberius:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      engines/other:
+        color: '#fcc7e7'
+        description: Issue in the engines repo that does not fit one of the other labels.
+        alias: []
+        siblings: []
+      engines/data model parser:
+        color: '#fcc7e7'
+        description: Issue in the parser for the Prisma schema
+        alias: []
+        siblings: []
+      engines/introspection engine:
+        color: '#fcc7e7'
+        description: Issue in the introspection engine
+        alias: []
+        siblings: []
+      engines/query engine:
+        color: '#fcc7e7'
+        description: Issue in the query engine
+        alias: []
+        siblings: []
+      engines/migration engine:
+        color: '#fcc7e7'
+        description: Issue in the migration engine
+        alias: []
+        siblings: []
+      status/needs-action:
+        color: '#F8F9FA'
+        description: 'Issue has no activity for a long time, needs some action.'
+        alias: []
+        siblings: []
+      team/other:
+        color: '#FDF4E8'
+        description: Issue for another team that does not fit our nice boxes.
+        alias: []
+        siblings: []
+      team/design:
+        color: '#FDF4E8'
+        description: Issue for team Design.
+        alias: []
+        siblings: []
+      team/devrel:
+        color: '#FDF4E8'
+        description: Issue for team Devrel.
+        alias: []
+        siblings: []
+      team/support:
+        color: '#FDF4E8'
+        description: Issue for team Support.
+        alias: []
+        siblings: []
+      team/webdev:
+        color: '#FDF4E8'
+        description: Issue for team Webdev.
+        alias: []
+        siblings: []
+      team/typescript:
+        color: '#FDF4E8'
+        description: Issue for team TypeScript.
+        alias: []
+        siblings: []
+      team/engines:
+        color: '#FDF4E8'
+        description: Issue for team Engines.
+        alias: []
+        siblings: []
+      team/product:
+        color: '#FDF4E8'
+        description: Issue for team Product.
+        alias: []
+        siblings: []
+      process/next-milestone:
+        color: '#EB9100'
+        description: Issue earmarked for next Milestone.
+        alias: []
+        siblings: []
+      process/candidate:
+        color: '#EB9100'
+        description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/question:
+        color: '#3B5BDB'
+        description: Developer asked a question. No code changes required.
+        alias: []
+        siblings: []
+      kind/discussion:
+        color: '#3B5BDB'
+        description: Discussion is required.
+        alias: []
+        siblings: []
+      kind/docs:
+        color: '#3B5BDB'
+        description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/improvement:
+        color: '#3B5BDB'
+        description: An improvement to existing feature and code.
+        alias: []
+        siblings: []
+      kind/feature:
+        color: '#3B5BDB'
+        description: A request for a new feature.
+        alias: []
+        siblings: []
+      kind/regression:
+        color: '#3B5BDB'
+        description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/bug:
+        color: '#3B5BDB'
+        description: A reported bug.
+        alias: []
+        siblings: []
+      bug/2-confirmed:
+        color: '#ee0000'
+        description: We have confirmed that this is a bug.
+        alias: []
+        siblings: []
+      bug/1-repro-available:
+        color: '#ee0000'
+        description: A reproduction exists and needs to be confirmed.
+        alias: []
+        siblings: []
+      bug/0-needs-info:
+        color: '#ee0000'
+        description: More information is needed for reproduction.
+        alias: []
+        siblings: []

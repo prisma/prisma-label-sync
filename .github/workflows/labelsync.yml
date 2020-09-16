@@ -3,12 +3,12 @@ on:
     types: [opened]
   issue_comment:
     types: [created]
-
+    
 jobs:
   regenerate-labelsync:
     runs-on: ubuntu-latest
     steps:
-
+    
       - uses: khan/pull-request-comment-trigger@master
         id: check
         with:
