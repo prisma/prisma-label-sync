@@ -1,0 +1,30 @@
+on:
+  pull_request:
+    types: [opened]
+  issue_comment:
+    types: [created]
+    
+jobs:
+  "regenerate labelsync.yml":
+    runs-on: ubuntu-latest
+    steps:
+    
+      - uses: khan/pull-request-comment-trigger@master
+        id: check
+        with:
+          trigger: '/labelsync'
+          reaction: rocket
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      
+      - uses: actions/checkout@v2
+        if: steps.check.outputs.triggered == 'true'
+      
+      - run: 'yarn'
+        if: steps.check.outputs.triggered == 'true'
+        
+      - run: 'yarn -s make && git add labelsync.yml'
+        if: steps.check.outputs.triggered == 'true'
+        
+      - run: 'git commit -m "Regenerate labelsync.yml" && git push origin ${GITHUB_REF##*/}'
+        if: steps.check.outputs.triggered == 'true'
