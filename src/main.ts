@@ -23,6 +23,7 @@ import { e2eTests } from "./repositories/e2e-tests";
 import { errorReportingGui } from "./repositories/error-reporting-gui";
 import { introspectionCi } from "./repositories/introspection-ci";
 import { reIntrospectionCi } from "./repositories/re-introspection-ci";
+import { tiberius } from "./repositories/tiberius";
 
 labelsync({
   repos: {
@@ -48,6 +49,7 @@ labelsync({
     "e2e-tests": e2eTests,
     "error-reporting-gui": errorReportingGui,
     "introspection-ci": introspectionCi,
-    "re-introspection-ci": reIntrospectionCi
+    "re-introspection-ci": reIntrospectionCi,
+    "tiberius": tiberius
   }
 });
