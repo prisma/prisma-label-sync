@@ -23,7 +23,7 @@ jobs:
       - run: 'yarn'
         if: steps.check.outputs.triggered == 'true'
 
-      - run: 'yarn -s make'
+      - run: 'yarn make'
         if: steps.check.outputs.triggered == 'true'
     
       - uses: stefanzweifel/git-auto-commit-action@v4
