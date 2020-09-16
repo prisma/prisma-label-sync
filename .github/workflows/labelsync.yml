@@ -25,6 +25,8 @@ jobs:
 
       - run: 'yarn -s make && git add labelsync.yml'
         if: steps.check.outputs.triggered == 'true'
-
-      - run: 'git commit -m "Regenerate labelsync.yml" && git push origin ${GITHUB_REF##*/}'
+    
+      - uses: stefanzweifel/git-auto-commit-action@v4
         if: steps.check.outputs.triggered == 'true'
+        with:
+          commit_message: Regenerate labelsync.yml
