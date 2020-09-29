@@ -27,5 +27,5 @@ To work around this, you can _manually_ rename an existing label to its new name
 ### Apply configuration changes
 
 - When you create a Pull Request your changes (_with_ `labelsync.yml` generated changes via e.g. the precommit hook) will automatically be "dry run" by the GitHub App and a comment will be posted which summarizes the expected changes. 
-- When you create a Pull Request your changes (_without_ `labelsync.yml` generated cahnges) you can comment `/labelsync` on the PR to trigger a Github Actions that runs the generation for you and commits the file to your PR branch. This way you can also edit the source code via Github UI for example. The Github app will automatically "dry run"  and a comment will be posted which summarizes the expected changes. 
+- When you create a Pull Request your changes (_without_ `labelsync.yml` generated changes) you can comment `/labelsync` on the PR to trigger a Github Actions that runs the generation for you and commits the file to your PR branch. This way you can also edit the source code via Github UI for example. The Github app will automatically "dry run"  and a comment will be posted which summarizes the expected changes. 
 - On merge, the changes will then be applied to the repositories.
