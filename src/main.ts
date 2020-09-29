@@ -24,6 +24,7 @@ import { errorReportingGui } from "./repositories/error-reporting-gui";
 import { introspectionCi } from "./repositories/introspection-ci";
 import { reIntrospectionCi } from "./repositories/re-introspection-ci";
 import { tiberius } from "./repositories/tiberius";
+import { systemBehavior } from "./repositories/system-behavior";
 
 labelsync({
   repos: {
@@ -50,6 +51,7 @@ labelsync({
     "error-reporting-gui": errorReportingGui,
     "introspection-ci": introspectionCi,
     "re-introspection-ci": reIntrospectionCi,
-    "tiberius": tiberius
+    "tiberius": tiberius,
+    "system-behavior": systemBehavior
   }
 });
