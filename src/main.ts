@@ -26,6 +26,7 @@ import { reIntrospectionCi } from "./repositories/re-introspection-ci";
 import { tiberius } from "./repositories/tiberius";
 import { systemBehavior } from "./repositories/system-behavior";
 import { checkpointClient } from './repositories/checkpoint-client'
+import { checkpointPrismaIo } from './repositories/checkpoint-prisma-io'
 
 labelsync({
   repos: {
@@ -54,6 +55,7 @@ labelsync({
     "re-introspection-ci": reIntrospectionCi,
     "tiberius": tiberius,
     "system-behavior": systemBehavior,
-    "checkpoint-client": checkpointClient
+    "checkpoint-client": checkpointClient,
+    "checkpoint.prisma.io": checkpointPrismaIo
   }
 });
