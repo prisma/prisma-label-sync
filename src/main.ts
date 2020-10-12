@@ -25,6 +25,7 @@ import { introspectionCi } from "./repositories/introspection-ci";
 import { reIntrospectionCi } from "./repositories/re-introspection-ci";
 import { tiberius } from "./repositories/tiberius";
 import { systemBehavior } from "./repositories/system-behavior";
+import { checkpointClient } from './repositories/checkpoint-client'
 
 labelsync({
   repos: {
@@ -52,6 +53,7 @@ labelsync({
     "introspection-ci": introspectionCi,
     "re-introspection-ci": reIntrospectionCi,
     "tiberius": tiberius,
-    "system-behavior": systemBehavior
+    "system-behavior": systemBehavior,
+    "checkpoint-client": checkpointClient
   }
 });
