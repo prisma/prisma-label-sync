@@ -53,6 +53,11 @@ export const common: Label[] = [
     description: 'An improvement to existing feature and code.',
   }),
   label({
+    name: 'kind/tech',
+    color: colors.kind,
+    description: 'A technical change.',
+  }),
+  label({
     name: 'kind/docs',
     color: colors.kind,
     description: 'A documentation change is required.',

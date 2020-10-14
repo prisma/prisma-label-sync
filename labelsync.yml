@@ -537,6 +537,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -669,6 +674,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -805,6 +815,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -937,6 +952,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -1249,6 +1269,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -1381,6 +1406,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -1517,6 +1547,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -1649,6 +1684,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -1785,6 +1825,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -1917,6 +1962,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -2053,6 +2103,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -2185,6 +2240,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -2321,6 +2381,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -2453,6 +2518,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -2589,6 +2659,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -2721,6 +2796,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -2857,6 +2937,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -2989,6 +3074,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
@@ -3125,6 +3215,11 @@ repos:
         description: A documentation change is required.
         alias: []
         siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
+        alias: []
+        siblings: []
       kind/improvement:
         color: '#3B5BDB'
         description: An improvement to existing feature and code.
@@ -3257,6 +3352,11 @@ repos:
       kind/docs:
         color: '#3B5BDB'
         description: A documentation change is required.
+        alias: []
+        siblings: []
+      kind/tech:
+        color: '#3B5BDB'
+        description: A technical change.
         alias: []
         siblings: []
       kind/improvement:
