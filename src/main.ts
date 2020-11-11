@@ -27,6 +27,7 @@ import { tiberius } from "./repositories/tiberius";
 import { systemBehavior } from "./repositories/system-behavior";
 import { checkpointClient } from './repositories/checkpoint-client'
 import { checkpointPrismaIo } from './repositories/checkpoint-prisma-io'
+import { migrationsCi } from "./repositories/migrations-ci";
 
 labelsync({
   repos: {
@@ -56,6 +57,7 @@ labelsync({
     "tiberius": tiberius,
     "system-behavior": systemBehavior,
     "checkpoint-client": checkpointClient,
-    "checkpoint.prisma.io": checkpointPrismaIo
+    "checkpoint.prisma.io": checkpointPrismaIo,
+    "migrations-ci": migrationsCi
   }
 });
