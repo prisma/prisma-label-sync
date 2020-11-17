@@ -114,7 +114,7 @@ export const common: Label[] = [
     description: 'Issue for team Developer Productivity.',
   }),
   label({
-    name: 'team/support',
+    name: 'team/support-engineering',
     color: colors.team,
     description: 'Issue for team Support Engineering.',
     alias: ["team/support"],
