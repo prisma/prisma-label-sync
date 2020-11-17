@@ -107,7 +107,7 @@ export const common: Label[] = [
     name: 'team/migrations',
     color: colors.team,
     description: 'Issue for team Migrations.',
-  }),
+  }), 
   label({
     name: 'team/developer-productivity',
     color: colors.team,
