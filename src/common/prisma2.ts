@@ -7,7 +7,7 @@ export const colors = {
   status: 'F8F9FA',
   bug: 'ee0000',
   team: 'FDF4E8',
-  tech: 'FDF4E8',
+  tech: '5319e7',
   process: 'EB9100',
   engines: 'fcc7e7',
   // unused
