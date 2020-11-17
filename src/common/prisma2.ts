@@ -7,6 +7,7 @@ export const colors = {
   status: 'F8F9FA',
   bug: 'ee0000',
   team: 'FDF4E8',
+  tech: 'FDF4E8',
   process: 'EB9100',
   engines: 'fcc7e7',
   // unused
@@ -85,19 +86,22 @@ export const common: Label[] = [
   }),
 
   label({
+    name: 'tech/engines',
+    color: colors.tech,
+    description: 'Issue for tech Engines.',
+    alias: ["team/engines"],
+  }),
+  label({
+    name: 'tech/typescript',
+    color: colors.tech,
+    description: 'Issue for tech TypeScript.',
+    alias: ["team/typescript"],
+  }),
+  
+  label({
     name: 'team/product',
     color: colors.team,
     description: 'Issue for team Product.',
-  }),
-  label({
-    name: 'team/engines',
-    color: colors.team,
-    description: 'Issue for team Engines.',
-  }),
-  label({
-    name: 'team/typescript',
-    color: colors.team,
-    description: 'Issue for team TypeScript.',
   }),
   label({
     name: 'team/webdev',
