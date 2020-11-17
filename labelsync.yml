@@ -482,24 +482,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -623,24 +629,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -764,24 +776,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -905,24 +923,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -1222,24 +1246,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -1363,24 +1393,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -1504,24 +1540,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -1645,24 +1687,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -1786,24 +1834,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -1927,24 +1981,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2068,24 +2128,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2209,24 +2275,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2350,24 +2422,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2491,24 +2569,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2632,24 +2716,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2773,24 +2863,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -2914,24 +3010,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -3055,24 +3157,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -3196,24 +3304,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -3337,24 +3451,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
@@ -3478,24 +3598,30 @@ repos:
         description: Issue for team Design.
         alias: []
         siblings: []
-      team/devrel:
+      team/product:
         color: '#FDF4E8'
-        description: Issue for team Devrel.
+        description: Issue for team Product.
         alias: []
         siblings: []
       team/support:
         color: '#FDF4E8'
-        description: Issue for team Support.
+        description: Issue for team Support Engineering.
+        alias:
+          - team/support
+        siblings: []
+      team/developer-productivity:
+        color: '#FDF4E8'
+        description: Issue for team Developer Productivity.
         alias: []
         siblings: []
-      team/webdev:
+      team/migrations:
         color: '#FDF4E8'
-        description: Issue for team Webdev.
+        description: Issue for team Migrations.
         alias: []
         siblings: []
-      team/product:
+      team/client:
         color: '#FDF4E8'
-        description: Issue for team Product.
+        description: Issue for team Client.
         alias: []
         siblings: []
       tech/typescript:
