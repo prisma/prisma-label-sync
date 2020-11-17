@@ -18,7 +18,6 @@ import { languageTools } from "./repositories/language-tools";
 import { prismaExamples } from "./repositories/prisma-examples";
 import { prismaClientGo } from "./repositories/prisma-client-go";
 import { quaint } from "./repositories/quaint";
-import { prismaTestUtils } from "./repositories/prisma-test-utils";
 import { e2eTests } from "./repositories/e2e-tests";
 import { errorReportingGui } from "./repositories/error-reporting-gui";
 import { introspectionCi } from "./repositories/introspection-ci";
@@ -49,7 +48,6 @@ labelsync({
     "prisma-examples": prismaExamples,
     "prisma-client-go": prismaClientGo,
     quaint: quaint,
-    "prisma-test-utils": prismaTestUtils,
     "e2e-tests": e2eTests,
     "error-reporting-gui": errorReportingGui,
     "introspection-ci": introspectionCi,
