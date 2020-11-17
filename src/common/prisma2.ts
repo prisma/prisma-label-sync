@@ -99,24 +99,31 @@ export const common: Label[] = [
   }),
   
   label({
+    name: 'team/client',
+    color: colors.team,
+    description: 'Issue for team Client.',
+  }),
+  label({
+    name: 'team/migrations',
+    color: colors.team,
+    description: 'Issue for team Migrations.',
+  }), 
+  label({
+    name: 'team/developer-productivity',
+    color: colors.team,
+    description: 'Issue for team Developer Productivity.',
+  }),
+  label({
+    name: 'team/support-engineering',
+    color: colors.team,
+    description: 'Issue for team Support Engineering.',
+    alias: ["team/support"],
+  }),
+  
+  label({
     name: 'team/product',
     color: colors.team,
     description: 'Issue for team Product.',
-  }),
-  label({
-    name: 'team/webdev',
-    color: colors.team,
-    description: 'Issue for team Webdev.',
-  }),
-  label({
-    name: 'team/support',
-    color: colors.team,
-    description: 'Issue for team Support.',
-  }),
-  label({
-    name: 'team/devrel',
-    color: colors.team,
-    description: 'Issue for team Devrel.',
   }),
   label({
     name: 'team/design',
@@ -128,6 +135,7 @@ export const common: Label[] = [
     color: colors.team,
     description: 'Issue for another team that does not fit our nice boxes.',
   }),
+  
   label({
     name: 'status/needs-action',
     color: colors.status,
