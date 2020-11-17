@@ -20,9 +20,7 @@ Note: The current configuration uses `lowerCamelCase` for the repositories, so a
 
 ### Rename an existing label
 
-`label-sync` itself does not support renaming an existing label - if you rename a label it will first remove the old one, then add the new on with the new name. This will obviously remove the association of that label with existing issues and pull requests.
-
-To work around this, you can _manually_ rename an existing label to its new name (or ask someone that has the necessary GitHub permissions). Then `label-sync` will just update the description and color during the next run and the association with issues will stay as it should.
+`label-sync` supports renaming labels via the `alias` property. Rename the label, then add a `alias` property with a list of the old names for `label-sync` to be able to make the connection and rename instead of deleting the old and creating a new label.
 
 ### Apply configuration changes
 
