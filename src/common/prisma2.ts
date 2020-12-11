@@ -79,11 +79,6 @@ export const common: Label[] = [
     color: colors.process,
     description: 'Candidate for next Milestone.',
   }),
-  label({
-    name: 'process/next-milestone',
-    color: colors.process,
-    description: 'Issue earmarked for next Milestone.',
-  }),
 
   label({
     name: 'tech/engines',
@@ -120,11 +115,6 @@ export const common: Label[] = [
     alias: ["team/support"],
   }),
   
-  label({
-    name: 'team/product',
-    color: colors.team,
-    description: 'Issue for team Product.',
-  }),
   label({
     name: 'team/other',
     color: colors.team,
