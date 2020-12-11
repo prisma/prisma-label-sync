@@ -27,6 +27,8 @@ import { systemBehavior } from "./repositories/system-behavior";
 import { checkpointClient } from './repositories/checkpoint-client'
 import { checkpointPrismaIo } from './repositories/checkpoint-prisma-io'
 import { migrationsCi } from "./repositories/migrations-ci";
+import { connectionString } from "./repositories/connection-string";
+
 
 labelsync({
   repos: {
@@ -56,6 +58,7 @@ labelsync({
     "system-behavior": systemBehavior,
     "checkpoint-client": checkpointClient,
     "checkpoint.prisma.io": checkpointPrismaIo,
-    "migrations-ci": migrationsCi
+    "migrations-ci": migrationsCi,
+    "connection-string": connectionString
   }
 });
