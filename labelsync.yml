@@ -477,11 +477,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -514,11 +509,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -619,11 +609,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -656,11 +641,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -761,11 +741,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -798,11 +773,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -903,11 +873,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -940,11 +905,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -1221,11 +1181,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1258,11 +1213,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -1363,11 +1313,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1400,11 +1345,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -1505,11 +1445,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1542,11 +1477,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -1647,11 +1577,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1684,11 +1609,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -1789,11 +1709,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1826,11 +1741,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -1931,11 +1841,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1968,11 +1873,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2073,11 +1973,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2110,11 +2005,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2215,11 +2105,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2252,11 +2137,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2357,11 +2237,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2394,11 +2269,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2499,11 +2369,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2536,11 +2401,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2641,11 +2501,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2678,11 +2533,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2783,11 +2633,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2820,11 +2665,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -2925,11 +2765,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2962,11 +2797,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -3067,11 +2897,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -3104,11 +2929,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -3209,11 +3029,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -3246,11 +3061,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -3351,11 +3161,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -3388,11 +3193,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
@@ -3493,11 +3293,6 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
-      team/product:
-        color: '#FDF4E8'
-        description: Issue for team Product.
-        alias: []
-        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -3530,11 +3325,6 @@ repos:
         description: Issue for tech Engines.
         alias:
           - team/engines
-        siblings: []
-      process/next-milestone:
-        color: '#EB9100'
-        description: Issue earmarked for next Milestone.
-        alias: []
         siblings: []
       process/candidate:
         color: '#EB9100'
