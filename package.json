@@ -6,7 +6,7 @@
     "make": "ts-node src/main.ts"
   },
   "dependencies": {
-    "husky": "4.2.5",
+    "husky": "4.3.8",
     "label-sync": "3.5.30"
   },
   "devDependencies": {
