@@ -3108,55 +3108,55 @@ repos:
         alias: []
         siblings: []
       ci:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: About our continuous integration pipelines
         alias:
           - scope/ci
         siblings: []
       ops:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: 'About anything operational, monitoring, analytics, ...'
         alias:
           - scope/ops
         siblings: []
       db:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: 'About the prisma schema models, migrations'
         alias:
           - scope/db
         siblings: []
       gui/lib:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: About reusable components
         alias:
           - scope/gui/lib
         siblings: []
       gui/app:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: About views and layouts
         alias:
           - scope/gui/app
         siblings: []
       api:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: About the GraphQL cloud API
         alias:
           - scope/api
         siblings: []
       authz:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: 'About permissions to perform actions on resources, roles'
         alias:
           - scope/authz
         siblings: []
       authn:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: 'About authentication, signin, tokens, signout'
         alias:
           - scope/authn
         siblings: []
       lens:
-        color: '#FDE68A'
+        color: '#60A5FA'
         description: About the Prisma Lens UI library
         alias:
           - scope/lens
