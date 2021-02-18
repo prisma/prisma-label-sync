@@ -9,7 +9,6 @@ import { prisma1Examples } from "./repositories/prisma1-examples";
 import { prisma } from "./repositories/prisma";
 import { studio } from "./repositories/studio";
 import { migrate } from "./repositories/migrate";
-import { specs } from "./repositories/specs";
 import { prisma2Private } from "./repositories/prisma2-private";
 import { prismaEngines } from "./repositories/prisma-engines";
 import { languageTools } from "./repositories/language-tools";
@@ -38,10 +37,8 @@ labelsync({
 
     // prisma 2
     prisma: prisma,
-    "prisma-client-js": prismaClientJs,
     migrate: migrate,
     studio: studio,
-    specs: specs,
     "prisma2-private": prisma2Private,
     "prisma-engines": prismaEngines,
     "language-tools": languageTools,
