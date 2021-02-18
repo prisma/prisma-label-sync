@@ -13,11 +13,11 @@ export const theme = {
   refine: '#FBCFE8',
   great: '#A7F3D0',
   good: '#D1FAE5',
-  critical: '#F84C56',
+  critical: '#D23C09',
   danger: '#F87171',
   warning: '#FDE68A',
   social: '#C4B5FD',
-  info: '#60A5FA',
+  info: '#6366F1',
 }
 
 /**
@@ -175,8 +175,8 @@ export const libraryLabels = [
 export const commonLabels = [
   type('feat',            theme.great,     'Add a new capability or enhance an existing one'),
   type('improve',         theme.good,      'Something existing is made better, does not affect the interface (example: better error message)'),
-  type('bug',             theme.critical,    'Something is not working the way it should'),
-  type('chore',           theme.neutral,    'Something that does not warrant a release, zero runtime impact'),
+  type('bug',             theme.critical,  'Something is not working the way it should'),
+  type('chore',           theme.warning,   'Something that does not warrant a release, zero runtime impact'),
   type('perf',            theme.refine,    'Improve the efficiency of something'),
   type('tests',           theme.refine,    'Internal tests'),
   type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),

@@ -3082,6 +3082,12 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      github:
+        color: '#6366F1'
+        description: Related to GitHub integration somehow
+        alias:
+          - scope/github
+        siblings: []
       needs/upstream:
         color: '#F87171'
         description: An upstream component needs to be updated first
@@ -3108,55 +3114,55 @@ repos:
         alias: []
         siblings: []
       ci:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: About our continuous integration pipelines
         alias:
           - scope/ci
         siblings: []
       ops:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: 'About anything operational, monitoring, analytics, ...'
         alias:
           - scope/ops
         siblings: []
       db:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: 'About the prisma schema models, migrations'
         alias:
           - scope/db
         siblings: []
       gui/lib:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: About reusable components
         alias:
           - scope/gui/lib
         siblings: []
       gui/app:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: About views and layouts
         alias:
           - scope/gui/app
         siblings: []
       api:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: About the GraphQL cloud API
         alias:
           - scope/api
         siblings: []
       authz:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: 'About permissions to perform actions on resources, roles'
         alias:
           - scope/authz
         siblings: []
       authn:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: 'About authentication, signin, tokens, signout'
         alias:
           - scope/authn
         siblings: []
       lens:
-        color: '#60A5FA'
+        color: '#6366F1'
         description: About the Prisma Lens UI library
         alias:
           - scope/lens
@@ -3192,12 +3198,12 @@ repos:
         alias: []
         siblings: []
       type/chore:
-        color: '#F3F4F6'
+        color: '#FDE68A'
         description: 'Something that does not warrant a release, zero runtime impact'
         alias: []
         siblings: []
       type/bug:
-        color: '#F84C56'
+        color: '#D23C09'
         description: Something is not working the way it should
         alias: []
         siblings: []
