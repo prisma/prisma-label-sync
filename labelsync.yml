@@ -3198,7 +3198,7 @@ repos:
         alias: []
         siblings: []
       type/chore:
-        color: '##FFE601'
+        color: '#FFE601'
         description: 'Something that does not warrant a release, zero runtime impact'
         alias: []
         siblings: []

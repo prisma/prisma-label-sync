@@ -12,7 +12,7 @@ export const theme = {
   good: '#D1FAE5',
   critical: '#E94B63',
   danger: '#F87171',
-  warning: '##FFE601',
+  warning: '#FFE601',
   social: '#EDE9FE',
   info: '#6366F1',
 }
