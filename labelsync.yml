@@ -3168,32 +3168,32 @@ repos:
           - scope/lens
         siblings: []
       type/design:
-        color: '#FBCFE8'
+        color: '##EDD8B0'
         description: Detailed analysis of some feature/area in document form
         alias: []
         siblings: []
       type/spec:
-        color: '#FBCFE8'
+        color: '##EDD8B0'
         description: Detailed analysis of some feature/area in document form
         alias: []
         siblings: []
       type/deps:
-        color: '#FBCFE8'
+        color: '##EDD8B0'
         description: 'A dependency upgrade visible to users (so, not devDeps)'
         alias: []
         siblings: []
       type/refactor:
-        color: '#FBCFE8'
+        color: '##EDD8B0'
         description: 'Address tech debt, internal incidental complexity'
         alias: []
         siblings: []
       type/tests:
-        color: '#FBCFE8'
+        color: '##EDD8B0'
         description: Internal tests
         alias: []
         siblings: []
       type/perf:
-        color: '#FBCFE8'
+        color: '##EDD8B0'
         description: Improve the efficiency of something
         alias: []
         siblings: []

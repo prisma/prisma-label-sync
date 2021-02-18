@@ -7,7 +7,7 @@ interface ExtraOptions {
 
 export const theme = {
   neutral: '#F3F4F6',
-  refine: '#FBCFE8',
+  refine: '##EDD8B0',
   great: '#85EC94',
   good: '#D1FAE5',
   critical: '#E94B63',
