@@ -13,10 +13,11 @@ export const theme = {
   refine: '#FBCFE8',
   great: '#A7F3D0',
   good: '#D1FAE5',
-  danger: '#F84C56',
-  warning: '#F87171',
+  critical: '#F84C56',
+  danger: '#F87171',
+  warning: '#FDE68A',
   social: '#C4B5FD',
-  info: '#FDE68A',
+  info: '#60A5FA',
 }
 
 /**
@@ -89,7 +90,7 @@ export const needs = (
   extraOptions?: ExtraOptions,
 ): Label => ({
   name: `needs/${name}`,
-  color: theme.warning,
+  color: theme.danger,
   description: description,
   ...extraOptions,
 })
@@ -105,10 +106,11 @@ export function scope(
   extraOptions?: ExtraOptions,
 ): Label {
   return {
-    name: `scope/${name}`,
+    name: `${name}`,
     color: theme.info,
     description: description,
     ...extraOptions,
+    alias: [`scope/${name}`, ...(extraOptions?.alias ?? [])],
   }
 }
 
@@ -173,7 +175,7 @@ export const libraryLabels = [
 export const commonLabels = [
   type('feat',            theme.great,     'Add a new capability or enhance an existing one'),
   type('improve',         theme.good,      'Something existing is made better, does not affect the interface (example: better error message)'),
-  type('bug',             theme.danger,    'Something is not working the way it should'),
+  type('bug',             theme.critical,    'Something is not working the way it should'),
   type('chore',           theme.neutral,    'Something that does not warrant a release, zero runtime impact'),
   type('perf',            theme.refine,    'Improve the efficiency of something'),
   type('tests',           theme.refine,    'Internal tests'),

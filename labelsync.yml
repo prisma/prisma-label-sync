@@ -3107,50 +3107,59 @@ repos:
         description: Members of the product team are responsible for this
         alias: []
         siblings: []
-      scope/ci:
-        color: '#FDE68A'
+      ci:
+        color: '#60A5FA'
         description: About our continuous integration pipelines
-        alias: []
+        alias:
+          - scope/ci
         siblings: []
-      scope/ops:
-        color: '#FDE68A'
+      ops:
+        color: '#60A5FA'
         description: 'About anything operational, monitoring, analytics, ...'
-        alias: []
+        alias:
+          - scope/ops
         siblings: []
-      scope/db:
-        color: '#FDE68A'
+      db:
+        color: '#60A5FA'
         description: 'About the prisma schema models, migrations'
-        alias: []
+        alias:
+          - scope/db
         siblings: []
-      scope/gui/lib:
-        color: '#FDE68A'
+      gui/lib:
+        color: '#60A5FA'
         description: About reusable components
-        alias: []
+        alias:
+          - scope/gui/lib
         siblings: []
-      scope/gui/app:
-        color: '#FDE68A'
+      gui/app:
+        color: '#60A5FA'
         description: About views and layouts
-        alias: []
+        alias:
+          - scope/gui/app
         siblings: []
-      scope/api:
-        color: '#FDE68A'
+      api:
+        color: '#60A5FA'
         description: About the GraphQL cloud API
-        alias: []
+        alias:
+          - scope/api
         siblings: []
-      scope/authz:
-        color: '#FDE68A'
+      authz:
+        color: '#60A5FA'
         description: 'About permissions to perform actions on resources, roles'
-        alias: []
+        alias:
+          - scope/authz
         siblings: []
-      scope/authn:
-        color: '#FDE68A'
+      authn:
+        color: '#60A5FA'
         description: 'About authentication, signin, tokens, signout'
-        alias: []
+        alias:
+          - scope/authn
         siblings: []
-      scope/lens:
-        color: '#FDE68A'
+      lens:
+        color: '#60A5FA'
         description: About the Prisma Lens UI library
-        alias: []
+        alias:
+          - scope/lens
         siblings: []
       type/design:
         color: '#FBCFE8'
