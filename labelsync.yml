@@ -3099,17 +3099,17 @@ repos:
         alias: []
         siblings: []
       team/design:
-        color: '#C4B5FD'
+        color: '#EDE9FE'
         description: Members of the design team are responsible for this
         alias: []
         siblings: []
       team/engineering:
-        color: '#C4B5FD'
+        color: '#EDE9FE'
         description: Members of the engineering team are responsible for this
         alias: []
         siblings: []
       team/product:
-        color: '#C4B5FD'
+        color: '#EDE9FE'
         description: Members of the product team are responsible for this
         alias: []
         siblings: []
@@ -3198,12 +3198,12 @@ repos:
         alias: []
         siblings: []
       type/chore:
-        color: '#FDE68A'
+        color: '##FFE601'
         description: 'Something that does not warrant a release, zero runtime impact'
         alias: []
         siblings: []
       type/bug:
-        color: '#D23C09'
+        color: '#E94B63'
         description: Something is not working the way it should
         alias: []
         siblings: []
@@ -3215,7 +3215,7 @@ repos:
         alias: []
         siblings: []
       type/feat:
-        color: '#A7F3D0'
+        color: '#85EC94'
         description: Add a new capability or enhance an existing one
         alias: []
         siblings: []

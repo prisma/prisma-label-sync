@@ -5,18 +5,15 @@ interface ExtraOptions {
   alias?: Label['alias']
 }
 
-/**
- * Colors taken from https://tailwindcss.com/docs/customizing-colors
- */
 export const theme = {
   neutral: '#F3F4F6',
   refine: '#FBCFE8',
-  great: '#A7F3D0',
+  great: '#85EC94',
   good: '#D1FAE5',
-  critical: '#D23C09',
+  critical: '#E94B63',
   danger: '#F87171',
-  warning: '#FDE68A',
-  social: '#C4B5FD',
+  warning: '##FFE601',
+  social: '#EDE9FE',
   info: '#6366F1',
 }
 
