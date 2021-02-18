@@ -28,8 +28,7 @@ import { checkpointClient } from './repositories/checkpoint-client'
 import { checkpointPrismaIo } from './repositories/checkpoint-prisma-io'
 import { migrationsCi } from './repositories/migrations-ci'
 import { connectionString } from './repositories/connection-string'
-import { cloud } from './repositories/cloud'
-import { toLabelSyncConfig } from './labelsync-wrapper'
+import { cloudRepos } from './cloud'
 
 labelsync({
   repos: {
@@ -61,6 +60,6 @@ labelsync({
     'checkpoint.prisma.io': checkpointPrismaIo,
     'migrations-ci': migrationsCi,
     'connection-string': connectionString,
-    ...toLabelSyncConfig([cloud]).repos,
+    ...cloudRepos,
   },
 })
