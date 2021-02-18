@@ -105,10 +105,11 @@ export function scope(
   extraOptions?: ExtraOptions,
 ): Label {
   return {
-    name: `scope/${name}`,
+    name: `${name}`,
     color: theme.info,
     description: description,
     ...extraOptions,
+    alias: [`scope/${name}`, ...(extraOptions?.alias ?? [])],
   }
 }
 
