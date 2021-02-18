@@ -1,5 +1,10 @@
 import { Label } from '../labelsync-wrapper'
 
+interface ExtraOptions {
+  siblings?: Label['siblings']
+  alias?: Label['alias']
+}
+
 /**
  * Colors taken from https://tailwindcss.com/docs/customizing-colors
  */
@@ -11,11 +16,6 @@ export const theme = {
   danger: '#EF4444',
   warning: '#FFCF2D',
   social: '#A78BFA',
-}
-
-interface ExtraOptions {
-  siblings?: Label['siblings']
-  alias?: Label['alias']
 }
 
 /**
@@ -143,6 +143,9 @@ export function team(
   }
 }
 
+/**
+ * Useful labels for open source repos.
+ */
 //prettier-ignore
 export const ossLabels = [
   type('question',        theme.social,    ''),
@@ -153,12 +156,18 @@ export const ossLabels = [
   needs('discussion',                      'Open-ended conversation about something (ideation, design, analysis, ...)'),
 ]
 
+/**
+ * Useful labels for libraries.
+ */
 //prettier-ignore
 export const libraryLabels = [
   type('docs',            theme.refine,    'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
   note('breaking-change',                  'This issue existed already'), // todo consider color exception
 ]
 
+/**
+ * Useful labels for most everything.
+ */
 //prettier-ignore
 export const commonLabels = [
   type('feat',            theme.shiny,     'Add a new capability or enhance an existing one'),
@@ -170,21 +179,20 @@ export const commonLabels = [
   type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
   type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
 
-  scope('lens',         'About the Prisma Lens UI library'),
-  scope('authn',        'About authentication, signin, tokens, signout'),
-  scope('authz',        'About permissions to perform actions on resources, roles'),
-  scope('api',          'About the GraphQL cloud API'),
-  scope('gui',          'About the Cloud webapp'),
-  scope('db',           'About the prisma schema models, migrations'),
-  scope('ops',          'About anything operational, monitoring, analytics, ...'),
-  scope('ci',           'About our continuous integration pipelines'),
-
-  team('product',       'Members of the product team are responsible for this'),
-  team('engineering',   'Members of the engineering team are responsible for this'),
-  team('design',        'Members of the design team are responsible for this'),
-
+  scope('lens',                            'About the Prisma Lens UI library'),
+  scope('authn',                           'About authentication, signin, tokens, signout'),
+  scope('authz',                           'About permissions to perform actions on resources, roles'),
+  scope('api',                             'About the GraphQL cloud API'),
+  scope('gui',                             'About the Cloud webapp'),
+  scope('db',                              'About the prisma schema models, migrations'),
+  scope('ops',                             'About anything operational, monitoring, analytics, ...'),
+  scope('ci',                              'About our continuous integration pipelines'),
+                   
+  team('product',                          'Members of the product team are responsible for this'),
+  team('engineering',                      'Members of the engineering team are responsible for this'),
+  team('design',                           'Members of the design team are responsible for this'),
+                   
   note('invalid',                          'Initial assumptions turned out wrong'),
-
+                   
   needs('upstream',                        'An upstream component needs to be updated first'),
-
 ] as Label[]
