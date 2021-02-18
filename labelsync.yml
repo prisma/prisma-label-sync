@@ -3083,109 +3083,119 @@ repos:
       removeUnconfiguredLabels: true
     labels:
       needs/upstream:
-        color: '#FFCF2D'
+        color: '#F87171'
         description: An upstream component needs to be updated first
         alias: []
         siblings: []
       note/invalid:
-        color: '#EEEEEE'
+        color: '#F3F4F6'
         description: Initial assumptions turned out wrong
         alias: []
         siblings: []
       team/design:
-        color: '#A78BFA'
+        color: '#C4B5FD'
         description: Members of the design team are responsible for this
         alias: []
         siblings: []
       team/engineering:
-        color: '#A78BFA'
+        color: '#C4B5FD'
         description: Members of the engineering team are responsible for this
         alias: []
         siblings: []
       team/product:
-        color: '#A78BFA'
+        color: '#C4B5FD'
         description: Members of the product team are responsible for this
         alias: []
         siblings: []
       scope/ci:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: About our continuous integration pipelines
         alias: []
         siblings: []
       scope/ops:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: 'About anything operational, monitoring, analytics, ...'
         alias: []
         siblings: []
       scope/db:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: 'About the prisma schema models, migrations'
         alias: []
         siblings: []
-      scope/gui:
-        color: '#94ebfc'
-        description: About the Cloud webapp
+      scope/gui/lib:
+        color: '#FDE68A'
+        description: About reusable components
+        alias: []
+        siblings: []
+      scope/gui/app:
+        color: '#FDE68A'
+        description: About views and layouts
         alias: []
         siblings: []
       scope/api:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: About the GraphQL cloud API
         alias: []
         siblings: []
       scope/authz:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: 'About permissions to perform actions on resources, roles'
         alias: []
         siblings: []
       scope/authn:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: 'About authentication, signin, tokens, signout'
         alias: []
         siblings: []
       scope/lens:
-        color: '#94ebfc'
+        color: '#FDE68A'
         description: About the Prisma Lens UI library
         alias: []
         siblings: []
+      type/spec:
+        color: '#FBCFE8'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
       type/deps:
-        color: '#F9A8D4'
+        color: '#FBCFE8'
         description: 'A dependency upgrade visible to users (so, not devDeps)'
         alias: []
         siblings: []
       type/refactor:
-        color: '#F9A8D4'
+        color: '#FBCFE8'
         description: 'Address tech debt, internal incidental complexity'
         alias: []
         siblings: []
       type/tests:
-        color: '#F9A8D4'
+        color: '#FBCFE8'
         description: Internal tests
         alias: []
         siblings: []
       type/perf:
-        color: '#F9A8D4'
+        color: '#FBCFE8'
         description: Improve the efficiency of something
         alias: []
         siblings: []
       type/chore:
-        color: '#F9A8D4'
+        color: '#F3F4F6'
         description: 'Something that does not warrant a release, zero runtime impact'
         alias: []
         siblings: []
       type/bug:
-        color: '#EF4444'
+        color: '#F84C56'
         description: Something is not working the way it should
         alias: []
         siblings: []
       type/improve:
-        color: '#A7F3D0'
+        color: '#D1FAE5'
         description: >-
           Something existing is made better, does not affect the interface
           (example: better error message)
         alias: []
         siblings: []
       type/feat:
-        color: '#34D399'
+        color: '#A7F3D0'
         description: Add a new capability or enhance an existing one
         alias: []
         siblings: []
