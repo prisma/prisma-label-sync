@@ -9,13 +9,14 @@ interface ExtraOptions {
  * Colors taken from https://tailwindcss.com/docs/customizing-colors
  */
 export const theme = {
-  neutral: '#EEEEEE',
-  refine: '#F9A8D4',
-  shiny: '#34D399',
-  semiShiny: '#A7F3D0',
-  danger: '#EF4444',
-  warning: '#FFCF2D',
-  social: '#A78BFA',
+  neutral: '#F3F4F6',
+  refine: '#FBCFE8',
+  great: '#A7F3D0',
+  good: '#D1FAE5',
+  danger: '#F84C56',
+  warning: '#F87171',
+  social: '#C4B5FD',
+  info: '#FDE68A',
 }
 
 /**
@@ -105,7 +106,7 @@ export function scope(
 ): Label {
   return {
     name: `scope/${name}`,
-    color: '#94ebfc',
+    color: theme.info,
     description: description,
     ...extraOptions,
   }
@@ -170,20 +171,22 @@ export const libraryLabels = [
  */
 //prettier-ignore
 export const commonLabels = [
-  type('feat',            theme.shiny,     'Add a new capability or enhance an existing one'),
-  type('improve',         theme.semiShiny, 'Something existing is made better, does not affect the interface (example: better error message)'),
+  type('feat',            theme.great,     'Add a new capability or enhance an existing one'),
+  type('improve',         theme.good, 'Something existing is made better, does not affect the interface (example: better error message)'),
   type('bug',             theme.danger,    'Something is not working the way it should'),
   type('chore',           theme.refine,    'Something that does not warrant a release, zero runtime impact'),
   type('perf',            theme.refine,    'Improve the efficiency of something'),
   type('tests',           theme.refine,    'Internal tests'),
   type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
   type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
+  type('spec',            theme.refine,    'Detailed analysis of some feature/area in document form'),
 
   scope('lens',                            'About the Prisma Lens UI library'),
   scope('authn',                           'About authentication, signin, tokens, signout'),
   scope('authz',                           'About permissions to perform actions on resources, roles'),
   scope('api',                             'About the GraphQL cloud API'),
-  scope('gui',                             'About the Cloud webapp'),
+  scope('gui/app',                         'About views and layouts'),
+  scope('gui/lib',                         'About reusable components'),
   scope('db',                              'About the prisma schema models, migrations'),
   scope('ops',                             'About anything operational, monitoring, analytics, ...'),
   scope('ci',                              'About our continuous integration pipelines'),
