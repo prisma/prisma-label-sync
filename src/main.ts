@@ -9,7 +9,6 @@ import { prisma1Examples } from "./repositories/prisma1-examples";
 import { prisma } from "./repositories/prisma";
 import { studio } from "./repositories/studio";
 import { migrate } from "./repositories/migrate";
-import { prismaClientJs } from "./repositories/prisma-client-js";
 import { specs } from "./repositories/specs";
 import { prisma2Private } from "./repositories/prisma2-private";
 import { prismaEngines } from "./repositories/prisma-engines";
