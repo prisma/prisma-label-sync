@@ -172,7 +172,7 @@ export const libraryLabels = [
 //prettier-ignore
 export const commonLabels = [
   type('feat',            theme.great,     'Add a new capability or enhance an existing one'),
-  type('improve',         theme.good, 'Something existing is made better, does not affect the interface (example: better error message)'),
+  type('improve',         theme.good,      'Something existing is made better, does not affect the interface (example: better error message)'),
   type('bug',             theme.danger,    'Something is not working the way it should'),
   type('chore',           theme.neutral,    'Something that does not warrant a release, zero runtime impact'),
   type('perf',            theme.refine,    'Improve the efficiency of something'),
@@ -180,6 +180,7 @@ export const commonLabels = [
   type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
   type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
   type('spec',            theme.refine,    'Detailed analysis of some feature/area in document form'),
+  type('design',          theme.refine,    'Detailed analysis of some feature/area in document form'),
 
   scope('lens',                            'About the Prisma Lens UI library'),
   scope('authn',                           'About authentication, signin, tokens, signout'),

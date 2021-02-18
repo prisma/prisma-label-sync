@@ -3152,6 +3152,11 @@ repos:
         description: About the Prisma Lens UI library
         alias: []
         siblings: []
+      type/design:
+        color: '#FBCFE8'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
       type/spec:
         color: '#FBCFE8'
         description: Detailed analysis of some feature/area in document form
