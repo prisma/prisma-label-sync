@@ -3088,36 +3088,17 @@ repos:
         alias:
           - scope/github
         siblings: []
-      needs/upstream:
-        color: '#F87171'
-        description: An upstream component needs to be updated first
-        alias: []
-        siblings: []
-      note/invalid:
-        color: '#F3F4F6'
-        description: Initial assumptions turned out wrong
-        alias: []
-        siblings: []
-      team/design:
-        color: '#EDE9FE'
-        description: Members of the design team are responsible for this
-        alias: []
-        siblings: []
-      team/engineering:
-        color: '#EDE9FE'
-        description: Members of the engineering team are responsible for this
-        alias: []
-        siblings: []
-      team/product:
-        color: '#EDE9FE'
-        description: Members of the product team are responsible for this
-        alias: []
-        siblings: []
-      ci:
+      gui/lib:
         color: '#6366F1'
-        description: About our continuous integration pipelines
+        description: About reusable components
         alias:
-          - scope/ci
+          - scope/gui/lib
+        siblings: []
+      gui/app:
+        color: '#6366F1'
+        description: About views and layouts
+        alias:
+          - scope/gui/app
         siblings: []
       ops:
         color: '#6366F1'
@@ -3130,18 +3111,6 @@ repos:
         description: 'About the prisma schema models, migrations'
         alias:
           - scope/db
-        siblings: []
-      gui/lib:
-        color: '#6366F1'
-        description: About reusable components
-        alias:
-          - scope/gui/lib
-        siblings: []
-      gui/app:
-        color: '#6366F1'
-        description: About views and layouts
-        alias:
-          - scope/gui/app
         siblings: []
       api:
         color: '#6366F1'
@@ -3161,11 +3130,21 @@ repos:
         alias:
           - scope/authn
         siblings: []
-      lens:
+      needs/upstream:
+        color: '#F87171'
+        description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
+      note/invalid:
+        color: '#F3F4F6'
+        description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
+      ci:
         color: '#6366F1'
-        description: About the Prisma Lens UI library
+        description: About our continuous integration pipelines
         alias:
-          - scope/lens
+          - scope/ci
         siblings: []
       type/design:
         color: '##EDD8B0'
@@ -3217,5 +3196,121 @@ repos:
       type/feat:
         color: '#85EC94'
         description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
+  nexus-prisma:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      needs/upstream:
+        color: '#F87171'
+        description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
+      note/invalid:
+        color: '#F3F4F6'
+        description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
+      ci:
+        color: '#6366F1'
+        description: About our continuous integration pipelines
+        alias:
+          - scope/ci
+        siblings: []
+      type/design:
+        color: '##EDD8B0'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
+      type/spec:
+        color: '##EDD8B0'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
+      type/deps:
+        color: '##EDD8B0'
+        description: 'A dependency upgrade visible to users (so, not devDeps)'
+        alias: []
+        siblings: []
+      type/refactor:
+        color: '##EDD8B0'
+        description: 'Address tech debt, internal incidental complexity'
+        alias: []
+        siblings: []
+      type/tests:
+        color: '##EDD8B0'
+        description: Internal tests
+        alias: []
+        siblings: []
+      type/perf:
+        color: '##EDD8B0'
+        description: Improve the efficiency of something
+        alias: []
+        siblings: []
+      type/chore:
+        color: '#FFE601'
+        description: 'Something that does not warrant a release, zero runtime impact'
+        alias: []
+        siblings: []
+      type/bug:
+        color: '#E94B63'
+        description: Something is not working the way it should
+        alias: []
+        siblings: []
+      type/improve:
+        color: '#D1FAE5'
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+        alias: []
+        siblings: []
+      type/feat:
+        color: '#85EC94'
+        description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
+      needs/discussion:
+        color: '#F87171'
+        description: >-
+          Open-ended conversation about something (ideation, design, analysis,
+          ...)
+        alias: []
+        siblings: []
+      community/good-first-issue:
+        color: '#EDE9FE'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      community/help-wanted:
+        color: '#EDE9FE'
+        description: 'Not our focus, but accepting PRs'
+        alias: []
+        siblings: []
+      note/wontfix:
+        color: '#F3F4F6'
+        description: Resolving the issue was explicitly ruled out
+        alias: []
+        siblings: []
+      note/duplicate:
+        color: '#F3F4F6'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      type/question:
+        color: '#EDE9FE'
+        description: ''
+        alias: []
+        siblings: []
+      note/breaking-change:
+        color: '#F87171'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      type/docs:
+        color: '##EDD8B0'
+        description: >-
+          Relates to knowledge transfer matter (refs, guides, tuts, examples,
+          ...)
         alias: []
         siblings: []

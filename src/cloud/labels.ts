@@ -3,6 +3,7 @@ import { Label } from '../labelsync-wrapper'
 interface ExtraOptions {
   siblings?: Label['siblings']
   alias?: Label['alias']
+  color?: string
 }
 
 export const theme = {
@@ -143,59 +144,75 @@ export function team(
   }
 }
 
-/**
- * Useful labels for open source repos.
- */
 //prettier-ignore
-export const ossLabels = [
-  type('question',        theme.social,    ''),
-  note('duplicate',                        'This issue existed already'),      
-  note('wontfix',                          'Resolving the issue was explicitly ruled out'),
-  community('help-wanted',                 'Not our focus, but accepting PRs'),
-  community('good-first-issue',            'Good for newcomers'),
-  needs('discussion',                      'Open-ended conversation about something (ideation, design, analysis, ...)'),
-]
+export const groups = {
+  /**
+   * Useful labels for most everything.
+   */
+  common: [
+    type('feat',            theme.great,     'Add a new capability or enhance an existing one'),
+    type('improve',         theme.good,      'Something existing is made better, does not affect the interface (example: better error message)'),
+    type('bug',             theme.critical,  'Something is not working the way it should'),
+    type('chore',           theme.warning,   'Something that does not warrant a release, zero runtime impact'),
+    type('perf',            theme.refine,    'Improve the efficiency of something'),
+    type('tests',           theme.refine,    'Internal tests'),
+    type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
+    type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
+    type('spec',            theme.refine,    'Detailed analysis of some feature/area in document form'),
+    type('design',          theme.refine,    'Detailed analysis of some feature/area in document form'),
 
-/**
- * Useful labels for libraries.
- */
-//prettier-ignore
-export const libraryLabels = [
-  type('docs',            theme.refine,    'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
-  note('breaking-change',                  'This issue existed already'), // todo consider color exception
-]
+    scope('ci',                              'About our continuous integration pipelines'),
 
-/**
- * Useful labels for most everything.
- */
-//prettier-ignore
-export const commonLabels = [
-  type('feat',            theme.great,     'Add a new capability or enhance an existing one'),
-  type('improve',         theme.good,      'Something existing is made better, does not affect the interface (example: better error message)'),
-  type('bug',             theme.critical,  'Something is not working the way it should'),
-  type('chore',           theme.warning,   'Something that does not warrant a release, zero runtime impact'),
-  type('perf',            theme.refine,    'Improve the efficiency of something'),
-  type('tests',           theme.refine,    'Internal tests'),
-  type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
-  type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
-  type('spec',            theme.refine,    'Detailed analysis of some feature/area in document form'),
-  type('design',          theme.refine,    'Detailed analysis of some feature/area in document form'),
+    note('invalid',                          'Initial assumptions turned out wrong'),
 
-  scope('lens',                            'About the Prisma Lens UI library'),
-  scope('authn',                           'About authentication, signin, tokens, signout'),
-  scope('authz',                           'About permissions to perform actions on resources, roles'),
-  scope('api',                             'About the GraphQL cloud API'),
-  scope('gui/app',                         'About views and layouts'),
-  scope('gui/lib',                         'About reusable components'),
-  scope('db',                              'About the prisma schema models, migrations'),
-  scope('ops',                             'About anything operational, monitoring, analytics, ...'),
-  scope('ci',                              'About our continuous integration pipelines'),
-                   
-  team('product',                          'Members of the product team are responsible for this'),
-  team('engineering',                      'Members of the engineering team are responsible for this'),
-  team('design',                           'Members of the design team are responsible for this'),
-                   
-  note('invalid',                          'Initial assumptions turned out wrong'),
-                   
-  needs('upstream',                        'An upstream component needs to be updated first'),
-] as Label[]
+    needs('upstream',                        'An upstream component needs to be updated first'),
+  ],
+
+  /**
+   * Useful labels for open source projects.
+   */
+  oss: [
+    type('question',        theme.social,    ''),
+    note('duplicate',                        'This issue existed already'),      
+    note('wontfix',                          'Resolving the issue was explicitly ruled out'),
+    community('help-wanted',                 'Not our focus, but accepting PRs'),
+    community('good-first-issue',            'Good for newcomers'),
+    needs('discussion',                      'Open-ended conversation about something (ideation, design, analysis, ...)'),
+  ],
+
+  /**
+   * Useful labels for libraries.
+   */
+  library: [
+    type('docs',            theme.refine,    'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
+    note('breaking-change',                  'This issue existed already', { color: theme.danger }),
+  ],
+
+  /**
+   * Useful labels for backend applications.
+   */
+  backendApplication: [
+    scope('authn',                           'About authentication, signin, tokens, signout'),
+    scope('authz',                           'About permissions to perform actions on resources, roles'),
+    scope('api',                             'About the GraphQL cloud API'),
+    scope('db',                              'About the prisma schema models, migrations'),
+    scope('ops',                             'About anything operational, monitoring, analytics, ...'),
+  ],
+
+  /**
+   * Useful labels for frontend applications.
+   */
+  frontendApplication: [
+    scope('gui/app',                         'About views and layouts'),
+    scope('gui/lib',                         'About reusable components'),
+  ],
+
+  /**
+   * Specific to Prisma workflows.
+   */
+  prisma: [
+    team('product',                          'Members of the product team are responsible for this'),
+    team('engineering',                      'Members of the engineering team are responsible for this'),
+    team('design',                           'Members of the design team are responsible for this'),
+  ]
+}
