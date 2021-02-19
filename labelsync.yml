@@ -3164,7 +3164,7 @@ repos:
         siblings: []
       type/deps:
         color: '##EDD8B0'
-        description: 'A dependency upgrade visible to users (so, not devDeps)'
+        description: A dependency upgrade that is visible to users
         alias: []
         siblings: []
       type/refactor:
@@ -3242,7 +3242,7 @@ repos:
         siblings: []
       type/deps:
         color: '##EDD8B0'
-        description: 'A dependency upgrade visible to users (so, not devDeps)'
+        description: A dependency upgrade that is visible to users
         alias: []
         siblings: []
       type/refactor:
@@ -3310,7 +3310,7 @@ repos:
       type/docs:
         color: '##EDD8B0'
         description: >-
-          Relates to knowledge transfer matter (refs, guides, tuts, examples,
-          ...)
+          Relates to knowledge transfer matter e.g. guides, tutorials, examples,
+          ...
         alias: []
         siblings: []

@@ -157,7 +157,7 @@ export const groups = {
     type('perf',            theme.refine,    'Improve the efficiency of something'),
     type('tests',           theme.refine,    'Internal tests'),
     type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
-    type('deps',            theme.refine,    'A dependency upgrade visible to users (so, not devDeps)'),
+    type('deps',            theme.refine,    'A dependency upgrade that is visible to users'),
     type('spec',            theme.refine,    'Detailed analysis of some feature/area in document form'),
     type('design',          theme.refine,    'Detailed analysis of some feature/area in document form'),
 
@@ -183,7 +183,7 @@ export const groups = {
    * Useful labels for libraries.
    */
   library: [
-    type('docs',            theme.refine,    'Relates to knowledge transfer matter (refs, guides, tuts, examples, ...)'),
+    type('docs',            theme.refine,    'Relates to knowledge transfer matter e.g. guides, tutorials, examples, ...'),
     note('breaking-change',                  'This issue existed already', { color: theme.danger }),
   ],
 
