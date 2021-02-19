@@ -3282,13 +3282,6 @@ repos:
         description: Add a new capability or enhance an existing one
         alias: []
         siblings: []
-      needs/discussion:
-        color: '#F87171'
-        description: >-
-          Open-ended conversation about something (ideation, design, analysis,
-          ...)
-        alias: []
-        siblings: []
       community/good-first-issue:
         color: '#EDE9FE'
         description: Good for newcomers
@@ -3307,11 +3300,6 @@ repos:
       note/duplicate:
         color: '#F3F4F6'
         description: This issue existed already
-        alias: []
-        siblings: []
-      type/question:
-        color: '#EDE9FE'
-        description: ''
         alias: []
         siblings: []
       note/breaking-change:

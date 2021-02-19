@@ -173,12 +173,10 @@ export const groups = {
    * Useful labels for open source projects.
    */
   oss: [
-    type('question',        theme.social,    ''),
     note('duplicate',                        'This issue existed already'),      
     note('wontfix',                          'Resolving the issue was explicitly ruled out'),
     community('help-wanted',                 'Not our focus, but accepting PRs'),
     community('good-first-issue',            'Good for newcomers'),
-    needs('discussion',                      'Open-ended conversation about something (ideation, design, analysis, ...)'),
   ],
 
   /**
