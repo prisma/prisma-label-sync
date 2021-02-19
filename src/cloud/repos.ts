@@ -7,14 +7,20 @@ export const repos: Repo[] = [
     destroyUnknownLabels: true,
     labels: [
       ...groups.common,
-      ...groups.backendApplication,
-      ...groups.frontendApplication,
+      ...groups.scrum,
+      ...groups.appBackend,
+      ...groups.appFrontend,
       scope('github', 'Related to GitHub integration somehow'),
     ],
   },
   {
     name: 'nexus-prisma',
     destroyUnknownLabels: true,
-    labels: [...groups.library, ...groups.oss, ...groups.common],
+    labels: [
+      ...groups.common,
+      ...groups.scrum,
+      ...groups.library,
+      ...groups.oss,
+    ],
   },
 ]

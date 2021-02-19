@@ -170,6 +170,13 @@ export const groups = {
   ],
 
   /**
+   * Useful labels for when doing scrum 
+   */
+  scrum: [
+    type('story',           theme.refine,    'A product story representing a deliverable for the user'),
+  ],
+
+  /**
    * Useful labels for open source projects.
    */
   oss: [
@@ -190,7 +197,7 @@ export const groups = {
   /**
    * Useful labels for backend applications.
    */
-  backendApplication: [
+  appBackend: [
     scope('authn',                           'About authentication, signin, tokens, signout'),
     scope('authz',                           'About permissions to perform actions on resources, roles'),
     scope('api',                             'About the GraphQL cloud API'),
@@ -201,7 +208,7 @@ export const groups = {
   /**
    * Useful labels for frontend applications.
    */
-  frontendApplication: [
+  appFrontend: [
     scope('gui/app',                         'About views and layouts'),
     scope('gui/lib',                         'About reusable components'),
   ],

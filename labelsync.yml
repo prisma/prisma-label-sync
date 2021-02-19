@@ -3130,6 +3130,11 @@ repos:
         alias:
           - scope/authn
         siblings: []
+      type/story:
+        color: '#EDD8B0'
+        description: A product story representing a deliverable for the user
+        alias: []
+        siblings: []
       needs/upstream:
         color: '#F87171'
         description: An upstream component needs to be updated first
@@ -3208,6 +3213,43 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      community/good-first-issue:
+        color: '#EDE9FE'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      community/help-wanted:
+        color: '#EDE9FE'
+        description: 'Not our focus, but accepting PRs'
+        alias: []
+        siblings: []
+      note/wontfix:
+        color: '#F3F4F6'
+        description: Resolving the issue was explicitly ruled out
+        alias: []
+        siblings: []
+      note/duplicate:
+        color: '#F3F4F6'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      note/breaking-change:
+        color: '#F87171'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      type/docs:
+        color: '#EDD8B0'
+        description: >-
+          Relates to knowledge transfer matter e.g. guides, tutorials, examples,
+          ...
+        alias: []
+        siblings: []
+      type/story:
+        color: '#EDD8B0'
+        description: A product story representing a deliverable for the user
+        alias: []
+        siblings: []
       needs/upstream:
         color: '#F87171'
         description: An upstream component needs to be updated first
@@ -3280,37 +3322,5 @@ repos:
       type/feat:
         color: '#85EC94'
         description: Add a new capability or enhance an existing one
-        alias: []
-        siblings: []
-      community/good-first-issue:
-        color: '#EDE9FE'
-        description: Good for newcomers
-        alias: []
-        siblings: []
-      community/help-wanted:
-        color: '#EDE9FE'
-        description: 'Not our focus, but accepting PRs'
-        alias: []
-        siblings: []
-      note/wontfix:
-        color: '#F3F4F6'
-        description: Resolving the issue was explicitly ruled out
-        alias: []
-        siblings: []
-      note/duplicate:
-        color: '#F3F4F6'
-        description: This issue existed already
-        alias: []
-        siblings: []
-      note/breaking-change:
-        color: '#F87171'
-        description: This issue existed already
-        alias: []
-        siblings: []
-      type/docs:
-        color: '#EDD8B0'
-        description: >-
-          Relates to knowledge transfer matter e.g. guides, tutorials, examples,
-          ...
         alias: []
         siblings: []
