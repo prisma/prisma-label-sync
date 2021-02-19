@@ -3153,32 +3153,32 @@ repos:
           - scope/ci
         siblings: []
       type/design:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Detailed analysis of some feature/area in document form
         alias: []
         siblings: []
       type/spec:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Detailed analysis of some feature/area in document form
         alias: []
         siblings: []
       type/deps:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: A dependency upgrade that is visible to users
         alias: []
         siblings: []
       type/refactor:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: 'Address tech debt, internal incidental complexity'
         alias: []
         siblings: []
       type/tests:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Internal tests
         alias: []
         siblings: []
       type/perf:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Improve the efficiency of something
         alias: []
         siblings: []
@@ -3231,32 +3231,32 @@ repos:
           - scope/ci
         siblings: []
       type/design:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Detailed analysis of some feature/area in document form
         alias: []
         siblings: []
       type/spec:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Detailed analysis of some feature/area in document form
         alias: []
         siblings: []
       type/deps:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: A dependency upgrade that is visible to users
         alias: []
         siblings: []
       type/refactor:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: 'Address tech debt, internal incidental complexity'
         alias: []
         siblings: []
       type/tests:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Internal tests
         alias: []
         siblings: []
       type/perf:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: Improve the efficiency of something
         alias: []
         siblings: []
@@ -3308,7 +3308,7 @@ repos:
         alias: []
         siblings: []
       type/docs:
-        color: '##EDD8B0'
+        color: '#EDD8B0'
         description: >-
           Relates to knowledge transfer matter e.g. guides, tutorials, examples,
           ...
