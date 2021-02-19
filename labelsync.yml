@@ -3140,6 +3140,12 @@ repos:
         description: Initial assumptions turned out wrong
         alias: []
         siblings: []
+      error-messages:
+        color: '#6366F1'
+        description: About how errors/exceptions are reported to users
+        alias:
+          - scope/error-messages
+        siblings: []
       ci:
         color: '#6366F1'
         description: About our continuous integration pipelines
@@ -3211,6 +3217,12 @@ repos:
         color: '#F3F4F6'
         description: Initial assumptions turned out wrong
         alias: []
+        siblings: []
+      error-messages:
+        color: '#6366F1'
+        description: About how errors/exceptions are reported to users
+        alias:
+          - scope/error-messages
         siblings: []
       ci:
         color: '#6366F1'

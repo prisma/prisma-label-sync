@@ -162,6 +162,7 @@ export const groups = {
     type('design',          theme.refine,    'Detailed analysis of some feature/area in document form'),
 
     scope('ci',                              'About our continuous integration pipelines'),
+    scope('error-messages',                  'About how errors/exceptions are reported to users'),
 
     note('invalid',                          'Initial assumptions turned out wrong'),
 
