@@ -11,6 +11,7 @@ export const repos: Repo[] = [
       ...groups.appBackend,
       ...groups.appFrontend,
       scope('github', 'Related to GitHub integration somehow'),
+      scope('eslint', 'Related to ESLint config, rules, etc.'),
     ],
   },
   {
@@ -21,6 +22,7 @@ export const repos: Repo[] = [
       ...groups.scrum,
       ...groups.library,
       ...groups.oss,
+      scope('eslint', 'Related to ESLint config, rules, etc.'),
     ],
   },
 ]

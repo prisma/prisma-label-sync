@@ -3082,6 +3082,12 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      eslint:
+        color: '#6366F1'
+        description: 'Related to ESLint config, rules, etc.'
+        alias:
+          - scope/eslint
+        siblings: []
       github:
         color: '#6366F1'
         description: Related to GitHub integration somehow
@@ -3213,6 +3219,12 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      eslint:
+        color: '#6366F1'
+        description: 'Related to ESLint config, rules, etc.'
+        alias:
+          - scope/eslint
+        siblings: []
       community/good-first-issue:
         color: '#EDE9FE'
         description: Good for newcomers
