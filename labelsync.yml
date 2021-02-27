@@ -3141,6 +3141,13 @@ repos:
         description: A product story representing a deliverable for the user
         alias: []
         siblings: []
+      needs/discussion:
+        color: '#F87171'
+        description: >-
+          Something needs deciding, new info changes issue scope/spec, unforseen
+          challenges, etc.
+        alias: []
+        siblings: []
       needs/upstream:
         color: '#F87171'
         description: An upstream component needs to be updated first
@@ -3266,6 +3273,13 @@ repos:
       type/story:
         color: '#EDD8B0'
         description: A product story representing a deliverable for the user
+        alias: []
+        siblings: []
+      needs/discussion:
+        color: '#F87171'
+        description: >-
+          Something needs deciding, new info changes issue scope/spec, unforseen
+          challenges, etc.
         alias: []
         siblings: []
       needs/upstream:

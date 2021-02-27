@@ -168,6 +168,7 @@ export const groups = {
     note('invalid',                          'Initial assumptions turned out wrong'),
 
     needs('upstream',                        'An upstream component needs to be updated first'),
+    needs('discussion',                      'Something needs deciding, new info changes issue scope/spec, unforseen challenges, etc.'),
   ],
 
   /**
