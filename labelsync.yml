@@ -3157,6 +3157,12 @@ repos:
         alias:
           - scope/error-messages
         siblings: []
+      security:
+        color: '#6366F1'
+        description: 'Related to attack prevention, data safety, regulation, etc.'
+        alias:
+          - scope/security
+        siblings: []
       ci:
         color: '#6366F1'
         description: About our continuous integration pipelines
@@ -3277,6 +3283,12 @@ repos:
         description: About how errors/exceptions are reported to users
         alias:
           - scope/error-messages
+        siblings: []
+      security:
+        color: '#6366F1'
+        description: 'Related to attack prevention, data safety, regulation, etc.'
+        alias:
+          - scope/security
         siblings: []
       ci:
         color: '#6366F1'
