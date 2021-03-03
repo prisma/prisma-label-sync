@@ -26,6 +26,7 @@ import { checkpointClient } from './repositories/checkpoint-client'
 import { checkpointPrismaIo } from './repositories/checkpoint-prisma-io'
 import { migrationsCi } from './repositories/migrations-ci'
 import { connectionString } from './repositories/connection-string'
+import { upgrade } from './repositories/upgrade'
 import { cloudRepos } from './cloud'
 
 labelsync({
@@ -56,6 +57,7 @@ labelsync({
     'checkpoint.prisma.io': checkpointPrismaIo,
     'migrations-ci': migrationsCi,
     'connection-string': connectionString,
+    'upgrade': upgrade,
     ...cloudRepos,
   },
 })

@@ -13,6 +13,8 @@ It uses [`maticzav/label-sync`](https://github.com/maticzav/label-sync) by @mati
 
 Note: The current configuration uses `lowerCamelCase` for the repositories, so a repository `prisma/prisma-labelsync` is represented as `prismaLabelsync` (the org is dropped, as ~~all~~ most the repos live in `prisma`) for example which is then used in the `import` and also filename.
 
+⚠️ Do not edit [labelsync.yml](./labelsync.yml). It's a generated file.
+
 ### Add a new label / Update an existing label / Remove a label
 
 1. Find the repository configuration file [here](https://github.com/prisma/prisma-label-sync/tree/master/src/repositories) and add, update or remove the label
@@ -24,6 +26,6 @@ Note: The current configuration uses `lowerCamelCase` for the repositories, so a
 
 ### Apply configuration changes
 
-- When you create a Pull Request your changes (_with_ `labelsync.yml` generated changes via e.g. the precommit hook) will automatically be "dry run" by the GitHub App and a comment will be posted which summarizes the expected changes. 
-- When you create a Pull Request your changes (_without_ `labelsync.yml` generated changes) you can comment `/labelsync` on the PR to trigger a Github Actions that runs the generation for you and commits the file to your PR branch. This way you can also edit the source code via Github UI for example. The Github app will automatically "dry run"  and a comment will be posted which summarizes the expected changes. 
+- When you create a Pull Request your changes (_with_ `labelsync.yml` generated changes via e.g. the precommit hook) will automatically be "dry run" by the GitHub App and a comment will be posted which summarizes the expected changes.
+- When you create a Pull Request your changes (_without_ `labelsync.yml` generated changes) you can comment `/labelsync` on the PR to trigger a Github Actions that runs the generation for you and commits the file to your PR branch. This way you can also edit the source code via Github UI for example. The Github app will automatically "dry run" and a comment will be posted which summarizes the expected changes.
 - On merge, the changes will then be applied to the repositories.
