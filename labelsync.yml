@@ -3362,7 +3362,7 @@ repos:
         description: Add a new capability or enhance an existing one
         alias: []
         siblings: []
-  prisma-upgrade:
+  upgrade:
     config:
       removeUnconfiguredLabels: true
     labels:
