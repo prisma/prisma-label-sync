@@ -3364,6 +3364,12 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      enum:
+        color: '#6366F1'
+        description: Related to Prisma & Nexus enum type
+        alias:
+          - scope/enum
+        siblings: []
       eslint:
         color: '#6366F1'
         description: 'Related to ESLint config, rules, etc.'

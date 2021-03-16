@@ -23,6 +23,7 @@ export const repos: Repo[] = [
       ...groups.library,
       ...groups.oss,
       scope('eslint', 'Related to ESLint config, rules, etc.'),
+      scope('enum', 'Related to Prisma & Nexus enum type'),
     ],
   },
 ]
