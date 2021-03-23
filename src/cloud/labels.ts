@@ -211,8 +211,8 @@ export const groups = {
    * Useful labels for frontend applications.
    */
   appFrontend: [
-    scope('gui/app',                         'About views and layouts'),
-    scope('gui/lib',                         'About reusable components'),
+    scope('ui',                         'About views and layouts in an application',              { alias: ['gui/app'] }),
+    scope('lens',                       'About reusable components from the Prisma lens library', { alias: ['gui/lib']  }),
   ],
 
   /**

@@ -3232,17 +3232,19 @@ repos:
         alias:
           - scope/github
         siblings: []
-      gui/lib:
+      lens:
         color: '#6366F1'
-        description: About reusable components
+        description: About reusable components from the Prisma lens library
         alias:
-          - scope/gui/lib
+          - scope/lens
+          - gui/lib
         siblings: []
-      gui/app:
+      ui:
         color: '#6366F1'
-        description: About views and layouts
+        description: About views and layouts in an application
         alias:
-          - scope/gui/app
+          - scope/ui
+          - gui/app
         siblings: []
       ops:
         color: '#6366F1'
