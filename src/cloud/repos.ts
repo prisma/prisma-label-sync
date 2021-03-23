@@ -1,5 +1,8 @@
-import { groups, scope } from './labels'
 import { Repo } from '../labelsync-wrapper'
+import {
+  groups,
+  scope,
+} from './labels'
 
 export const repos: Repo[] = [
   {
@@ -12,6 +15,7 @@ export const repos: Repo[] = [
       ...groups.appFrontend,
       scope('github', 'Related to GitHub integration somehow'),
       scope('eslint', 'Related to ESLint config, rules, etc.'),
+      scope('studio', 'Related to Prisma Studio'),
     ],
   },
   {

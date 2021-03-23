@@ -147,7 +147,7 @@ export function team(
 //prettier-ignore
 export const groups = {
   /**
-   * Useful labels for most everything.
+   * Useful labels for most things.
    */
   common: [
     type('feat',            theme.great,     'Add a new capability or enhance an existing one'),

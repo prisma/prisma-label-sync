@@ -3214,6 +3214,12 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      studio:
+        color: '#6366F1'
+        description: Related to Prisma Studio
+        alias:
+          - scope/studio
+        siblings: []
       eslint:
         color: '#6366F1'
         description: 'Related to ESLint config, rules, etc.'
