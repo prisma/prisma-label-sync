@@ -3237,7 +3237,6 @@ repos:
         description: About reusable components from the Prisma lens library
         alias:
           - scope/lens
-          - gui/lib
         siblings:
           - fe
       ui:
@@ -3245,7 +3244,6 @@ repos:
         description: About views and layouts in an application
         alias:
           - scope/ui
-          - gui/app
         siblings:
           - fe
       fe:
@@ -3253,7 +3251,6 @@ repos:
         description: Abaout anything related to the frontend (aka. client side
         alias:
           - scope/fe
-          - gui/app
         siblings:
           - fe
       ops:

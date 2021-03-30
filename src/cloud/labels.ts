@@ -212,9 +212,9 @@ export const groups = {
    * Useful labels for frontend applications.
    */
   appFrontend: [
-    scope('fe',                         'Abaout anything related to the frontend (aka. client side',   { alias: ['gui/app'], siblings: ['fe'] }),
-    scope('ui',                         'About views and layouts in an application',                   { alias: ['gui/app'], siblings: ['fe'] }),
-    scope('lens',                       'About reusable components from the Prisma lens library',      { alias: ['gui/lib'], siblings: ['fe'] }),
+    scope('fe',                         'Abaout anything related to the frontend (aka. client side',   { siblings: ['fe'] }),
+    scope('ui',                         'About views and layouts in an application',                   { siblings: ['fe'] }),
+    scope('lens',                       'About reusable components from the Prisma lens library',      { siblings: ['fe'] }),
   ],
 
   /**
