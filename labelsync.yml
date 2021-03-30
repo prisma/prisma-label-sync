@@ -3238,43 +3238,64 @@ repos:
         alias:
           - scope/lens
           - gui/lib
-        siblings: []
+        siblings:
+          - fe
       ui:
         color: '#6366F1'
         description: About views and layouts in an application
         alias:
           - scope/ui
           - gui/app
-        siblings: []
+        siblings:
+          - fe
+      fe:
+        color: '#6366F1'
+        description: Abaout anything related to the frontend (aka. client side
+        alias:
+          - scope/fe
+          - gui/app
+        siblings:
+          - fe
       ops:
         color: '#6366F1'
         description: 'About anything operational, monitoring, analytics, ...'
         alias:
           - scope/ops
-        siblings: []
+        siblings:
+          - be
       db:
         color: '#6366F1'
         description: 'About the prisma schema models, migrations'
         alias:
           - scope/db
-        siblings: []
+        siblings:
+          - be
       api:
         color: '#6366F1'
         description: About the GraphQL cloud API
         alias:
           - scope/api
-        siblings: []
+        siblings:
+          - be
       authz:
         color: '#6366F1'
         description: 'About permissions to perform actions on resources, roles'
         alias:
           - scope/authz
-        siblings: []
+        siblings:
+          - be
       authn:
         color: '#6366F1'
         description: 'About authentication, signin, tokens, signout'
         alias:
           - scope/authn
+        siblings:
+          - be
+      be:
+        color: '#6366F1'
+        description: About anything related to the backend (aka. server side)
+        alias:
+          - scope/be
         siblings: []
       type/story:
         color: '#EDD8B0'

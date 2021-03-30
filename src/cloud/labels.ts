@@ -200,19 +200,21 @@ export const groups = {
    * Useful labels for backend applications.
    */
   appBackend: [
-    scope('authn',                           'About authentication, signin, tokens, signout'),
-    scope('authz',                           'About permissions to perform actions on resources, roles'),
-    scope('api',                             'About the GraphQL cloud API'),
-    scope('db',                              'About the prisma schema models, migrations'),
-    scope('ops',                             'About anything operational, monitoring, analytics, ...'),
+    scope('be',                              'About anything related to the backend (aka. server side)'),
+    scope('authn',                           'About authentication, signin, tokens, signout',              { siblings: ['be'] } ),
+    scope('authz',                           'About permissions to perform actions on resources, roles',   { siblings: ['be'] } ),
+    scope('api',                             'About the GraphQL cloud API',                                { siblings: ['be'] } ),
+    scope('db',                              'About the prisma schema models, migrations',                 { siblings: ['be'] } ),
+    scope('ops',                             'About anything operational, monitoring, analytics, ...',     { siblings: ['be'] } ),
   ],
 
   /**
    * Useful labels for frontend applications.
    */
   appFrontend: [
-    scope('ui',                         'About views and layouts in an application',              { alias: ['gui/app'] }),
-    scope('lens',                       'About reusable components from the Prisma lens library', { alias: ['gui/lib']  }),
+    scope('fe',                         'Abaout anything related to the frontend (aka. client side',   { alias: ['gui/app'], siblings: ['fe'] }),
+    scope('ui',                         'About views and layouts in an application',                   { alias: ['gui/app'], siblings: ['fe'] }),
+    scope('lens',                       'About reusable components from the Prisma lens library',      { alias: ['gui/lib'], siblings: ['fe'] }),
   ],
 
   /**
