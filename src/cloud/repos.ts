@@ -1,8 +1,5 @@
 import { Repo } from '../labelsync-wrapper'
-import {
-  groups,
-  scope,
-} from './labels'
+import { groups, scope } from './labels'
 
 export const repos: Repo[] = [
   {
@@ -11,6 +8,7 @@ export const repos: Repo[] = [
     labels: [
       ...groups.common,
       ...groups.scrum,
+      ...groups.app,
       ...groups.appBackend,
       ...groups.appFrontend,
       scope('github', 'Related to GitHub integration somehow'),

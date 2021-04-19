@@ -196,6 +196,10 @@ export const groups = {
     note('breaking-change',                  'This issue existed already', { color: theme.danger }),
   ],
 
+  app: [
+    type('ops',             theme.refine,     'About anything operational that requires a new deployment'),
+  ],
+
   /**
    * Useful labels for backend applications.
    */
@@ -212,9 +216,12 @@ export const groups = {
    * Useful labels for frontend applications.
    */
   appFrontend: [
-    scope('fe',                         'Abaout anything related to the frontend (aka. client side',   { siblings: ['fe'] }),
+    scope('fe',                         'About anything related to the frontend (aka. client side',   { siblings: ['fe'] }),
     scope('ui',                         'About views and layouts in an application',                   { siblings: ['fe'] }),
     scope('lens',                       'About reusable components from the Prisma lens library',      { siblings: ['fe'] }),
+    scope('browser/safari',             'About Safari browser'),
+    scope('browser/chrome',             'About Chrome browser'),
+    scope('browser/ie',                 'About IE browser'),
   ],
 
   /**

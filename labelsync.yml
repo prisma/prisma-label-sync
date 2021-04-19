@@ -3232,6 +3232,24 @@ repos:
         alias:
           - scope/github
         siblings: []
+      browser/ie:
+        color: '#6366F1'
+        description: About IE browser
+        alias:
+          - scope/browser/ie
+        siblings: []
+      browser/chrome:
+        color: '#6366F1'
+        description: About Chrome browser
+        alias:
+          - scope/browser/chrome
+        siblings: []
+      browser/safari:
+        color: '#6366F1'
+        description: About Safari browser
+        alias:
+          - scope/browser/safari
+        siblings: []
       lens:
         color: '#6366F1'
         description: About reusable components from the Prisma lens library
@@ -3248,7 +3266,7 @@ repos:
           - fe
       fe:
         color: '#6366F1'
-        description: Abaout anything related to the frontend (aka. client side
+        description: About anything related to the frontend (aka. client side
         alias:
           - scope/fe
         siblings:
@@ -3293,6 +3311,11 @@ repos:
         description: About anything related to the backend (aka. server side)
         alias:
           - scope/be
+        siblings: []
+      type/ops:
+        color: '#EDD8B0'
+        description: About anything operational that requires a new deployment
+        alias: []
         siblings: []
       type/story:
         color: '#EDD8B0'
