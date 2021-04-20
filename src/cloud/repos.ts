@@ -17,6 +17,18 @@ export const repos: Repo[] = [
     ],
   },
   {
+    name: 'cloud-router',
+    destroyUnknownLabels: true,
+    labels: [
+      ...groups.common,
+      ...groups.scrum,
+      ...groups.app,
+      ...groups.appBackend,
+      scope('github', 'Related to GitHub integration somehow'),
+      scope('eslint', 'Related to ESLint config, rules, etc.'),
+    ],
+  },
+  {
     name: 'nexus-prisma',
     destroyUnknownLabels: true,
     labels: [

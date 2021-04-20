@@ -3409,6 +3409,160 @@ repos:
         description: Add a new capability or enhance an existing one
         alias: []
         siblings: []
+  cloud-router:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      eslint:
+        color: '#6366F1'
+        description: 'Related to ESLint config, rules, etc.'
+        alias:
+          - scope/eslint
+        siblings: []
+      github:
+        color: '#6366F1'
+        description: Related to GitHub integration somehow
+        alias:
+          - scope/github
+        siblings: []
+      ops:
+        color: '#6366F1'
+        description: 'About anything operational, monitoring, analytics, ...'
+        alias:
+          - scope/ops
+        siblings:
+          - be
+      db:
+        color: '#6366F1'
+        description: 'About the prisma schema models, migrations'
+        alias:
+          - scope/db
+        siblings:
+          - be
+      api:
+        color: '#6366F1'
+        description: About the GraphQL cloud API
+        alias:
+          - scope/api
+        siblings:
+          - be
+      authz:
+        color: '#6366F1'
+        description: 'About permissions to perform actions on resources, roles'
+        alias:
+          - scope/authz
+        siblings:
+          - be
+      authn:
+        color: '#6366F1'
+        description: 'About authentication, signin, tokens, signout'
+        alias:
+          - scope/authn
+        siblings:
+          - be
+      be:
+        color: '#6366F1'
+        description: About anything related to the backend (aka. server side)
+        alias:
+          - scope/be
+        siblings: []
+      type/ops:
+        color: '#EDD8B0'
+        description: About anything operational that requires a new deployment
+        alias: []
+        siblings: []
+      type/story:
+        color: '#EDD8B0'
+        description: A product story representing a deliverable for the user
+        alias: []
+        siblings: []
+      needs/discussion:
+        color: '#F87171'
+        description: >-
+          Something needs deciding, new info changes issue scope/spec, unforseen
+          challenges, etc.
+        alias: []
+        siblings: []
+      needs/upstream:
+        color: '#F87171'
+        description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
+      note/invalid:
+        color: '#F3F4F6'
+        description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
+      error-messages:
+        color: '#6366F1'
+        description: About how errors/exceptions are reported to users
+        alias:
+          - scope/error-messages
+        siblings: []
+      security:
+        color: '#6366F1'
+        description: 'Related to attack prevention, data safety, regulation, etc.'
+        alias:
+          - scope/security
+        siblings: []
+      ci:
+        color: '#6366F1'
+        description: About our continuous integration pipelines
+        alias:
+          - scope/ci
+        siblings: []
+      type/design:
+        color: '#EDD8B0'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
+      type/spec:
+        color: '#EDD8B0'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
+      type/deps:
+        color: '#EDD8B0'
+        description: A dependency upgrade that is visible to users
+        alias: []
+        siblings: []
+      type/refactor:
+        color: '#EDD8B0'
+        description: 'Address tech debt, internal incidental complexity'
+        alias: []
+        siblings: []
+      type/tests:
+        color: '#EDD8B0'
+        description: Internal tests
+        alias: []
+        siblings: []
+      type/perf:
+        color: '#EDD8B0'
+        description: Improve the efficiency of something
+        alias: []
+        siblings: []
+      type/chore:
+        color: '#FFE601'
+        description: 'Something that does not warrant a release, zero runtime impact'
+        alias: []
+        siblings: []
+      type/bug:
+        color: '#E94B63'
+        description: Something is not working the way it should
+        alias: []
+        siblings: []
+      type/improve:
+        color: '#D1FAE5'
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+        alias: []
+        siblings: []
+      type/feat:
+        color: '#85EC94'
+        description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
   nexus-prisma:
     config:
       removeUnconfiguredLabels: true
