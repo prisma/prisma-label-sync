@@ -8,7 +8,6 @@ import { prisma1Examples } from './repositories/prisma1-examples'
 // prisma 2
 import { prisma } from './repositories/prisma'
 import { studio } from './repositories/studio'
-import { migrate } from './repositories/migrate'
 import { prisma2Private } from './repositories/prisma2-private'
 import { prismaEngines } from './repositories/prisma-engines'
 import { languageTools } from './repositories/language-tools'
@@ -38,7 +37,6 @@ labelsync({
 
     // prisma 2
     prisma: prisma,
-    migrate: migrate,
     studio: studio,
     'prisma2-private': prisma2Private,
     'prisma-engines': prismaEngines,
