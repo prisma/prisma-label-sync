@@ -39,6 +39,11 @@ export const common: Label[] = [
     description: 'A reported bug.',
   }),
   label({
+    name: 'kind/support',
+    color: colors.kind,
+    description: 'Support requests for usage or other areas'
+  }),
+  label({
     name: 'kind/regression',
     color: colors.kind,
     description: 'A reported bug in functionality that used to work before.',
