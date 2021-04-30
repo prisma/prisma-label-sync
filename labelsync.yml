@@ -550,6 +550,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -680,6 +685,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -814,6 +824,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -944,6 +959,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -1078,6 +1098,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -1208,6 +1233,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -1342,6 +1372,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -1472,6 +1507,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -1606,6 +1646,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -1736,6 +1781,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -1870,6 +1920,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -2000,6 +2055,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -2134,6 +2194,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -2264,6 +2329,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -2398,6 +2468,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -2528,6 +2603,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -2662,6 +2742,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -2792,6 +2877,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
@@ -2926,6 +3016,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -3058,6 +3153,11 @@ repos:
         description: A reported bug in functionality that used to work before.
         alias: []
         siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
+        alias: []
+        siblings: []
       kind/bug:
         color: '#3B5BDB'
         description: A reported bug.
@@ -3188,6 +3288,11 @@ repos:
       kind/regression:
         color: '#3B5BDB'
         description: A reported bug in functionality that used to work before.
+        alias: []
+        siblings: []
+      kind/support:
+        color: '#3B5BDB'
+        description: Support requests for usage or other areas
         alias: []
         siblings: []
       kind/bug:
