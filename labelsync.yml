@@ -3535,6 +3535,18 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      configuration:
+        color: '#6366F1'
+        description: Related to configuration of Nexus Prisma generator
+        alias:
+          - scope/configuration
+        siblings: []
+      relations:
+        color: '#6366F1'
+        description: 'Related to Prisma & Nexus relations 1:1, 1:n, etc.'
+        alias:
+          - scope/relations
+        siblings: []
       enum:
         color: '#6366F1'
         description: Related to Prisma & Nexus enum type

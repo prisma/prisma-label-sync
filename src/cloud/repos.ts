@@ -1,6 +1,7 @@
 import { Repo } from '../labelsync-wrapper'
 import { groups, scope } from './labels'
 
+// prettier-ignore
 export const repos: Repo[] = [
   {
     name: 'cloud',
@@ -36,8 +37,10 @@ export const repos: Repo[] = [
       ...groups.scrum,
       ...groups.library,
       ...groups.oss,
-      scope('eslint', 'Related to ESLint config, rules, etc.'),
-      scope('enum', 'Related to Prisma & Nexus enum type'),
+      scope('eslint',         'Related to ESLint config, rules, etc.'),
+      scope('enum',           'Related to Prisma & Nexus enum type'),
+      scope('relations',      'Related to Prisma & Nexus relations 1:1, 1:n, etc.'),
+      scope('configuration',  'Related to configuration of Nexus Prisma generator'),
     ],
   },
 ]
