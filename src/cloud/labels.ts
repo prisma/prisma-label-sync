@@ -225,6 +225,15 @@ export const groups = {
   ],
 
   /**
+   * Scope labels for different operating systems
+   */
+  os: [
+    scope('os/windows',     'About something only happening on the Windows operating system'),
+    scope('os/macos',       'About something only happening on the macOS operating system'),
+    scope('os/nix',         'About something only happening on the *nix operating sytsem'),
+  ],
+
+  /**
    * Specific to Prisma workflows.
    */
   prisma: [

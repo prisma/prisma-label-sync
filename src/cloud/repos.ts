@@ -37,6 +37,7 @@ export const repos: Repo[] = [
       ...groups.scrum,
       ...groups.library,
       ...groups.oss,
+      ...groups.os,
       scope('eslint',         'Related to ESLint config, rules, etc.'),
       scope('enum',           'Related to Prisma & Nexus enum type'),
       scope('relations',      'Related to Prisma & Nexus relations 1:1, 1:n, etc.'),

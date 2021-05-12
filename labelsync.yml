@@ -3559,6 +3559,24 @@ repos:
         alias:
           - scope/eslint
         siblings: []
+      os/nix:
+        color: '#6366F1'
+        description: About something only happening on the *nix operating sytsem
+        alias:
+          - scope/os/nix
+        siblings: []
+      os/macos:
+        color: '#6366F1'
+        description: About something only happening on the macOS operating system
+        alias:
+          - scope/os/macos
+        siblings: []
+      os/windows:
+        color: '#6366F1'
+        description: About something only happening on the Windows operating system
+        alias:
+          - scope/os/windows
+        siblings: []
       community/good-first-issue:
         color: '#EDE9FE'
         description: Good for newcomers
