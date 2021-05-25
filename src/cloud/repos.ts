@@ -41,6 +41,8 @@ export const repos: Repo[] = [
       scope('eslint',         'Related to ESLint config, rules, etc.'),
       scope('enum',           'Related to Prisma & Nexus enum type'),
       scope('relations',      'Related to Prisma & Nexus relations 1:1, 1:n, etc.'),
+      scope('scalars',        'Related to GraphQL scalars, Prisma scalars, etc.'),
+      scope('generator',      'Related to the Prisma generator part of Nexus Prisma'),
       scope('configuration',  'Related to configuration of Nexus Prisma generator'),
     ],
   },

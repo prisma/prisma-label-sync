@@ -3541,6 +3541,18 @@ repos:
         alias:
           - scope/configuration
         siblings: []
+      generator:
+        color: '#6366F1'
+        description: Related to the Prisma generator part of Nexus Prisma
+        alias:
+          - scope/generator
+        siblings: []
+      scalars:
+        color: '#6366F1'
+        description: 'Related to GraphQL scalars, Prisma scalars, etc.'
+        alias:
+          - scope/scalars
+        siblings: []
       relations:
         color: '#6366F1'
         description: 'Related to Prisma & Nexus relations 1:1, 1:n, etc.'
