@@ -3200,6 +3200,15 @@ repos:
         alias:
           - scope/github
         siblings: []
+      HA:
+        color: '#6366F1'
+        description: >-
+          About anything to do with high availability, e.g. cluster vs single
+          instance
+        alias:
+          - scope/HA
+        siblings:
+          - be
       browser/ie:
         color: '#6366F1'
         description: About IE browser
@@ -3393,6 +3402,15 @@ repos:
         alias:
           - scope/github
         siblings: []
+      HA:
+        color: '#6366F1'
+        description: >-
+          About anything to do with high availability, e.g. cluster vs single
+          instance
+        alias:
+          - scope/HA
+        siblings:
+          - be
       ops:
         color: '#6366F1'
         description: 'About anything operational, monitoring, analytics, ...'

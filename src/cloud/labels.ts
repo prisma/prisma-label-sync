@@ -213,6 +213,13 @@ export const groups = {
   ],
 
   /**
+   * Useful labels for projects with ops-oriented things.
+   */
+  ops: [
+    scope('HA',                              'About anything to do with high availability, e.g. cluster vs single instance',  { siblings: ['be'] } ),
+  ],
+
+  /**
    * Useful labels for frontend applications.
    */
   appFrontend: [
