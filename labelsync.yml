@@ -3200,6 +3200,14 @@ repos:
         alias:
           - scope/github
         siblings: []
+      alerting:
+        color: '#6366F1'
+        description: >-
+          About anything to do with alerting when some kind of failure is
+          detected
+        alias:
+          - scope/alerting
+        siblings: []
       HA:
         color: '#6366F1'
         description: >-
@@ -3207,8 +3215,7 @@ repos:
           instance
         alias:
           - scope/HA
-        siblings:
-          - be
+        siblings: []
       browser/ie:
         color: '#6366F1'
         description: About IE browser
@@ -3402,6 +3409,14 @@ repos:
         alias:
           - scope/github
         siblings: []
+      alerting:
+        color: '#6366F1'
+        description: >-
+          About anything to do with alerting when some kind of failure is
+          detected
+        alias:
+          - scope/alerting
+        siblings: []
       HA:
         color: '#6366F1'
         description: >-
@@ -3409,8 +3424,7 @@ repos:
           instance
         alias:
           - scope/HA
-        siblings:
-          - be
+        siblings: []
       ops:
         color: '#6366F1'
         description: 'About anything operational, monitoring, analytics, ...'
