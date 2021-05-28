@@ -225,9 +225,11 @@ export const groups = {
    * Useful labels for frontend applications.
    */
   appFrontend: [
-    scope('fe',                         'About anything related to the frontend (aka. client side',   { siblings: ['fe'] }),
-    scope('ui',                         'About views and layouts in an application',                   { siblings: ['fe'] }),
-    scope('lens',                       'About reusable components from the Prisma lens library',      { siblings: ['fe'] }),
+    scope('fe',                         'About anything related to the frontend (aka. client side',             { siblings: ['fe'] }),
+    scope('ui',                         'About views and layouts in an application',                            { siblings: ['fe'] }),
+    scope('accessibility',              'About ARIA, making UI accessible to keyboards, screen readers, etc.',  { siblings: ['fe'] }),
+    // todo remove this now that lens repo is managed itself by label sync
+    scope('lens',                       'About reusable components from the Prisma lens library',               { siblings: ['fe'] }),
     scope('browser/safari',             'About Safari browser'),
     scope('browser/chrome',             'About Chrome browser'),
     scope('browser/ie',                 'About IE browser'),

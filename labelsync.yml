@@ -3241,6 +3241,13 @@ repos:
           - scope/lens
         siblings:
           - fe
+      accessibility:
+        color: '#6366F1'
+        description: 'About ARIA, making UI accessible to keyboards, screen readers, etc.'
+        alias:
+          - scope/accessibility
+        siblings:
+          - fe
       ui:
         color: '#6366F1'
         description: About views and layouts in an application
@@ -3474,6 +3481,191 @@ repos:
       type/ops:
         color: '#EDD8B0'
         description: About anything operational that requires a new deployment
+        alias: []
+        siblings: []
+      type/story:
+        color: '#EDD8B0'
+        description: A product story representing a deliverable for the user
+        alias: []
+        siblings: []
+      needs/discussion:
+        color: '#F87171'
+        description: >-
+          Something needs deciding, new info changes issue scope/spec, unforseen
+          challenges, etc.
+        alias: []
+        siblings: []
+      needs/upstream:
+        color: '#F87171'
+        description: An upstream component needs to be updated first
+        alias: []
+        siblings: []
+      note/invalid:
+        color: '#F3F4F6'
+        description: Initial assumptions turned out wrong
+        alias: []
+        siblings: []
+      error-messages:
+        color: '#6366F1'
+        description: About how errors/exceptions are reported to users
+        alias:
+          - scope/error-messages
+        siblings: []
+      security:
+        color: '#6366F1'
+        description: 'Related to attack prevention, data safety, regulation, etc.'
+        alias:
+          - scope/security
+        siblings: []
+      ci:
+        color: '#6366F1'
+        description: About our continuous integration pipelines
+        alias:
+          - scope/ci
+        siblings: []
+      type/spike:
+        color: '#EDD8B0'
+        description: Research/technical prototype to learn/de-risk something
+        alias: []
+        siblings: []
+      type/design:
+        color: '#EDD8B0'
+        description: 'About wireframes, mockups, visuals, UX'
+        alias: []
+        siblings: []
+      type/spec:
+        color: '#EDD8B0'
+        description: Detailed analysis of some feature/area in document form
+        alias: []
+        siblings: []
+      type/deps:
+        color: '#EDD8B0'
+        description: A dependency upgrade that is visible to users
+        alias: []
+        siblings: []
+      type/refactor:
+        color: '#EDD8B0'
+        description: 'Address tech debt, internal incidental complexity'
+        alias: []
+        siblings: []
+      type/tests:
+        color: '#EDD8B0'
+        description: Internal tests
+        alias: []
+        siblings: []
+      type/perf:
+        color: '#EDD8B0'
+        description: Improve the efficiency of something
+        alias: []
+        siblings: []
+      type/chore:
+        color: '#FFE601'
+        description: 'Something that does not warrant a release, zero runtime impact'
+        alias: []
+        siblings: []
+      type/bug:
+        color: '#E94B63'
+        description: Something is not working the way it should
+        alias: []
+        siblings: []
+      type/improve:
+        color: '#D1FAE5'
+        description: >-
+          Something existing is made better, does not affect the interface
+          (example: better error message)
+        alias: []
+        siblings: []
+      type/feat:
+        color: '#85EC94'
+        description: Add a new capability or enhance an existing one
+        alias: []
+        siblings: []
+  lens:
+    config:
+      removeUnconfiguredLabels: true
+    labels:
+      website:
+        color: '#6366F1'
+        description: This issue affects the Prisma website
+        alias:
+          - scope/website
+        siblings: []
+      community/good-first-issue:
+        color: '#EDE9FE'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      community/help-wanted:
+        color: '#EDE9FE'
+        description: 'Not our focus, but accepting PRs'
+        alias: []
+        siblings: []
+      note/wontfix:
+        color: '#F3F4F6'
+        description: Resolving the issue was explicitly ruled out
+        alias: []
+        siblings: []
+      note/duplicate:
+        color: '#F3F4F6'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      browser/ie:
+        color: '#6366F1'
+        description: About IE browser
+        alias:
+          - scope/browser/ie
+        siblings: []
+      browser/chrome:
+        color: '#6366F1'
+        description: About Chrome browser
+        alias:
+          - scope/browser/chrome
+        siblings: []
+      browser/safari:
+        color: '#6366F1'
+        description: About Safari browser
+        alias:
+          - scope/browser/safari
+        siblings: []
+      lens:
+        color: '#6366F1'
+        description: About reusable components from the Prisma lens library
+        alias:
+          - scope/lens
+        siblings:
+          - fe
+      accessibility:
+        color: '#6366F1'
+        description: 'About ARIA, making UI accessible to keyboards, screen readers, etc.'
+        alias:
+          - scope/accessibility
+        siblings:
+          - fe
+      ui:
+        color: '#6366F1'
+        description: About views and layouts in an application
+        alias:
+          - scope/ui
+        siblings:
+          - fe
+      fe:
+        color: '#6366F1'
+        description: About anything related to the frontend (aka. client side
+        alias:
+          - scope/fe
+        siblings:
+          - fe
+      note/breaking-change:
+        color: '#F87171'
+        description: This issue existed already
+        alias: []
+        siblings: []
+      type/docs:
+        color: '#EDD8B0'
+        description: >-
+          Relates to knowledge transfer matter e.g. guides, tutorials, examples,
+          ...
         alias: []
         siblings: []
       type/story:

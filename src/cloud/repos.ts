@@ -32,6 +32,18 @@ export const repos: Repo[] = [
     ],
   },
   {
+    name: 'lens',
+    destroyUnknownLabels: true,
+    labels: [
+      ...groups.common,
+      ...groups.scrum,
+      ...groups.library,
+      ...groups.appFrontend,
+      ...groups.oss,
+      scope('website',        'This issue affects the Prisma website'),
+    ],
+  },
+  {
     name: 'nexus-prisma',
     destroyUnknownLabels: true,
     labels: [
