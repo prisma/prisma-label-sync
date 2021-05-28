@@ -3341,9 +3341,14 @@ repos:
         alias:
           - scope/ci
         siblings: []
+      type/spike:
+        color: '#EDD8B0'
+        description: Research/technical prototype to learn/de-risk something
+        alias: []
+        siblings: []
       type/design:
         color: '#EDD8B0'
-        description: Detailed analysis of some feature/area in document form
+        description: 'About wireframes, mockups, visuals, UX'
         alias: []
         siblings: []
       type/spec:
@@ -3511,9 +3516,14 @@ repos:
         alias:
           - scope/ci
         siblings: []
+      type/spike:
+        color: '#EDD8B0'
+        description: Research/technical prototype to learn/de-risk something
+        alias: []
+        siblings: []
       type/design:
         color: '#EDD8B0'
-        description: Detailed analysis of some feature/area in document form
+        description: 'About wireframes, mockups, visuals, UX'
         alias: []
         siblings: []
       type/spec:
@@ -3693,9 +3703,14 @@ repos:
         alias:
           - scope/ci
         siblings: []
+      type/spike:
+        color: '#EDD8B0'
+        description: Research/technical prototype to learn/de-risk something
+        alias: []
+        siblings: []
       type/design:
         color: '#EDD8B0'
-        description: Detailed analysis of some feature/area in document form
+        description: 'About wireframes, mockups, visuals, UX'
         alias: []
         siblings: []
       type/spec:

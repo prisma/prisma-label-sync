@@ -159,7 +159,8 @@ export const groups = {
     type('refactor',        theme.refine,    'Address tech debt, internal incidental complexity'),
     type('deps',            theme.refine,    'A dependency upgrade that is visible to users'),
     type('spec',            theme.refine,    'Detailed analysis of some feature/area in document form'),
-    type('design',          theme.refine,    'Detailed analysis of some feature/area in document form'),
+    type('design',          theme.refine,    'About wireframes, mockups, visuals, UX'),
+    type('spike',           theme.refine,    'Research/technical prototype to learn/de-risk something'),
 
     scope('ci',                              'About our continuous integration pipelines'),
     scope('security',                        'Related to attack prevention, data safety, regulation, etc.'),
