@@ -101,22 +101,27 @@ export const common: Label[] = [
   label({
     name: 'team/client',
     color: colors.team,
-    description: 'Issue for team Client.',
+    description: 'Issue for Client team.',
   }),
   label({
     name: 'team/migrations',
     color: colors.team,
-    description: 'Issue for team Migrations.',
+    description: 'Issue for Migrations team.',
   }), 
   label({
     name: 'team/developer-productivity',
     color: colors.team,
-    description: 'Issue for team Developer Productivity.',
+    description: 'Issue for Developer Productivity team.',
+  }),
+  label({
+    name: 'team/scale-productivity',
+    color: colors.team,
+    description: 'Issue for Scale team.',
   }),
   label({
     name: 'team/support-engineering',
     color: colors.team,
-    description: 'Issue for team Support Engineering.',
+    description: 'Issue for Support Engineering team.',
     alias: ["team/support"],
   }),
   
