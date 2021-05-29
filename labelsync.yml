@@ -483,7 +483,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -625,7 +625,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -767,7 +767,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -909,7 +909,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1051,7 +1051,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1193,7 +1193,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1335,7 +1335,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1477,7 +1477,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1619,7 +1619,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1761,7 +1761,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -1903,7 +1903,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2045,7 +2045,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2187,7 +2187,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2329,7 +2329,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2471,7 +2471,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2613,7 +2613,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2755,7 +2755,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -2897,7 +2897,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -3039,7 +3039,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
@@ -3181,7 +3181,7 @@ repos:
         alias:
           - team/support
         siblings: []
-      team/scale-productivity:
+      team/scale:
         color: '#FDF4E8'
         description: Issue for Scale team.
         alias: []
