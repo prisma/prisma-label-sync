@@ -109,6 +109,11 @@ export const common: Label[] = [
     description: 'Issue for team Migrations.',
   }), 
   label({
+    name: 'team/scale',
+    color: colors.team,
+    description: 'Issue for team Scale.'
+  }),
+  label({
     name: 'team/developer-productivity',
     color: colors.team,
     description: 'Issue for team Developer Productivity.',
@@ -118,6 +123,11 @@ export const common: Label[] = [
     color: colors.team,
     description: 'Issue for team Support Engineering.',
     alias: ["team/support"],
+  }),
+  label({
+    name: 'team/psl-wg',
+    color: colors.team,
+    description: 'Issue for team Prisma Schema Language Working Group.',
   }),
   
   label({
