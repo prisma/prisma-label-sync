@@ -3260,8 +3260,7 @@ repos:
         description: About anything related to the frontend (aka. client side
         alias:
           - scope/fe
-        siblings:
-          - fe
+        siblings: []
       ops:
         color: '#6366F1'
         description: 'About anything operational, monitoring, analytics, ...'
@@ -3295,8 +3294,7 @@ repos:
         description: 'About authentication, signin, tokens, signout'
         alias:
           - scope/authn
-        siblings:
-          - be
+        siblings: []
       be:
         color: '#6366F1'
         description: About anything related to the backend (aka. server side)
@@ -3495,8 +3493,7 @@ repos:
         description: 'About authentication, signin, tokens, signout'
         alias:
           - scope/authn
-        siblings:
-          - be
+        siblings: []
       be:
         color: '#6366F1'
         description: About anything related to the backend (aka. server side)
@@ -3704,8 +3701,7 @@ repos:
         description: About anything related to the frontend (aka. client side
         alias:
           - scope/fe
-        siblings:
-          - fe
+        siblings: []
       note/breaking-change:
         color: '#F87171'
         description: This issue existed already

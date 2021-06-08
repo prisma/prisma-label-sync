@@ -227,7 +227,7 @@ export const groups = {
    */
   appBackend: [
     scope('be',                              'About anything related to the backend (aka. server side)'),
-    scope('authn',                           'About authentication, signin, tokens, signout',              { siblings: ['be'] } ),
+    scope('authn',                           'About authentication, signin, tokens, signout',          ),
     scope('authz',                           'About permissions to perform actions on resources, roles',   { siblings: ['be'] } ),
     scope('api',                             'About the GraphQL cloud API',                                { siblings: ['be'] } ),
     scope('db',                              'About the prisma schema models, migrations',                 { siblings: ['be'] } ),
@@ -246,7 +246,7 @@ export const groups = {
    * Useful labels for frontend applications.
    */
   appFrontend: [
-    scope('fe',                         'About anything related to the frontend (aka. client side',             { siblings: ['fe'] }),
+    scope('fe',                         'About anything related to the frontend (aka. client side',                                 ),
     scope('ui',                         'About views and layouts in an application',                            { siblings: ['fe'] }),
     scope('accessibility',              'About ARIA, making UI accessible to keyboards, screen readers, etc.',  { siblings: ['fe'] }),
     // todo remove this now that lens repo is managed itself by label sync
