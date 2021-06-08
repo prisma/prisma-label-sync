@@ -477,6 +477,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -486,6 +491,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -614,6 +624,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -623,6 +638,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -751,6 +771,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -760,6 +785,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -888,6 +918,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -897,6 +932,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1025,6 +1065,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1034,6 +1079,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1162,6 +1212,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1171,6 +1226,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1299,6 +1359,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1308,6 +1373,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1436,6 +1506,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1445,6 +1520,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1573,6 +1653,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1582,6 +1667,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1710,6 +1800,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1719,6 +1814,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1847,6 +1947,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1856,6 +1961,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -1984,6 +2094,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -1993,6 +2108,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2121,6 +2241,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2130,6 +2255,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2258,6 +2388,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2267,6 +2402,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2395,6 +2535,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2404,6 +2549,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2532,6 +2682,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2541,6 +2696,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2669,6 +2829,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2678,6 +2843,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2806,6 +2976,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2815,6 +2990,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -2943,6 +3123,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -2952,6 +3137,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
@@ -3080,6 +3270,11 @@ repos:
         description: Issue for another team that does not fit our nice boxes.
         alias: []
         siblings: []
+      team/psl-wg:
+        color: '#FDF4E8'
+        description: Issue for team Prisma Schema Language Working Group.
+        alias: []
+        siblings: []
       team/support-engineering:
         color: '#FDF4E8'
         description: Issue for team Support Engineering.
@@ -3089,6 +3284,11 @@ repos:
       team/developer-productivity:
         color: '#FDF4E8'
         description: Issue for team Developer Productivity.
+        alias: []
+        siblings: []
+      team/scale:
+        color: '#FDF4E8'
+        description: Issue for team Scale.
         alias: []
         siblings: []
       team/migrations:
