@@ -16,6 +16,7 @@ export const repos: Repo[] = [
       scope('github', 'Related to GitHub integration somehow'),
       scope('eslint', 'Related to ESLint config, rules, etc.'),
       scope('studio', 'Related to Prisma Studio'),
+      scope('studio', 'Related to Prisma Studio'),
     ],
   },
   {
@@ -58,6 +59,8 @@ export const repos: Repo[] = [
       scope('scalars',        'Related to GraphQL scalars, Prisma scalars, etc.'),
       scope('generator',      'Related to the Prisma generator part of Nexus Prisma'),
       scope('configuration',  'Related to configuration of Nexus Prisma generator'),
+      scope('jsdoc',          'Related to the generated JSDoc on the generated types'),
+      scope('vercel',         'Related to the Vercel deployment environment'),
     ],
   },
 ]

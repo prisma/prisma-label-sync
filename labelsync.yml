@@ -3308,6 +3308,31 @@ repos:
         description: About anything operational that requires a new deployment
         alias: []
         siblings: []
+      size/months:
+        color: '#F3F4F6'
+        description: Task that can be finsihed in 1-3 months
+        alias: []
+        siblings: []
+      size/weeks:
+        color: '#F3F4F6'
+        description: Task that can be finished in 2-3 weeks
+        alias: []
+        siblings: []
+      size/days:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-5 days
+        alias: []
+        siblings: []
+      size/hours:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-16 hours
+        alias: []
+        siblings: []
+      size/minutes:
+        color: '#F3F4F6'
+        description: Task that can be finished in a 1-120 minutes
+        alias: []
+        siblings: []
       type/story:
         color: '#EDD8B0'
         description: A product story representing a deliverable for the user
@@ -3481,6 +3506,31 @@ repos:
       type/ops:
         color: '#EDD8B0'
         description: About anything operational that requires a new deployment
+        alias: []
+        siblings: []
+      size/months:
+        color: '#F3F4F6'
+        description: Task that can be finsihed in 1-3 months
+        alias: []
+        siblings: []
+      size/weeks:
+        color: '#F3F4F6'
+        description: Task that can be finished in 2-3 weeks
+        alias: []
+        siblings: []
+      size/days:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-5 days
+        alias: []
+        siblings: []
+      size/hours:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-16 hours
+        alias: []
+        siblings: []
+      size/minutes:
+        color: '#F3F4F6'
+        description: Task that can be finished in a 1-120 minutes
         alias: []
         siblings: []
       type/story:
@@ -3668,6 +3718,31 @@ repos:
           ...
         alias: []
         siblings: []
+      size/months:
+        color: '#F3F4F6'
+        description: Task that can be finsihed in 1-3 months
+        alias: []
+        siblings: []
+      size/weeks:
+        color: '#F3F4F6'
+        description: Task that can be finished in 2-3 weeks
+        alias: []
+        siblings: []
+      size/days:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-5 days
+        alias: []
+        siblings: []
+      size/hours:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-16 hours
+        alias: []
+        siblings: []
+      size/minutes:
+        color: '#F3F4F6'
+        description: Task that can be finished in a 1-120 minutes
+        alias: []
+        siblings: []
       type/story:
         color: '#EDD8B0'
         description: A product story representing a deliverable for the user
@@ -3769,6 +3844,18 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      vercel:
+        color: '#6366F1'
+        description: Related to the Vercel deployment environment
+        alias:
+          - scope/vercel
+        siblings: []
+      jsdoc:
+        color: '#6366F1'
+        description: Related to the generated JSDoc on the generated types
+        alias:
+          - scope/jsdoc
+        siblings: []
       configuration:
         color: '#6366F1'
         description: Related to configuration of Nexus Prisma generator
@@ -3853,6 +3940,31 @@ repos:
         description: >-
           Relates to knowledge transfer matter e.g. guides, tutorials, examples,
           ...
+        alias: []
+        siblings: []
+      size/months:
+        color: '#F3F4F6'
+        description: Task that can be finsihed in 1-3 months
+        alias: []
+        siblings: []
+      size/weeks:
+        color: '#F3F4F6'
+        description: Task that can be finished in 2-3 weeks
+        alias: []
+        siblings: []
+      size/days:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-5 days
+        alias: []
+        siblings: []
+      size/hours:
+        color: '#F3F4F6'
+        description: Task that can be finished in 1-16 hours
+        alias: []
+        siblings: []
+      size/minutes:
+        color: '#F3F4F6'
+        description: Task that can be finished in a 1-120 minutes
         alias: []
         siblings: []
       type/story:

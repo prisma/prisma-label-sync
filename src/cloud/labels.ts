@@ -80,6 +80,22 @@ export function effort(name: string, extraOptions?: ExtraOptions): Label {
 }
 
 /**
+ * Coarse-grained estimate of work.
+ */
+export function size(
+  name: string,
+  description?: string,
+  extraOptions?: ExtraOptions,
+): Label {
+  return {
+    name: `size/${name}`,
+    description,
+    color: theme.neutral,
+    ...extraOptions,
+  }
+}
+
+/**
  * Labels that help us mark issues as being on hold for some reason.
  */
 export const needs = (
@@ -177,6 +193,11 @@ export const groups = {
    */
   scrum: [
     type('story',           theme.refine,    'A product story representing a deliverable for the user'),
+    size('minutes',                          'Task that can be finished in a 1-120 minutes'),
+    size('hours',                            'Task that can be finished in 1-16 hours'),
+    size('days',                             'Task that can be finished in 1-5 days'),
+    size('weeks',                            'Task that can be finished in 2-3 weeks'),
+    size('months',                           'Task that can be finsihed in 1-3 months'),
   ],
 
   /**
