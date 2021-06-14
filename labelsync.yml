@@ -498,6 +498,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -634,6 +640,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -772,6 +784,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -908,6 +926,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -1046,6 +1070,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -1182,6 +1212,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -1320,6 +1356,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -1456,6 +1498,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -1594,6 +1642,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -1730,6 +1784,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -1868,6 +1928,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -2004,6 +2070,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -2142,6 +2214,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -2278,6 +2356,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -2416,6 +2500,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -2552,6 +2642,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -2690,6 +2786,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -2826,6 +2928,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
@@ -2964,6 +3072,12 @@ repos:
         description: Issue for team Client.
         alias: []
         siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       tech/typescript:
         color: '#5319e7'
         description: Issue for tech TypeScript.
@@ -3100,6 +3214,12 @@ repos:
         color: '#FDF4E8'
         description: Issue for team Client.
         alias: []
+        siblings: []
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
         siblings: []
       tech/typescript:
         color: '#5319e7'
