@@ -97,12 +97,6 @@ export const common: Label[] = [
     description: 'Issue for tech TypeScript.',
     alias: ["team/typescript"],
   }),
-  label({
-    name: 'tech/go',
-    color: colors.tech,
-    description: 'Issue for tech Go.',
-    alias: ["team/go"],
-  }),
 
   label({
     name: 'team/client',
