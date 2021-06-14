@@ -1264,6 +1264,12 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
+      tech/go:
+        color: '#5319e7'
+        description: Issue for tech Go.
+        alias:
+          - team/go
+        siblings: []
       engines/other:
         color: '#fcc7e7'
         description: Issue in the engines repo that does not fit one of the other labels.

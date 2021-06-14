@@ -97,7 +97,7 @@ export const common: Label[] = [
     description: 'Issue for tech TypeScript.',
     alias: ["team/typescript"],
   }),
-  
+
   label({
     name: 'team/client',
     color: colors.team,
@@ -107,7 +107,7 @@ export const common: Label[] = [
     name: 'team/migrations',
     color: colors.team,
     description: 'Issue for team Migrations.',
-  }), 
+  }),
   label({
     name: 'team/developer-productivity',
     color: colors.team,
@@ -119,13 +119,13 @@ export const common: Label[] = [
     description: 'Issue for team Support Engineering.',
     alias: ["team/support"],
   }),
-  
+
   label({
     name: 'team/other',
     color: colors.team,
     description: 'Issue for another team that does not fit our nice boxes.',
   }),
-  
+
   label({
     name: 'status/needs-action',
     color: colors.status,
