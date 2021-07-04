@@ -515,6 +515,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -650,6 +660,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -789,6 +809,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -924,6 +954,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -1063,6 +1103,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -1198,6 +1248,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -1343,6 +1403,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -1478,6 +1548,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -1617,6 +1697,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -1752,6 +1842,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -1891,6 +1991,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -2026,6 +2136,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -2165,6 +2285,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -2300,6 +2430,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -2439,6 +2579,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -2574,6 +2724,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -2713,6 +2873,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -2848,6 +3018,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:
@@ -2987,6 +3167,16 @@ repos:
         description: Candidate for next Milestone.
         alias: []
         siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
+        alias: []
+        siblings: []
       kind/question:
         color: '#3B5BDB'
         description: Developer asked a question. No code changes required.
@@ -3122,6 +3312,16 @@ repos:
       process/candidate:
         color: '#EB9100'
         description: Candidate for next Milestone.
+        alias: []
+        siblings: []
+      kind/subtask:
+        color: '#3B5BDB'
+        description: Subtask that was created from an epic
+        alias: []
+        siblings: []
+      kind/epic:
+        color: '#3B5BDB'
+        description: A high-level initiative that has many subtasks.
         alias: []
         siblings: []
       kind/question:

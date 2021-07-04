@@ -41,7 +41,7 @@ export const common: Label[] = [
   label({
     name: 'kind/support',
     color: colors.kind,
-    description: 'Support requests for usage or other areas'
+    description: 'Support requests for usage or other areas',
   }),
   label({
     name: 'kind/regression',
@@ -78,7 +78,16 @@ export const common: Label[] = [
     color: colors.kind,
     description: 'Developer asked a question. No code changes required.',
   }),
-
+  label({
+    name: 'kind/epic',
+    color: colors.kind,
+    description: 'A high-level initiative that has many subtasks.',
+  }),
+  label({
+    name: 'kind/subtask',
+    color: colors.kind,
+    description: 'Subtask that was created from an epic',
+  }),
   label({
     name: 'process/candidate',
     color: colors.process,
@@ -89,13 +98,13 @@ export const common: Label[] = [
     name: 'tech/engines',
     color: colors.tech,
     description: 'Issue for tech Engines.',
-    alias: ["team/engines"],
+    alias: ['team/engines'],
   }),
   label({
     name: 'tech/typescript',
     color: colors.tech,
     description: 'Issue for tech TypeScript.',
-    alias: ["team/typescript"],
+    alias: ['team/typescript'],
   }),
 
   label({
@@ -117,7 +126,7 @@ export const common: Label[] = [
     name: 'team/support-engineering',
     color: colors.team,
     description: 'Issue for team Support Engineering.',
-    alias: ["team/support"],
+    alias: ['team/support'],
   }),
 
   label({
@@ -155,7 +164,7 @@ export const common: Label[] = [
   label({
     name: 'engines/other',
     color: colors.engines,
-    description: 'Issue in the engines repo that does not fit one of the other labels.',
+    description:
+      'Issue in the engines repo that does not fit one of the other labels.',
   }),
-
 ]
