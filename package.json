@@ -14,7 +14,7 @@
     "@types/node": "12.12.57",
     "prettier": "2.1.1",
     "ts-node": "9.0.0",
-    "typescript": "3.9.7"
+    "typescript": "4.3.5"
   },
   "husky": {
     "hooks": {
