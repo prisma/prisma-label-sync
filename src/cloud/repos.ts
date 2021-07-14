@@ -14,6 +14,7 @@ export const repos: Repo[] = [
       ...groups.appFrontend,
       ...groups.ops,
       scope('github', 'Related to GitHub integration somehow'),
+      scope('heroku', 'Related to Heroku integration somehow'),
       scope('eslint', 'Related to ESLint config, rules, etc.'),
       scope('studio', 'Related to Prisma Studio'),
       scope('studio', 'Related to Prisma Studio'),

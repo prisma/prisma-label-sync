@@ -3400,6 +3400,12 @@ repos:
         alias:
           - scope/eslint
         siblings: []
+      heroku:
+        color: '#6366F1'
+        description: Related to Heroku integration somehow
+        alias:
+          - scope/heroku
+        siblings: []
       github:
         color: '#6366F1'
         description: Related to GitHub integration somehow
