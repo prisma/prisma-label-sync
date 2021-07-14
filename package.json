@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "husky": "4.2.5",
-    "label-sync": "3.5.30"
+    "label-sync": "3.5.61"
   },
   "devDependencies": {
     "@types/meow": "5.0.0",

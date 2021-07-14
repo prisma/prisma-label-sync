@@ -250,10 +250,10 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
-label-sync@3.5.30:
-  version "3.5.30"
-  resolved "https://registry.yarnpkg.com/label-sync/-/label-sync-3.5.30.tgz#0902cf6c6d9448802401ec080a511794e6f1267c"
-  integrity sha512-04TksQObbL4yHBjrji1K1MK3VOg9tpvjD7Z1iaeDCurvrCQYs0A/y/BBnRFai06ZAuOECAorm/lv90VRqPU+rg==
+label-sync@3.5.61:
+  version "3.5.61"
+  resolved "https://registry.yarnpkg.com/label-sync/-/label-sync-3.5.61.tgz#b1ec4040f8c2b9d16f6373d103b3f6c710f60ca8"
+  integrity sha512-csRNTlZ3LKeoD/QK5b/n/b22aym3wd0IvrR3eyTfy1IaIu1RwNnQbkz3AuhihuZpmqQEAlelJCEAfrFtNdpC9A==
   dependencies:
     js-yaml "^3.14.0"
 
